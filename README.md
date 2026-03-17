@@ -22,7 +22,7 @@ PoE evreninde global ticaret ve bilgi paylaşımı çok kritiktir. Bu yüzden **
 | **Eşya İsimleri** | ❌ İngilizce | *Tabula Rasa, Mageblood* |
 | **Mekanik İsimleri** | ❌ İngilizce | *Fusing, Chaos Orb, Lightning Arrow* |
 
-**Neden?** Eğer "Mud Flats" haritasının ismini rehberde "Çamur Düzlükleri" olarak çevirirsek, rehberi takip ettiğinz sırada, internette bir rehbere baktığınızda veya ticaret sitelerinde arama yaptığınızda karşılık bulamazsınız. Bu yöntemle hem aracı anlıyor hem de global terminolojiye sadık kalıyorsunuz. 
+**Neden?** Eğer "Mud Flats" haritasının ismini rehberde "Çamur Düzlükleri" olarak çevirirsek, rehberi takip ettiğiniz sırada, internette bir rehbere baktığınızda veya ticaret sitelerinde arama yaptığınızda karşılık bulamazsınız. Bu yöntemle hem aracı anlıyor hem de global terminolojiye sadık kalıyorsunuz. 
 
 *Not: GGG Path of Exile 2 için çevirmen aradığını resmi olarak duyurdu, resmi Türkçe dil desteği sunulduğu an, terimlerin karşılıklarını resmi çeviriye uygun şekilde güncelleyeceğiz.*
 
@@ -37,11 +37,12 @@ Kurulumda zorlanıyorsanız, adım adım videomuzu izleyebilirsiniz:
 *(Not: Video henüz eklenmediyse aşağıdaki manuel adımları takip edin.)*
 
 ### 📝 Manuel Kurulum Adımları
-1.  **İndir:** Bu repodaki `data/tr` klasörünü bilgisayarınıza indirin.
-2.  **Dizine Git:** Exile-UI'ın kurulu olduğu ana klasörü açın ve içindeki `data` klasörüne girin.
-3.  **Kopyala:** İndirdiğiniz `tr` klasörünü buraya yapıştırın. Yol şu şekilde görünmelidir: `.../Exile-UI/data/tr/`
-4.  **Aktif Et:** Exile-UI'ı başlatın. **Settings (Ayarlar)** menüsüne girin ve **General** sekmesinden dil olarak **Turkish** seçin.
-5.  **Yeniden Başlat:** Değişikliklerin tam uygulanması için aracı kapatıp tekrar açın.
+
+1. **İndir:** Bu repodaki `data/tr` klasörünü bilgisayarınıza indirin.
+2. **Dizine Git:** Exile-UI'ın kurulu olduğu ana klasörü açın ve içindeki `data` klasörüne girin.
+3. **Kopyala:** İndirdiğiniz `tr` klasörünü buraya yapıştırın. Yol şu şekilde görünmelidir: `.../Exile-UI/data/tr/`
+4. **Aktif Et:** Exile-UI'ı başlatın. **Settings (Ayarlar)** menüsüne girin ve **General** sekmesinden dil olarak **Turkish** seçin.
+5. **Yeniden Başlat:** Değişikliklerin tam uygulanması için aracı kapatıp tekrar açın.
 
 ---
 
@@ -58,7 +59,7 @@ C: Exile-UI ana uygulaması güncellendiğinde yeni İngilizce satırlar ekleneb
 ## 🤝 Katkıda Bulunun
 
 Proje henüz gelişme aşamasındadır. Siz de destek olabilirsiniz:
-* **Hata Bildirimi:** Hatalı veya anlamsız çevirileri [Issues](https://github.com/KadirBurkay/Exile-UI-Turkish/issues) kısmından bildirebilirsiniz.
+* **Hata Bildirimi:** Hatalı veya anlamsız çevirileri [Issues](https://github.com/faadw/Exile-UI-Turkish/issues) kısmından bildirebilirsiniz.
 * **Geliştirme:** Çeviriyi iyileştirmek için bir **Pull Request** gönderebilirsiniz.
 * **Paylaşım:** Bu projeyi PoE Türkiye topluluklarında paylaşarak daha fazla oyuncuya ulaşmamıza yardımcı olabilirsiniz.
 
