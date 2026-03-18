@@ -1,0 +1,1872 @@
+{
+  "settings": {
+    "multi-threading 0": [
+      "gelişmiş özellikler ve performans seçenekleri kullanılamıyor",
+      "örnekler:\\n- clone-frames fps seçenekleri"
+    ],
+    "multi-threading 1": [
+      "gelişmiş özellikler ve performans seçenekleri kullanılabilir",
+      "örnekler:\\n- clone-frames fps seçenekleri"
+    ],
+    "multi-threading off": [
+      "ikincil thread çökmesiyle ilgili ara sıra hata alıyorsan bu kutuyu işaretle",
+      "bu kutuyu işaretlemek aracı yeniden başlatacak(/highlight)"
+    ],
+    "kill timer": [
+      "oyun istemcisi çalışmıyorsa aracı otomatik olarak kapatır",
+      "oyun olmadan ne kadar süre çalışabileceğini belirle"
+    ],
+    "browser features": [
+      "araç üzerinden 3. parti web sitelerine erişirken ek özellikler etkinleştirir",
+      "örnekler:\\n-> chrome calculator: istatistikleri otomatik yapıştır\\n-> poe.db cluster jewels: türü otomatik vurgula\\n-> poelab.com: düzeni içe aktar"
+    ],
+    "capslock toggling": [
+      "bu aracın dışında bir şey capslock'a bağlıysa bu kutuyu işaretleme",
+      "ahk giriş gönderdiğinde capslock'u açıp kapatır, bu da ona bağlı olan şeyi tetikler (ör. sesli sohbet susturma)",
+      "bu seçeneği değiştirmek aracı yeniden başlatacak"
+    ],
+    "lang language": [
+      "aracın görüntüleme dilini seç",
+      "seçim yapıldığında araç yeniden başlayacak"
+    ],
+    "lang unknown": [
+      "istemcinin dili, yapılandırma dosyası okunarak tespit edilemedi"
+    ],
+    "font-size": [
+      "– ve + basılı tutulabilir, ortadaki düğme boyutu sıfırlar"
+    ],
+    "animations": [
+      "bazı menülerde ve arayüzlerde kullanılan animasyonları/geçişleri devre dışı bırak"
+    ],
+    "generic color": [
+      "renk paletini açmak için tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "generic color double": [
+      "metin rengi: renk paletini açmak için tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "generic color double1": [
+      "arka plan rengi: renk paletini açmak için tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "input method 1": [
+      "varsayılan mod, tam uyumluluk"
+    ],
+    "input method 2": [
+      "opsiyonel mod, (çok) sınırlı uyumluluk: bazı özellikler kumanda modunda işlevsel kalmak için değiştirilmiş davranışa sahip",
+      "örnekler:\\nitem-info, omni-key bağlam menüsü",
+      "kumanda desteği düşük önceliklidir ve bireysel taleplere dayanır(/highlight)"
+    ],
+    "active character": [
+      "opsiyonel: mevcut karakterinin adını gir",
+      "bu, seviye takibi ve e-exp hesaplamalarını etkinleştirir"
+    ],
+    "active character status": [
+      "turuncu: isim belirtilmedi",
+      "sarı: karakter bulunamadı / seviye atlama bekleniyor",
+      "yeşil: karakter bulundu, takip aktif"
+    ],
+    "active character whois": [
+      "karakter bilgisini zorla yenilemek için oyun içi \"/whois\" komutunu kullanmak üzere bu düğmeye tıkla",
+      "oyun içi sohbet kutusunun kapalı ama erişilebilir olduğundan emin ol(/highlight)"
+    ],
+    "ascendancy": [
+      "oyun, ascendancy'leri yalnızca karakter seviye atladığında kaydeder",
+      "yakın zamanda yeniden dağıtım yaptıysan ama henüz seviye atlamadıysan bu etiket senkronize olmayacaktır: bu durumda soldaki yenile düğmesine tıkla"
+    ],
+    "active build": [
+      "opsiyonel: mevcut build için bir açıklama gir",
+      "map-tracker özelliğinde hangi build'in oynandığını kaydetmek için kullanılır"
+    ],
+    "league selection": [
+      "şu anda oynadığın lig'i seç",
+      "bu bilgi, fiyat kontrolü ve kayıt amaçlı çeşitli özelliklerde kullanılabilir"
+    ],
+    "league update": [
+      "yeni ligler/etkinlikler kontrol et"
+    ],
+    "logfile": [
+      "oyunun client.txt log dosyasının boyutu ve yüklenme süresi: aşırı büyük log dosyaları oyunun ve aracın performansını olumsuz etkileyebilir",
+      "oyun veya log ile ilgili özelliklerle sorun yaşıyorsan, oyunun log klasörünü açmak için sağdaki klasör düğmesine tıkla"
+    ],
+    "logfolder": [
+      "log dosyasını elle silmek için oyunun log klasörünü aç: log dosyası gerektiren araçlar kullanıyorsan, önce dosyanın yedeğini al",
+      "client.txt log dosyası yalnızca oyun kapatıldıktan sonra değiştirilebilir(/highlight)"
+    ],
+    "force resolution": [
+      "istemciyi varsayılan olarak bulunmayan özel bir çözünürlükle çalıştırmaya zorlayabilirsin",
+      "her araç başlangıcında veya araç çalışırken istemci başlatıldığında uygulanacak",
+      "dikey çözünürlükler (ikinci değer) uyumluluk nedeniyle belirli değerlerle sınırlıdır"
+    ],
+    "reset resolution": [
+      "istemcinin çözünürlüğünü sıfırlamak ve özel çözünürlük ayarlarını silmek için uzun tıkla",
+      "bu, aracı yeniden başlatacak(/highlight)",
+      "bu, esas olarak monitör değiştirdikten sonra aracın yanlış bir çözünürlük zorladığı durumlar içindir"
+    ],
+    "client filler": [
+      "istemci penceresinin etrafındaki boş ekran alanını karartır ve tıklanamaz yapar",
+      "bu siyah alan, istemci alanının dışına overlay'ler yerleştirmek için kullanılabilir ve arka plan pencerelerine yanlışlıkla tıklamayı da önler"
+    ],
+    "window position": [
+      "overlay'lerin doğru konumlandırılması için istemcinin belirli bir noktaya sabitlenmesi gerekir",
+      "tercih edilen bir konum seç, istemci her seferinde otomatik olarak oraya yerleştirilecek"
+    ],
+    "black bars": [
+      "istemcinin en-boy oranı 24:10 ile sınırlıdır ve daha genişse siyah çubuklar olacaktır",
+      "bu seçenek, aracın overlay'lerini ve ekran kontrollerini bunu telafi edecek şekilde yeniden konumlandırır"
+    ],
+    "window borders": [
+      "istemci penceresinin etrafındaki kenarlıkları kaldırır"
+    ],
+    "write permissions": [
+      "araç dosya oluşturamıyor/düzenleyemiyorsa sistemindeki yazma izni sorunlarını gidermek için bunu kullan",
+      "bu sorunlar tespit edildiğinde bir hata mesajı görünecek ve bu testi çalıştırmanı isteyecek",
+      "test sonuçları hata gösteriyorsa, araç klasörünü farklı bir konuma taşı veya aracı yönetici olarak yeniden başlat, sonra testi tekrar çalıştır"
+    ],
+    "actdecoder enable": [
+      "kampanya alanları için interaktif bölge düzeni overlay'i sağlar",
+      "desteklenen bir kampanya alanındayken overlay'i etkinleştirmek için <widget-key> tuşunu basılı tut",
+      "doğruluk yamadan yamaya değişebilir, bu yüzden mini-harita yerine kaba kılavuz olarak kullan(/highlight)"
+    ],
+    "actdecoder hotkey": [
+      "opsiyonel: widget-key'e alternatif olarak bir kısayol tuşu belirle (bu durumda widget-key artık act-decoder'ı etkinleştirmeyecek)",
+      "bu, öncelikle wasd uyumluluğunu geliştirmek içindir, ör. mouse'taki baş parmak düğmesine (xbutton 1/2) bağlayarak",
+      "bu tuşu basılı tutmak yalnızca act-decoder'ı etkinleştirir, kısa basmak normal işlevini kullanır(/highlight)"
+    ],
+    "actdecoder layouts opacity": [
+      "kilitli modda bölge düzeni overlay'inin opaklığı (1 ile 10 arası)"
+    ],
+    "actdecoder layouts locked zoom": [
+      "overlay kilitliyken özel yakınlaştırma ayarı (0 = devre dışı)",
+      "bu, kısayol tuşunu basılı tutarken (tutmazken) ayrı ayarlara sahip olabileceğin anlamına gelir"
+    ],
+    "anoints enable": [
+      "elindeki malzemelerle hangi tariflerin mevcut olduğunu bulmak ve filtrelemek için hızlı erişim arayüzü sağlar",
+      "bağlam menüsü aracılığıyla erişilir: malzemelerin üzerine gel ve <omni-key> tuşuna bas"
+    ],
+    "anoints update": [
+      "en son veritabanını (yeniden) indir",
+      "bu, esas olarak lig başlangıcı içindir, böylece özellik tamamen yeni bir sürüm beklemeden kullanılabilir"
+    ],
+    "betrayal enable": [
+      "betrayal lig mekanizması için interaktif kopya kağıdı overlay'i sağlar",
+      "<screen-checks> bölümünde <betrayal> görüntü kontrolünün doğru şekilde ayarlanması gerekir(/highlight)",
+      "syndicate board ekrandayken overlay'i etkinleştirmek için <omni-key> tuşunu basılı tut",
+      "daha fazla bilgi için wiki sayfasına bak"
+    ],
+    "betrayal ruthless": [
+      "ruthless ödüllerini göster ve bunun yerine ayrı vurgulama kullan"
+    ],
+    "betrayal folder": [
+      "kalibrasyon dosyalarını içeren klasör"
+    ],
+    "betrayal color": [
+      "renk paletini açmak için bir düğmeye tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "betrayal rewards": [
+      "o üyenin ödüllerini görmek için aşağıdaki bir isme uzun tıkla",
+      "bir renk uygulamak için bir ödülün üzerine gel ve bir sayı tuşuna bas, kaldırmak için boşluk tuşu",
+      "ödüller, syndicate board üzerinde overlay kullanılırken de katmanlara ayrılabilir"
+    ],
+    "betrayal update": [
+      "en son veritabanını (yeniden) indir",
+      "bu, esas olarak lig başlangıcı içindir, böylece özellik tamamen yeni bir sürüm beklemeden kullanılabilir"
+    ],
+    "cheatsheets enable": [
+      "özelleştirilebilir kopya kağıdı overlay'leri oluşturmak ve yönetmek için araç takımı sağlar"
+    ],
+    "cheatsheets modifier-key": [
+      "kopya kağıtları, modifier ve <omni-key> tuşlarına aynı anda basılarak etkinleştirilir",
+      "bir sayfa <hold> olarak yapılandırılmışsa, yalnızca <omni-key> basılı tutulmalıdır"
+    ],
+    "cheatsheets color": [
+      "renk paletini açmak için bir düğmeye tıkla, sıfırlamak için sağ tıkla",
+      "bir renk uygulamak için bir notun üzerine gel ve bir sayı tuşuna bas, kaldırmak için boşluk tuşu"
+    ],
+    "cheatsheets types": [
+      "images: görselleri içe aktar/yakala ve bir overlay'de göster, aralarında geçiş yap veya üzerindeki bilgileri yeniden düzenle",
+      "app: bir uygulama belirle ve sekme değiştirmek yerine tek bir düğme basışıyla başlat veya öne getir",
+      "advanced: belirli oyun içi öğelerin üzerine gelirken bilgi gösteren özel ipuçları oluştur"
+    ],
+    "cheatsheets calibrate": [
+      "tuş kombinasyonuna basmak, oyunda ekranda olan için doğru sayfayı açacak",
+      "aracın hangi sayfanın doğru olduğunu bilmesi için manuel kalibrasyon gereklidir",
+      "kırpma aracını açar: oyun içi arayüzden benzersiz bir öğeyi kırpmak için kullan"
+    ],
+    "cheatsheets test": [
+      "belirli oyun içi arayüz ekrandayken tıkla, test pozitif dönmelidir",
+      "belirli arayüz ekranda değilken tıkla, test negatif dönmelidir",
+      "sonuçlar tutarlı ve tekrarlanabilir olmalıdır"
+    ],
+    "cheatsheets edit": [
+      "kopya kağıdını yapılandırmak için bir menü açar"
+    ],
+    "cheatsheets delete": [
+      "kopya kağıdını silmek için uzun tıkla"
+    ],
+    "cheatsheets info": [
+      "sayfanın özelliklerini görmek için uzun tıkla"
+    ],
+    "cheatsheets toggle": [
+      "kopya kağıdını etkinleştirir/devre dışı bırakır"
+    ],
+    "cloneframes toggle-info": [
+      "oyun içi içeriği engellememek için clone-frame'ler otomatik olarak açılıp/kapatılabilir",
+      "global: ayarlar her clone-frame'e uygulanacak\\ncustom: her frame'in kendi ayarları olabilir",
+      "aşağıda, belirli oyun içi arayüzler ekrandayken clone-frame'lerin nasıl davranacağını seçebilirsin",
+      "<screen-checks> bölümünde ek kurulum gerektirir(/highlight)"
+    ],
+    "cloneframes toggle-modes": [
+      "ignore: clone-frame'ler ekranda olanı yok sayar ve asla geçiş yapmaz",
+      "hide: arayüz ekrandayken clone-frame'ler gizlenir",
+      "show: clone-frame'ler yalnızca belirli arayüz ekrandayken gösterilir"
+    ],
+    "cloneframes close button toggle": [
+      "bu seçenek, <screen-checks> bölümündeki <close button> kontrolünü açacak",
+      "doğru şekilde kalibre edilirse, o düğmeye sahip tam ekran bir arayüz ekrandayken clone-frame'ler otomatik olarak gizlenecek",
+      "esas olarak infopanel kontrolünün güvenilir şekilde kullanılamadığı yapılandırmalar içindir(/highlight)"
+    ],
+    "cloneframes performance": [
+      "tercih edilen/uyumlu bir performans profili seç",
+      "ölçülen performansın yeşil kalması için clone-frame sayısı ile hedef fps'yi dengelemeye çalış"
+    ],
+    "cloneframes new": [
+      "yeni bir frame oluşturmak için bir isim gir ve enter'a bas"
+    ],
+    "cloneframes edit": [
+      "aşağıdaki bölümü etkinleştiren ve frame ayarlarını düzenlemenize izin veren düzenleme moduna girer"
+    ],
+    "cloneframes delete": [
+      "bu clone-frame'i silmek için uzun tıkla"
+    ],
+    "cloneframes groups": [
+      "opsiyonel: frame'leri 0'dan 9'a kadar gruplara atayabilirsin",
+      "bir frame'in opaklığını veya hedef koordinatını (sarı) düzenlerken, tüm grup buna göre düzenlenecek",
+      "grup ayarlarını yok saymak ve yalnızca seçili frame'i düzenlemek için düzenleme sırasında <shift> basılı tut(/highlight)"
+    ],
+    "cloneframes toggle": [
+      "bu clone-frame'i etkinleştir/devre dışı bırak"
+    ],
+    "cloneframes corners": [
+      "düzenleme modunda, kaynak ve hedef frame'lerin bir mouse düğmesine karşılık gelen renkli köşeleri vardır (sağdaki kutular)",
+      "köşeyi imlecin mevcut konumuna taşımak için bir düğmeye tıkla, düzenleme modundan çıkmak için <esc>'ye bas veya <discard>'a tıkla",
+      "ince ayar ve daha fazla kontrol için aşağıdaki değerleri de ayarlayabilirsin"
+    ],
+    "cloneframes scroll": [
+      "ince ayar için, bu değeri 1 artırmak için mouse tekerleğini kaydır"
+    ],
+    "donations howto": [
+      "daha fazla bilgi içeren github konusu"
+    ],
+    "exchange enable": [
+      "oyun içi para birimi borsası için oran hesaplayıcı, küçük ux iyileştirmeleri, ticaret kaydı ve bakiye takibi sağlar",
+      "<screen-checks> bölümünde <async trade> kontrollerinin doğru şekilde ayarlanması gerekir(/highlight)",
+      "async trade penceresi ekrandayken özelliği etkinleştirmek için <omni-key> tuşuna bas",
+      "overlay'i geçici olarak gizlemek için <alt> basılı tut"
+    ],
+    "exchange delete logs": [
+      "tüm ticaret kaydını silmek için uzun tıkla"
+    ],
+    "exchange graphs": [
+      "belirli bir gün ve geçen hafta boyunca giriş/çıkış akışının nasıl geliştiğini görselleştirir"
+    ],
+    "exchange async enable": [
+      "hızlı fiyatlandırma işlevselliği ile listelenen öğeler için fiyat/yaş takibi sağlar",
+      "<screen-checks> bölümünde <currency exchange> ve <inventory> kontrollerinin doğru şekilde ayarlanması gerekir(/highlight)",
+      "para birimi borsası ekrandayken özelliği etkinleştirmek için <omni-key> tuşuna bas",
+      "overlay'i geçici olarak gizlemek için <alt> basılı tut"
+    ],
+    "exchange async name": [
+      "ticaret kayıtları, temel türe ek olarak isimleri de gösterecek"
+    ],
+    "exchange async minchange": [
+      "önerilen fiyatlandırma seçenekleri mevcut fiyatın %x altından başlayacak (veya mümkün olduğunca yakınından)"
+    ],
+    "hotkeys ingame-keybinds": [
+      "özel oyun içi tuş bağlamaları ile aracın kısayol tuşları arasındaki çakışmaları önlemek için:\\n- sana uyan her şeyi işaretle\\n- istendiğinde alternatif tuşlar belirt"
+    ],
+    "hotkeys formatting": [
+      "özel tuşlar için, doğru adları ve biçimlendirmeyi bulmak üzere yukarıdaki bağlantıları kontrol et",
+      "modifier tuşları, 3 ana mouse düğmesi veya boşluk tuşu kullanma(/highlight)"
+    ],
+    "hotkeys modifiers": [
+      "bu kısayol tuşuna bir veya daha fazla modifier tuşu ekleyebilirsin"
+    ],
+    "hotkeys movekey": [
+      "yalnızca imleç hareketi kullanırken gereklidir, wasd değil(/highlight)",
+      "tuşu belirtmek, aracın belirli durumlarda davranışını uyarlamasına olanak tanır",
+      "örnek: karakteri hareket ettirirken üzerine gelme overlay'lerini etkinleştirmemek"
+    ],
+    "hotkeys omnikey-info": [
+      "özelliklerin çoğunu etkinleştiren bağlama duyarlı kısayol tuşu\\n(varsayılan: capslock)",
+      "her özellik için kısayol tuşu belirtmek yerine, bu kısayol tuşunun basıldığında hangi özelliğin etkinleştirilmesi gerektiğini yorumlamasına yardımcı olmak için ekran kontrollerini kalibre edersin"
+    ],
+    "hotkeys omnikey2": [
+      "oyun içi bir tutarsızlık nedeniyle, c tuşunun yeniden bağlanması eşyalar için ikincil bir <omni-key> gerektirir",
+      "bir özellik bir eşyanın üzerinde <omni-key>'e basmanı gerektirdiğinde, bu ikincil olanı kullanman gerekecek"
+    ],
+    "hotkeys omniblock": [
+      "oyun istemcisi veya araç odaklanmışken, tuş basışı yalnızca araç tarafından kaydedilecek, sistemin geri kalanı tarafından değil",
+      "bu, özel tuşların (ör. windows veya aksan tuşları, capslock, vb.) olağan yan etkileri olmadan kullanılabileceği anlamına gelir"
+    ],
+    "hotkeys tab": [
+      "bu kısayol tuşuna uzun basmak belirli widget'ları ve kalıcı olmayan overlay'leri (yeniden) etkinleştirir",
+      "oyunda <tab>'a bağlı bir şey varsa ve uzun basma gerektiriyorsa (ör. yetenekler, hareket), düzenleme alanında alternatif bir tuş belirtmen gerekecek"
+    ],
+    "hotkeys restart": [
+      "araç yanıt vermeyi durdurursa, yeniden başlatmak için bu kısayol tuşunu kullan"
+    ],
+    "hotkeys menu-widget alternative": [
+      "<esc> basılı tutmak menü widget'ını açmıyorsa, bunun yerine bu alternatif tuşu kullanabilirsin",
+      "<esc>'den farklı olarak, bu tuşun basılı tutulması gerekmez",
+      "alternatif bir tuş istemiyorsan boş bırak"
+    ],
+    "iteminfo enable": [
+      "topladığın ganimetlere bir bakışta değer katan özelleştirilebilir eşya ipucu sağlar"
+    ],
+    "iteminfo profiles": [
+      "özelleştirilmiş vurgulama bireysel profillere kaydedilebilir",
+      "bir profil seçerken ipucu ekrandaysa, değişiklikler anında uygulanacak"
+    ],
+    "iteminfo reset": [
+      "seçili profildeki belirli vurgulamayı sıfırlamak için düğmelerden birine uzun tıkla"
+    ],
+    "iteminfo toggle": [
+      "ipucunu etkinleştirmek için eşyaların üzerinde <omni-key> tuşuna uzun bas: zaten aktifse, eşyaların üzerinde normal <omni-key> basışları ipucunu etkinleştirecek/yenileyecek",
+      "kapatmak için oyuna tıkla veya <esc>'ye bas"
+    ],
+    "iteminfo hold": [
+      "ipucunu etkinleştirmek için eşyaların üzerinde <omni-key> tuşuna uzun bas",
+      "tuşu bıraktığında ipucu otomatik olarak kapanacak"
+    ],
+    "iteminfo modrolls": [
+      "explicit mod'lardaki min/maks aralığını gizle",
+      "+89 to maximum life\\nvs.\\n+89(80-89) to maximum Life"
+    ],
+    "iteminfo modbars tier": [
+      "mod metinlerindeki ve çubuklardaki roll aralıkları, mevcut katmandaki roll'u temsil edecek, yani divine orb aralığı",
+      "örnek, t2 movement speed:\\n30% inc. movement speed"
+    ],
+    "iteminfo modbars global": [
+      "mod metinlerindeki ve çubuklardaki roll aralıkları, global ölçekte roll'u temsil edecek, yani en kötüden en iyi mümkün roll'a kadar",
+      "örnek, t2 movement speed:\\n30%(10-35) inc. movement speed"
+    ],
+    "iteminfo modbars ilevel": [
+      "mod metinlerindeki ve çubuklardaki roll aralıkları, ilvl ölçeğinde roll'u temsil edecek, yani verilen ilvl'deki en kötüden en iyi mümkün roll'a",
+      "örnek, ilvl 74 botlarda t2 movement speed:\\n30%(10-30) inc. movement speed"
+    ],
+    "iteminfo quality scaling": [
+      "altta quality ve greater iron rune uygulandıktan sonra savunma/hasar değerlerini gösteren ek bir satır gösterir",
+      "bu, oluşturulmuş/bulunan bir eşyanın teorik maksimum değerlerini önizlemek için kullanılabilir"
+    ],
+    "iteminfo shift-click": [
+      "shift-click ile eşyalara currency uygulandığında ipucunu otomatik olarak yeniler/etkinleştirir",
+      "önce <shift> basılı tutmalı, currency'ye sağ tıklamalı, sonra eşyalara tıklamalısın(/highlight)",
+      "<screen-checks> bölümünde <inventory> piksel kontrolünün doğru şekilde ayarlanması gerekir(/highlight)"
+    ],
+    "iteminfo league-start": [
+      "eşyanın istatistiklerinin mevcut ekipmanınla karşılaştırıldığı bir bölüm ekler",
+      "kuşanılmış eşyalardan bilgi yüklemek için envanterdeki ekipman yuvalarının üzerine gel ve yenile düğmelerine uzun tıkla, yuva temizlemek için uzun sağ tıkla",
+      "<screen-checks> bölümünde <inventory> piksel kontrolünün doğru şekilde ayarlanması gerekir(/highlight)"
+    ],
+    "iteminfo affix-info icon": [
+      "son sütun, bir affix'in mod grubunu gösteren bir simge gösterecek (varsa)"
+    ],
+    "iteminfo affix-info ilvl": [
+      "son sütun, her affix için ilvl gereksinimini gösterecek, bu da yüksek katmanlı ama düşük seviyeli mod'ları ortaya çıkarır",
+      "bu seçenek, daha fazla bilgi eklediği için daha çok ileri düzey kullanıcılara hitap eder"
+    ],
+    "iteminfo affix-info max tier": [
+      "son sütun, eşyanın mevcut ilvl'inde mümkün olan maksimum katmanı gösterecek",
+      "bu, affix'lerin ilvl ile sınırlı maksimum katmana ne kadar yakın olduğunu kontrol etmek için kullanılabilir"
+    ],
+    "iteminfo affix-info off": [
+      "son sütunda affix'ler hakkında herhangi bir bilgi gösterme"
+    ],
+    "iteminfo base-info": [
+      "eşyanın istatistiklerinin sınıfının en iyisi istatistiklerle nasıl karşılaştırıldığını gösteren bir bölüm ekler",
+      "ayrıca temel yüzdelik roll ve ilvl'yi gösterir, iyi değerleri vurgular"
+    ],
+    "iteminfo base-info 2": [
+      "eşyanın istatistiklerinin sınıfının en iyisi istatistiklerle nasıl karşılaştırıldığını gösteren bir bölüm ekler"
+    ],
+    "iteminfo marking global": [
+      "global olarak (istenmeyen) istenen mod'ları vurgulamak için kullanılan renkler",
+      "renk paletini açmak için bir kutuya tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "iteminfo marking class": [
+      "sınıfa özgü (istenmeyen) istenen mod'ları vurgulamak için kullanılan renkler",
+      "renk paletini açmak için bir kutuya tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "iteminfo item-tier": [
+      "renk paletini açmak için bir kutuya tıkla, sıfırlamak için sağ tıkla",
+      "<fr> fractured, <#> katmansız mod'ları ifade eder"
+    ],
+    "iteminfo item-level": [
+      "renk paletini açmak için bir kutuya tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "iteminfo override": [
+      "istenmeyen mod'lardaki (fractured hariç) tier'ler/ilvl, olağan renk yerine <undesired> rengiyle vurgulanacak",
+      "bu ayrıca görsel netliği artırmak için istenmeyen mod'larda son sütunu da gizleyecek"
+    ],
+    "iteminfo rules": [
+      "daha büyük mod gruplarını (istenmeyen) istenen olarak işaretlemek için tek tıklama çözümü",
+      "isim hangi mod'ların etkilendiğini, renk ise (istenmeyen) istenen olarak ayarlanıp ayarlanmayacağını belirtir"
+    ],
+    "lang unavailable": [
+      "bu özellik şu anda İngilizce dışındaki istemcilerde kullanılamamaktadır"
+    ],
+    "lang incompatible": [
+      "bu özellik desteklenmeyen bir dile sahip istemcilerde kullanılamaz",
+      "mevcut dil için bir dil paketi yüklendikten sonra kullanılabilir olacak"
+    ],
+    "leveltracker enable": [
+      "otomatik kampanya rehberi overlay'i ve çeşitli yaşam kalitesi özellikleri sağlar",
+      "rehber overlay'ini açıp kapatmak için menü widget'ına bir düğme ekler"
+    ],
+    "leveltracker timer": [
+      "rehber metni ile gezinme düğmeleri arasına act sürelerini kaydeden ve csv dosyalarında saklayan bir zamanlayıcı ekler",
+      "zamanlayıcı yapısı:\ntoplam süre | act # | mevcut act süresi",
+      "zamanlayıcıyı duraklatmak/devam ettirmek için <act #>'ye tıkla\n(10+ saniye afk olduğunda otomatik duraklar)",
+      "sıfırlama: ilk bölgede veya kasabada, <act #> üzerinde uzun sağ tıkla"
+    ],
+    "leveltracker timer-pause": [
+      "hideout'larda zamanlayıcıyı otomatik olarak duraklatır ve ayrıldığında devam ettirir"
+    ],
+    "leveltracker fade-timer": [
+      "bir gecikmeden sonra overlay'i otomatik olarak gizler (kasabalarda hariç)",
+      "gecikme: rehber sayfaları değiştirildikten x saniye sonra",
+      "sayfa değiştirdiğinde overlay tekrar gösterilecek ve gecikme yeniden başlayacak",
+      "<widget-key> basılı tutulurken de gösterilecek"
+    ],
+    "leveltracker fade mouse": [
+      "imleç önceki alanının üzerine gelirken overlay gösterilecek",
+      "hareket tuşu basılıyken etkisi yoktur (kısayol tuşları bölümünde özelleştirilebilir)"
+    ],
+    "leveltracker recommendation": [
+      "bazı alanlar veya boss dövüşleri için seviye önerileri içerir"
+    ],
+    "leveltracker recommendation 2": [
+      "sol alt köşede yüksek düzeyde optimize edilmiş act 1-4 koşuları için seviye önerileri gösterir",
+      "iki sayı gösterir:\nbir bölgeye girerken önerilen seviye\nbir bölgeden ayrılırken önerilen seviye"
+    ],
+    "leveltracker geartracker": [
+      "seviye atlamalarından sonra ekipman veya gem gereksinimlerini karşıladığında bildirir (esas olarak twink özelliği):\nrehber overlay'i <gear rdy> gösterecek",
+      "<general> ayarlarında karakter adın gerekir(/highlight)",
+      "menü widget'ındaki act-tracker düğmesine sağ tıklayarak veya rehber overlay'inde <gear rdy>'ye tıklayarak erişilir"
+    ],
+    "leveltracker expbar": [
+      "exp çubuğunu kapatmaması için rehber overlay'ini biraz yukarı taşır"
+    ],
+    "leveltracker skilltree-info": [
+      "gem kurulumlarını/bağlantılarını göstermek için bir gem'in üzerinde <omni-key> tuşuna uzun bas",
+      "yetenek setleri arasında geçiş yapmak için mouse tekerleğini kaydır",
+      "",
+      "yetenek ağacı ekrandayken, yetenek ağacı şemalarını gösteren overlay'leri göstermek için <omni-key> tuşuna bas",
+      "<screen-checks> bölümünde <skilltree> görüntü kontrolünün doğru şekilde ayarlanması gerekir(/highlight)"
+    ],
+    "leveltracker skilltree clear": [
+      "şemaları oluşturmak için kullanılan yetenek ağacı dosyalarını silmek için uzun tıkla: ihtiyaç duyulduğunda yeniden indirilecekler",
+      "yalnızca şemalar güncel olmadığında veya başka şekilde hatalı olduğunda silme gereklidir"
+    ],
+    "leveltracker pob gems": [
+      "<omni-key>'i bıraktıktan sonra gem overlay'i ekranda kalacak, <esc>'ye basana kadar",
+      "bu seçenek ayrıca listedeki bir gem adına uzun tıklayarak overlay'in taşınmasına da olanak tanır",
+      "listedeki bir gem adına tıklamak o gem için oyun içi aramayı başlatacak"
+    ],
+    "leveltracker pob manual": [
+      "ağaç overlay'i, pob verilerinden oluşturulan şemalar yerine manuel ekran görüntüleri kullanacak",
+      "bu, overlay'e erişim şeklini değiştirir:\n- ağaç ekrandayken <omni-key> basılı tut\n- görseller arasında geçiş yapmak için kaydır(/highlight)"
+    ],
+    "leveltracker pob": [
+      "pob'da orta mouse tıklaması ekran görüntüsü menüsünü açacak",
+      "overlay görsellerini yönetmek için bu menüyü kullan"
+    ],
+    "leveltracker screen-cap menu": [
+      "ekran görüntüsü menüsünü açar",
+      "overlay görsellerini yönetmek için bu menüyü kullan"
+    ],
+    "leveltracker folder": [
+      "overlay görselleri bulunan klasörü açar",
+      "görselleri kendin düzenlemek istiyorsan, bunları elle bu klasöre taşıyabilirsin"
+    ],
+    "leveltracker tree hotkey": [
+      "opsiyonel: oyun içi pasif ağacı kısayol tuşuyla veya <close all ui> kısayol tuşuyla kapatıyorsan, burada belirtebilirsin",
+      "oyun içi ağacı kapatmak için bu kısayol tuşuna bastığında, ağaç overlay'i de kapanacak"
+    ],
+    "leveltracker profile create": [
+      "rehber yuvası eklemek için tıkla"
+    ],
+    "leveltracker profile select": [
+      "bu rehber yuvasını etkinleştirmek için tıkla",
+      "bu rehber yuvasını silmek için uzun sağ tıkla"
+    ],
+    "leveltracker import": [
+      "pobb.in bağlantılarını, pob kodlarını veya özel rehberleri panodan bu rehber yuvasına aktarır",
+      "içe aktarma ilerlemenizi sıfırlayacak:\nrehber overlay'inde > düğmesine uzun tıklayarak rehberi bulunduğun bölgeye yeniden senkronize edebilirsin(/highlight)",
+      "gem toplama özelleştirmelerini de sıfırlayacak(/highlight)"
+    ],
+    "leveltracker editor": [
+      "bu yuvadaki rehberi düzenlemek için editörü aç"
+    ],
+    "leveltracker guide info": [
+      "kullanabileceğin ve aralarında geçiş yapabileceğin dokuz adede kadar bireysel rehber yuvası var",
+      "her yuvanın kendi verileri var: rehber & ilerleme, ekipman, yetenek ağacı, zamanlayıcı",
+      "katkılar:\n- varsayılan rehber, orijinal olarak heartofphos'un exile-leveling'inden türetilmiştir\n- cyclondefinitiv'in rehberine dayanan birkaç act optimizasyonu içerir"
+    ],
+    "leveltracker gems": [
+      "gem toplama yapılandırmasını açmak için sağ tıkla:\nkampanya sırasında belirli gem'leri ne zaman ve/veya alınıp alınmayacağını ayarla",
+      "gem görevlerinin rehbere dahil edilip edilmeyeceğini açıp kapatmak için tıkla (geri dönüşü ve npc etkileşimlerini azaltır)",
+      "açık: gem'leri görev yoluyla toplarsın\nkapalı: gem'leri ayrı satın alırsın (lilly/ticaret)",
+      "<league-start> açıksa bu geçiş açık olmaya zorlanır (/highlight)"
+    ],
+    "leveltracker gems all": [
+      "varsayılan olarak, rehber içe aktarılan build için ilgili ödülleri olmayan gem görevlerini atlar",
+      "bu davranışı geçersiz kılmak ve bunun yerine her gem görevini dahil etmek için bu düğmeye tıkla (a3 library hariç)"
+    ],
+    "leveltracker guide info 2": [
+      "kullanabileceğin ve aralarında geçiş yapabileceğin dokuz adede kadar bireysel rehber yuvası var",
+      "her yuvanın kendi verileri var: rehber & ilerleme, ekipman, yetenek ağacı, zamanlayıcı",
+      "katkılar: act 1-3 orijinal olarak u/xebtria'nın hızlı rehberinden türetilmiştir"
+    ],
+    "leveltracker guide format info": [
+      "her satırda tamamlaman gereken bir veya daha fazla adım var",
+      "(hint)__ girintili satırlar üstteki adım hakkında daha fazla bilgi sağlar",
+      "(hint)__",
+      "optional: artı işareti ile işaretlenmiş satırlar isteğe bağlı adımları gösterir",
+      "(hint)__ ayarlardaki (quest:optionals) geçişiyle etkinleştirilebilir/devre dışı bırakılabilir",
+      "(hint)__",
+      "görevleri teslim ederken, (img:skip) npc'nin sırada bekleyen görevleri olduğu anlamına gelir",
+      "(hint)__ bunların ilgili ödülleri yoktur ve atlanabilir",
+      "(hint)__",
+      "eğer (img:craft) veya (color:00FFFF)bu_vurgulama varsa, daha fazla bilgi görmek için widget tuşunu basılı tut",
+      "(hint)__",
+      "(img:in-out2) x için bölge-adı: bu \"x almak için (color:CC99FF)bölgeye gir, sonra tekrar çık\" anlamına gelir",
+      "(hint)__",
+      "(img:0), (img:2): bunlar yön gösterir, yani kuzey, doğu, vb.",
+      "(hint)__ doğrudan yol bazen engellenmiş olabilir (etrafından dolaşman gerekir)"
+    ],
+    "leveltracker guide format info 2": [
+      "her satırda tamamlaman gereken bir veya daha fazla adım var",
+      "(hint)__ girintili satırlar üstteki adım hakkında daha fazla bilgi sağlar",
+      "(hint)__",
+      "(color:FF00FF)x_görev / (color:FF00FF)x_bul: bazı satırlarda tamamlaman gereken x alt görev var",
+      "(hint)__ rastgele sırayla veya aynı anda tamamlanabilirler (bölgeye bağlı)",
+      "(hint)__",
+      "optional: artı işareti ile işaretlenmiş satırlar isteğe bağlı adımları gösterir",
+      "(hint)__ ayarlardaki (quest:optionals) geçişiyle etkinleştirilebilir/devre dışı bırakılabilir",
+      "(hint)__",
+      "metin (color:00FFFF)bu_şekilde_vurguluysa, bir görsel görmek için widget tuşunu basılı tut",
+      "(hint)__",
+      "(img:in-out2) x için bölge-adı: bu \"x almak için (color:CC99FF)bölgeye gir, sonra tekrar çık\" anlamına gelir",
+      "(hint)__",
+      "(img:0), (img:2): bunlar yön gösterir, yani kuzey, doğu, vb.",
+      "(hint)__ doğrudan yol bazen engellenmiş olabilir (etrafından dolaşman gerekir)"
+    ],
+    "leveltracker leaguestart": [
+      "lig başına yalnızca bir kez yapılması gereken görevlerin/hedeflerin gösterilip gösterilmeyeceğini seç (ör. lab denemeleri, crafting tarifleri)",
+      "gem'li bir pob içe aktarması varsa ve lig başlangıcı devre dışıysa, bazı gem görevleri hideout lilly ile değiştirilebilir",
+      "bu ayarı değiştirmek ilerlemenizi sıfırlayacak:\nrehber overlay'inde > düğmesine uzun tıklayarak rehberi bulunduğun bölgeye yeniden senkronize edebilirsin(/highlight)"
+    ],
+    "leveltracker bandit": [
+      "act 2'de hangi hayduta yardım etmek istediğini seç",
+      "bu ayarı değiştirmek ilerlemenizi sıfırlayacak:\nrehber overlay'inde > düğmesine uzun tıklayarak rehberi bulunduğun bölgeye yeniden senkronize edebilirsin(/highlight)"
+    ],
+    "leveltracker leaguestart 2": [
+      "lig başına yalnızca bir kez yapılması gereken görevlerin/hedeflerin gösterilip gösterilmeyeceğini seç",
+      "bu ayarı değiştirmek ilerlemenizi sıfırlayacak:\nrehber overlay'inde > düğmesine uzun tıklayarak rehberi bulunduğun bölgeye yeniden senkronize edebilirsin(/highlight)"
+    ],
+    "leveltracker optionals": [
+      "isteğe bağlı ganimetlerin/görevlerin/karşılaşmaların dahil edilip edilmeyeceğini seç",
+      "rehberde artı işareti ile işaretlenecekler(/highlight)",
+      "örnekler: strongbox'lar, ekipman görevleri, garantili düşüşler, vendor tarifleri"
+    ],
+    "leveltracker optionals 2": [
+      "isteğe bağlı ganimetlerin/görevlerin gösterilip gösterilmeyeceğini seç",
+      "rehberde artı işareti ile işaretlenecekler(/highlight)",
+      "örnekler: jeweller's/artificer's orb'ları, lig ödülleri, gem'ler, takılar, flask'lar, a4 hazine haritası"
+    ],
+    "leveltracker reset": [
+      "bu rehber yuvasındaki ilerlemeyi sıfırlamak ve baştan başlamak için uzun tıkla"
+    ],
+    "leveltracker character info": [
+      "opsiyonel: bu rehberi kullanırken oynayacağın karakterin adını gir",
+      "bu, seviye takibi ve e-exp hesaplamalarını etkinleştirir",
+      "bu ad <general> bölümüne de uygulanacak, yani bu karakter global olarak takip edilecek(/highlight)"
+    ],
+    "leveltracker character status": [
+      "turuncu: isim belirtilmedi",
+      "sarı: karakter bulunamadı / yenileme gerekli",
+      "yeşil: karakter bulundu, takip aktif"
+    ],
+    "leveltracker profile name": [
+      "opsiyonel: bu rehberle oynayacağın build için bir açıklama/ad gir",
+      "<general> bölümüne de uygulanacak, yani bu açıklama global olarak kullanılacak(/highlight)"
+    ],
+    "leveltracker pob preview": [
+      "mevcut pob verilerini kontrol etmek için uzun tıkla",
+      "pob verilerini silmek için uzun sağ tıkla"
+    ],
+    "leveltracker hotkeys enable": [
+      "özelleştirilebilir kısayol tuşlarıyla rehber sayfaları arasında geçiş yapmanı sağlar"
+    ],
+    "leveltracker hotkeys": [
+      "bir tuş adı yaz ve <enter>'a bas",
+      "modifier tuşlarına veya sohbet için kullanılan tuşlara bağlama"
+    ],
+    "lootfilter enable": [
+      "loot filtrenizi düzenlemek ve değişiklikleri anında uygulamak için bir arayüz sağlar",
+      "erişmek için shift-omni-click ile eşyalara tıkla"
+    ],
+    "macros animations": [
+      "menü widget'ı animasyonlarını devre dışı bırak"
+    ],
+    "macros fast-travel": [
+      "komutlar tek bir kısayol tuşuna bağlıdır",
+      "kısa basma: hideout komutunu kullan\nuzun basma: komutlarla menü widget'ını aç(/highlight)",
+      "etkinleştirmek/devre dışı bırakmak için aşağıdaki simgelere tıkla"
+    ],
+    "macros custom": [
+      "komutlar tek bir kısayol tuşuna bağlıdır",
+      "kısa basma: listedeki 0 numaralı komutu kullan\nuzun basma: komutlarla menü widget'ını aç(/highlight)",
+      "komutları devre dışı bırakmak için sayı etiketlerine tıkla veya alanları boş bırak"
+    ],
+    "macros hotkeys": [
+      "özel tuşlar için, doğru adları bulmak üzere yukarıdaki ahk bağlantısını kontrol et",
+      "bu özelliği devre dışı bırakmak için boş bırak"
+    ],
+    "macros label": [
+      "özel makrolar için menü widget'ı simge yerine metin etiketi gösterecek",
+      "en fazla 3 karakter uzunluğunda bir metin etiketi gir"
+    ],
+    "macros command": [
+      "kullanmak istediğin sohbet komutunu gir"
+    ],
+    "macros kingsmarch": [
+      "kingsmarch"
+    ],
+    "macros monastery": [
+      "monastery of the keepers"
+    ],
+    "macros menagerie": [
+      "menagerie"
+    ],
+    "macros heist": [
+      "rogue harbor"
+    ],
+    "macros sanctum": [
+      "the forbidden sanctum"
+    ],
+    "macros delve": [
+      "mine encampment"
+    ],
+    "macros guild": [
+      "guild hideout"
+    ],
+    "maptracker enable": [
+      "map koşularının otomatik takibini ve dışa aktarma araçlarıyla bir kayıt görüntüleyicisi sağlar",
+      "map sürelerini, ölümleri, portalları, ganimetleri, öldürmeleri ve belirli yan içerik türlerini takip eder"
+    ],
+    "maptracker rename": [
+      "boss map'leri daha kolay arama için etiketler ve yeniden adlandırır",
+      "örnek:\n<boss: elder> yerine <absence of value and meaning>"
+    ],
+    "maptracker rename 2": [
+      "boss map'leri daha kolay arama için etiketler ve yeniden adlandırır",
+      "örnek:\n<boss: xesht> yerine <twisted domain (boss)>"
+    ],
+    "maptracker character": [
+      "karakterinin adı, sınıfı ve seviyesi kaydedilecek",
+      "opsiyonel: build'in adı/açıklaması da kaydedilebilir",
+      "bu bilgiyi ayarların <general> bölümünde belirtmen gerekir"
+    ],
+    "maptracker league": [
+      "şu anda oynadığın lig kaydedilecek",
+      "ayarların <general> bölümünde doğru ligi seçmen gerekir"
+    ],
+    "maptracker side-content": [
+      "girdiğin yan alanlar ve içinde harcanan süre kaydedilecek",
+      "örnekler: abyssal depths, lab denemeleri, vaal alanları, starfall crater"
+    ],
+    "maptracker side-content 2": [
+      "girdiğin yan alanlar ve içinde harcanan süre kaydedilecek",
+      "örnek: abyssal depths"
+    ],
+    "maptracker hide": [
+      "takip durakla tıldığında (menü widget'ındaki düğmeye sağ tıklayarak) paneli grileştirmek yerine gizler"
+    ],
+    "maptracker mechanics": [
+      "map'lerde karşılaştığın belirli mekanikleri kaydeder"
+    ],
+    "maptracker dialogue tracking": [
+      "bu mekanikler oyun içi diyalog aracılığıyla otomatik olarak takip edilebilir",
+      "oyunun <ui> ayarlarının altındaki <output dialogue to chat> seçeneğinin etkinleştirilmesi gerekir(/highlight)"
+    ],
+    "maptracker screen tracking": [
+      "bu mekanikler, ekranda belirli arayüz öğeleri aranarak takip edilecek",
+      "<widget-key> basılı tuttuğunda ekran kontrol edilecek",
+      "manuel kalibrasyon gerektirir"
+    ],
+    "maptracker dialoguemechanic": [
+      "mekanikler ayrı ayrı açılıp kapatılabilir"
+    ],
+    "maptracker screenmechanic": [
+      "mekanikler ayrı ayrı açılıp kapatılabilir",
+      "kırmızı vurgulama eksik kalibrasyonu gösterir",
+      "kırpma aracını açmak ve mekanizmanın benzersiz bir arayüz öğesini ekran görüntüsü almak için sağ tıkla"
+    ],
+    "maptracker portal reminder": [
+      "portal scroll kullanırken, map içeriğinin tamamlanıp tamamlanmadığını iki kez kontrol etmen için bir ipucu hatırlatacak",
+      "aşağıda doğru oyun içi kısayol tuşunu belirtmen gerekir"
+    ],
+    "maptracker portal hotkey": [
+      "<use portal scroll> için oyun içi kısayol tuşunu yaz",
+      "özel tuşlar/kombinasyonlar kullanıyorsa yukarıdaki bağlantıları kontrol et"
+    ],
+    "maptracker loot-tracker": [
+      "stash'e ctrl-click ile koyduğun eşyalar kaydedilecek",
+      "ctrl-sağ tıkla daha önce eklenen eşyaları birer birer kaldıracak (metin düzenlemedeki ctrl-z'ye benzer)",
+      "<screen-checks> bölümünde <stash> görüntü kontrolünün doğru şekilde ayarlanması gerekir(/highlight)"
+    ],
+    "maptracker kill-tracker": [
+      "tamamlanan map'lerdeki canavar öldürmeleri kaydedilecek",
+      "bir map'ten ayrılmak, zamanlayıcıyı yenilemek için tıklayana kadar takip panelinin yanıp sönmesine neden olur",
+      "öldürmelerin yenilenmesi yalnızca map'i bitirdiysen ve geri dönmeyeceksen yapılmalıdır"
+    ],
+    "maptracker mapinfo": [
+      "<map-info> özelliğinden map mod'ları kaydedilecek\n(ayrı özellik, etkinleştirilmesi ve aktif olarak kullanılması gerekir)",
+      "bu ayrıca şu bilgileri de içerir:\nelder guardian'lar, conqueror'lar, maven davetiye türü, blight(-ravaged), contract/blueprint"
+    ],
+    "maptracker notes": [
+      "bireysel map koşuları için özel notlar kaydetmek üzere takip paneline bir simge ekler",
+      "ayrıca tek tıklamayla eşyaları kolayca kaydetmeni sağlar, ör. kullanılan map-device eşyaları, bir koşuda bulunan özel düşüşler, vb."
+    ],
+    "maptracker color unselected": [
+      "kayıt görüntüleyicisinde vurgulanan hücreler ve tarih seçiminde lig dışı tarihler için kullanılır",
+      "renk paletini açmak için tıkla, varsayılana sıfırlamak için sağ tıkla"
+    ],
+    "maptracker color selected": [
+      "tarih seçiminde seçili yıl ve ayları için kullanılır",
+      "renk paletini açmak için tıkla, varsayılana sıfırlamak için sağ tıkla"
+    ],
+    "maptracker color leagues": [
+      "belirli bir lig içindeki tarihleri vurgulamak için kullanılır",
+      "renk paletini açmak için tıkla, varsayılana sıfırlamak için sağ tıkla"
+    ],
+    "mapinfo enable": [
+      "map mod'ları için kompakt ve özelleştirilebilir bir bilgi paneli sağlar",
+      "bir map'in üzerinde <omni-key>'e basmak paneli açar:\n- mod'ların üzerine gelirken renk uygulamak için 1-4'e bas\n- mod'ları yok saymak için <space>'e bas\n- sıfırlamak için mod'lara sağ tıkla"
+    ],
+    "mapinfo toggle": [
+      "paneli etkinleştirmek için map'lerin/waystone'ların üzerine gelirken <omni-key>'e bas",
+      "kapatmak için oyuna tıkla veya <esc>'ye bas"
+    ],
+    "mapinfo hold": [
+      "paneli etkinleştirmek için map'lerin/waystone'ların üzerinde <omni-key> tuşuna uzun bas",
+      "tuşu bıraktığında panel otomatik olarak kapanacak",
+      "horizons ipucu bunun yerine <alt> + <omni-key>'e uzun basılarak etkinleştirilecek(/highlight)"
+    ],
+    "mapinfo hold 2": [
+      "paneli etkinleştirmek için map'lerin/waystone'ların üzerinde <omni-key> tuşuna uzun bas",
+      "tuşu bıraktığında panel otomatik olarak kapanacak"
+    ],
+    "mapinfo shift-click": [
+      "shift-click ile map'lere currency uygulandığında ipucunu yeniler",
+      "önce <shift> tuşuna uzun basmalı, currency'ye sağ tıklamalı, sonra bir map'e tıklamalısın",
+      "<screen-checks> bölümünde <inventory> piksel kontrolünün doğru şekilde ayarlanması gerekir(/highlight)"
+    ],
+    "mapinfo tab": [
+      "ekranın sağında panelin kompakt bir versiyonunu görüntülemek için <widget-key> basılı tut",
+      "yalnızca hideout'larda ve panele yüklenen map'te çalışır"
+    ],
+    "mapinfo colors": [
+      "renk paletini açmak için bir düğmeye tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "mapinfo logbooks": [
+      "logbook mod'ları pozitif sıralama kullanır, 4 en iyi değerdir"
+    ],
+    "mapinfo modsearch": [
+      "map mod'larını yaz (oyun içi ifadelerle) ve aşağıda listelemek için <enter>'a bas"
+    ],
+    "mapinfo roll highlight": [
+      "map roll'ları (quant, rarity, vb.) belirli gereksinimleri karşılıyorsa vurgulanacak"
+    ],
+    "mapinfo roll colors": [
+      "bu, mevcut vurgulama ayarlarının bir önizlemesidir",
+      "paleti açmak için sağdaki renkli düğmelere tıkla, rengi varsayılana sıfırlamak için sağ tıkla",
+      "birinci düğme: metin rengi\nikinci düğme: arka plan rengi"
+    ],
+    "mapinfo requirements": [
+      "her roll için istenen minimum değerleri belirle",
+      "quantity, rarity, pack size, maps, scarabs, currency"
+    ],
+    "mapinfo requirements 2": [
+      "her roll için istenen minimum değerleri belirle",
+      "quantity, rarity, pack size, waystones"
+    ],
+    "mapinfo mod settings": [
+      "aşağıda, belirli map mod'larının katmanlandırmasını özelleştirebilirsin",
+      "mod'ların üzerine gel ve vurgulama uygulamak için 1-4 sayı tuşlarına bas, üzerini çizmek için boşluk tuşuna bas, veya katmansıza (beyaz) sıfırlamak için sağ tıkla",
+      "mod'ları bulmak için mod aramasını kullan, hızlı erişim için mod'ları sabitlemek/kaldırmak için – ve + düğmelerine tıkla"
+    ],
+    "mapinfo reset tiers": [
+      "her map mod katmanını varsayılana (beyaz, çizilmemiş) sıfırlamak için uzun tıkla",
+      "(/highlight)bu, yalnızca aşağıda sabitlenenler değil, her bir mod'u etkiler"
+    ],
+    "alarm enable": [
+      "alarm/geri sayım ve kronometre işlevine sahip zamanlayıcı widget'ı",
+      "varsayılan olarak gizli: erişmek için <widget-key> basılı tut"
+    ],
+    "map-events enable": [
+      "belirli map olayları oluştuğunda bildirimler gösterir",
+      "örnekler: nameless seer, reflecting mist, infamous mercenary"
+    ],
+    "map-events enable event": [
+      "bu olayı etkinleştirmek/devre dışı bırakmak için tıkla",
+      "test bildirimi etkinleştirmek için sağ tıkla"
+    ],
+    "map-events position": [
+      "bildirim istemcinin kenarlarından birine sabitlenecek"
+    ],
+    "notepad enable": [
+      "bireysel sekmeler ve yapışkan not olarak kullanılabilen kayan widget'lar içeren not defteri aracı",
+      "menü widget'ına bir düğme ekler: not defterini açıp kapatmak için tıkla, tek kullanımlık yapışkan not oluşturmak için sağ tıkla"
+    ],
+    "notepad default color": [
+      "yeni sekmelerin widget'ları için varsayılan renkleri belirle",
+      "bunlar daha sonra her sekme için özelleştirilebilir"
+    ],
+    "notepad opacity": [
+      "etkin olmayan widget'ların opaklığı (yani <widget-key> basılı tutulmadığında)",
+      "0 = etkin olmayan widget'lar gizlenir"
+    ],
+    "lab enable": [
+      "günlük koşular için basit lab düzeni overlay'i ve takipçisi",
+      "lab'da veya aspirants' plaza'dayken, overlay'i etkinleştirmek için <widget-key> basılı tut"
+    ],
+    "ocr enable": [
+      "ekranı tarayan ve belirli bilgileri/metinleri özelleştirilebilir & kompakt ipcuçlarında gösteren ekran okuma özelliği",
+      "şu anda desteklenen: eldritch altar'lar, vaal yan alanları"
+    ],
+    "ocr compatibility": [
+      "ekranı tarayan ve belirli bilgileri/metinleri özelleştirilebilir & kompakt ipcuçlarında gösteren ekran okuma özelliği",
+      "bu özellik etkinleştirilebilmeden önce bir uyumluluk testi yapılmalıdır",
+      "karakter istatistikleri ekranını aç, sonra windows kırpma aracını açmak için bu onay kutusuna tıkla",
+      "karakter istatistiklerinden 4 ila 5 satır metin kırpmak için kullan"
+    ],
+    "ocr colors": [
+      "belirli mod'ları/ödülleri vurgulamak için kullanılan renk desenlerini özelleştir"
+    ],
+    "ocr debug": [
+      "ekranı tararken sağ ctrl tuşunu basılı tutmak, ekran görüntüsünü ve aracın okuyabildiği metni gösteren bir pencere açacak"
+    ],
+    "ocr z hotkey": [
+      "<toggle highlighting> için oyun içi kısayol tuşunu yaz",
+      "özel tuşlar/kombinasyonlar kullanıyorsa yukarıdaki bağlantıları kontrol et"
+    ],
+    "ocr hotkey": [
+      "bu özelliği etkinleştirmek için kullanmak istediğin kısayol tuşunu yaz",
+      "özelliği yanlışlıkla etkinleştirmeyi önlemek için modifier tuşlara veya sohbet için kullanılan tuşlara bağlama",
+      "özel tuşlar/kombinasyonlar kullanmak istiyorsan yukarıdaki bağlantıları kontrol et"
+    ],
+    "sanctum enable": [
+      "kat planındaki odaları ve bağlantıları analiz eder ve vurgulama ve planlama araçları sağlar",
+      "sanctum/trial'dayken ve kat planı ekrandayken, overlay'i göstermek için <omni-key> basılı tut",
+      "tuşu bıraktığında overlay gizlenecek: otomatik gizlenmeyi önlemek için <space>'e bas",
+      "<screen-checks> bölümünde <sanctum/sekhema floor map> ekran kontrolünün doğru şekilde ayarlanması gerekir(/highlight)"
+    ],
+    "sanctum cheatsheet": [
+      "farklı oda türlerini ve hedeflerini, ayrıca özel çeşme özelliklerini listeleyen ek bir panel gösterir"
+    ],
+    "sanctum relics": [
+      "rölik yönetimi için bir overlay sağlar:\nrölik etkilerini özetler ve gruplar, arama/vurgulama işlevi sunar",
+      "rölik sunak açıkken, overlay'i açmak için bir röliğin üzerinde <omni-key>'e uzun bas",
+      "<screen-checks> bölümünde <inventory> piksel kontrolünün doğru şekilde ayarlanması gerekir(/highlight)"
+    ],
+    "screenchecks pixel-about": [
+      "araç sürekli olarak ekranı belirli arayüz öğeleri için kontrol eder",
+      "bu, bağlam duyarlılığı ve otomatik overlay geçişi sağlar",
+      "bu kontroller asla istemci ile herhangi bir etkileşime neden olmayacak"
+    ],
+    "screenchecks pixel-calibration": [
+      "bunu tıklamadan önce <info>'daki talimatları takip et",
+      "belirli piksel değerlerini yakalar ve gelecekteki kontroller için saklar"
+    ],
+    "screenchecks pixel-test": [
+      "<info>'da gösterilen arayüz öğesi görünürken bu düğmeye tıkla, test pozitif dönmelidir",
+      "<info>'da gösterilen arayüz öğesi görünmüzken tekrar tıkla, test negatif dönmelidir",
+      "geforce now: karakterini biraz hareket ettir, sonra adım 1 ve 2'yi tekrarla"
+    ],
+    "screenchecks pixel-info": [
+      "talimatları görmek için uzun tıkla"
+    ],
+    "screenchecks image-about": [
+      "bu kontroller, omni tuşuna basıldığında hangi özelliğin etkinleştirileceğini yorumlamak için kullanılır"
+    ],
+    "screenchecks image-info": [
+      "talimatları görmek için uzun tıkla"
+    ],
+    "screenchecks image-calibration": [
+      "bunu tıklamadan önce <info>'daki talimatları takip et",
+      "sol tıklama: otomatik kalibrasyon",
+      "sağ tıklama: <info>'da gösterilen arayüz öğesini manuel olarak ekran görüntüsü al"
+    ],
+    "screenchecks image-test": [
+      "<info>'da gösterilen arayüz öğesi görünürken bu düğmeye tıkla, test pozitif dönmelidir",
+      "<info>'da gösterilen arayüz öğesi görünmüzken tekrar tıkla, test negatif dönmelidir",
+      "otomatik kalibrasyondan sonra testler negatif dönmeye devam ederse, <cal> düğmesine sağ tıkla ve <info>'da işaretlenen alanı kırp"
+    ],
+    "screenchecks folder": [
+      "kalibrasyon dosyaları bulunan klasörü açar",
+      "testler başarısız olmaya devam ederse, doğru görüntü klibini temsil edip etmediklerini kontrol etmek için img dosyalarını aç"
+    ],
+    "screenchecks variance": [
+      "akış istemcilerinin değişken görüntü kalitesi olduğundan, araç belirli arayüz öğelerini ekranda doğru şekilde kontrol edemeyebilir",
+      "<test>'e tıklamak tutarlı, tekrarlanabilir sonuçlar döndürmezse, ekran kontrollerinin izin verilen sapmasını artırman gerekebilir",
+      "değeri 10'ar artırarak artır ve sonuçlar tutarlı olana kadar kontrolleri yeniden test et"
+    ],
+    "searchstrings poe-regex": [
+      "regex dizileri için 3. parti web sitesi"
+    ],
+    "searchstrings about": [
+      "arama dizileri kullanım durumlarına göre gruplandırılır, ör. gwennen, harvest, vendor",
+      "<omni-key>'e bastığında, araç doğru kullanım durumunu algılar ve seçim yapabileceğin bir liste gösterir",
+      "bu algılama her kullanım durumu için manuel görüntü kalibrasyonu gerektirir"
+    ],
+    "searchstrings calibrate": [
+      "kırpma aracını açar: aramaya özgü bir arayüz öğesini kırpmak için kullan"
+    ],
+    "searchstrings test": [
+      "arayüz öğesi ekrandayken bu düğmeye tıkla, test pozitif dönmelidir",
+      "arayüz öğesi ekranda değilken tekrar tıkla, test negatif dönmelidir",
+      "sonuçlar tutarlı ve tekrarlanabilir olmalıdır"
+    ],
+    "searchstrings edit": [
+      "bu kullanım durumu için dizilerin eklenebildiği veya düzenlenebildiği menüyü açar"
+    ],
+    "searchstrings delete": [
+      "bu kullanım durumunu ve dizilerini silmek için uzun tıkla"
+    ],
+    "searchstrings copy": [
+      "aşağıya bir ad gir, sonra bu kullanım durumunun yeni bir adla kopyasını oluşturmak için bu düğmeye tıkla"
+    ],
+    "searchstrings enable": [
+      "belirli kullanım durumunu etkinleştir/devre dışı bırak"
+    ],
+    "searchstrings enable-beastcrafting": [
+      "belirli kullanım durumunu etkinleştir/devre dışı bırak",
+      "bu varsayılan olarak dahildir ve flask crafting için diziler içerir"
+    ],
+    "searchstrings enable-lilly": [
+      "belirli kullanım durumunu etkinleştir/devre dışı bırak",
+      "bu içe aktarılan seviye rehberinin bir parçasıdır ve her gem için diziler içerir(/highlight)"
+    ],
+    "searchstrings add": [
+      "bir ad yaz ve <enter>'a bas"
+    ],
+    "stash color tag1": [
+      "poe.ninja fiyatlı fiyat etiketleri böyle görünür"
+    ],
+    "stash color tag2": [
+      "exchange fiyatlı fiyat etiketleri böyle görünür"
+    ],
+    "stash color tag3": [
+      "yer işaretli fiyat etiketleri böyle görünür"
+    ],
+    "stash enable": [
+      "belirli stash sekmelerindeki eşyalara fiyat etiketleri yerleştiren stash özelliği",
+      "etkinleştirmek için bir sekmedeki eşyanın üzerinde <omni-key>'e uzun bas",
+      "stash'inde bir yerde en az bir sekme klasörü olması gerekir (aksi takdirde overlay biraz kayacaktır)(/highlight)"
+    ],
+    "stash enable 2": [
+      "belirli stash sekmelerindeki eşyalara poe.ninja fiyat etiketleri yerleştiren stash özelliği",
+      "etkinleştirmek için bir sekmedeki eşyanın üzerinde <omni-key>'e uzun bas"
+    ],
+    "stash hotkey": [
+      "bu kısayol tuşu akış istemcilerine özeldir ve bastığında mevcut sekmeleri listeleyen özel bir seçim menüsü açar",
+      "modifier tuşlara veya sohbet için kullanılan tuşlara bağlama: bir tuş adı yaz ve <enter>'a bas"
+    ],
+    "stash history": [
+      "bir eşyanın bu haftaki fiyat geçmişini gösteren ek bir çubuk grafik gösterir",
+      "vurgulanan bir eşya yuvasının üzerinde geldiğinde dönüşüm oranlarının yanında gösterilecek",
+      "her çubuğun bir günü temsil ettiği ve ilk güne kıyasla fiyat değişikliğini gösterdiği bir zaman çizelgesidir"
+    ],
+    "stash exalt": [
+      "vurgulanan eşyaların üzerine gelirken veya fiyatlandırırken exalt karşılığı fiyatları da gösterir"
+    ],
+    "stash bulk": [
+      "bir sekmedeki eşyaya sağ tıklamak (toplu) satış yönetimi için ek bir panel açacak",
+      "başlangıçta yalnızca poe.ninja fiyatlarını gösterecek:\ntoplu borsadaki açık ilanları görmek için bir currency simgesine tıkla, veya verileri yenilemek için sağ tıkla",
+      "listeden bir fiyat seç, panel uygulanabilir toplu yapılandırmaları kaydırarak seçmen için sunacak"
+    ],
+    "stash mintrade": [
+      "burada bir \"x chaos'un altında ticaret yapmak istemiyorum\" değeri belirleyebilirsin:\nbir sayı yaz ve <enter>'a bas",
+      "chaos cinsinden toplu satış yapılandırmaları bu değerden başlayacak şekilde otomatik ayarlanacak"
+    ],
+    "stash autoprofiles": [
+      "bu ayar, ticarete değer (yığın) eşyaları bulmana yardımcı olmak için tasarlanmıştır",
+      "1-4 profilleri tercih ettiğin ticaret değerine göre otomatik olarak ayarlanacak",
+      ">> genel kural <<\nvurgulanan eşyalar şu durumda ticarete değerdir:\nyığın boyutu >= profil numarası",
+      "profil 5, bir çöp/vendor katmanı oluşturmaya izin vermek için dokunulmadan bırakılacak"
+    ],
+    "stash config": [
+      "bireysel sekmeleri yapılandırmak için, onları oyun içinde aç ve sekmedeki bir eşyanın üzerinde <omni-key>'e uzun bas",
+      "stash-ninja overlay'i etkinleştikten sonra, etkin sekme için ayarlar aşağıda görünecek"
+    ],
+    "stash gap": [
+      "fiyat etiketleri oyun içi ızgara ile hizalanmıyorsa, konumlandırmayı iyileştirmek için bu değeri ince ayarla"
+    ],
+    "stash in folder": [
+      "bu belirli sekme bir stash klasöründeyse overlay'in konumu kaydırılmalıdır",
+      "bu sekme bir klasördeyse bu kutuyu işaretle"
+    ],
+    "stash bookmarking": [
+      "fiyat profili panelinin yanına bir yer işareti listesi ekler",
+      "bir eşyanın üzerine gelirken listeye 1 adet eklemek için boşluk tuşuna bas, veya 1 adet kaldırmak için alt'a bas",
+      "yer işaretli eşyalar, etkin fiyat profilinden bağımsız olarak ızgarada her zaman vurgulanacak",
+      "her sekmenin 5 ayrı listesi var: geçiş yapmak için <control> veya <shift> basılı tut ve sayı tuşlarına bas"
+    ],
+    "stash limits": [
+      "her bireysel sekme için 5 adede kadar fiyat aralığı profili yapılandırabilirsin",
+      "giriş kutusu yapısı:\nprofil # | maks değer\nbirim: c, d, % | min değer     ",
+      "min/maks fiyatı boş bırakmak sınırsız olarak işlem görecek, birimi boş bırakmak profili tamamen devre dışı bırakacak",
+      "overlay ekrandayken, profiller arasında geçiş yapmak için 1-5 sayı tuşlarına bas"
+    ],
+    "stash limits 2": [
+      "her bireysel sekme için 5 adede kadar fiyat aralığı profili yapılandırabilirsin",
+      "giriş kutusu yapısı:\nprofil # | maks değer\nbirim: c, e, d, % | min değer        ",
+      "min/maks fiyatı boş bırakmak sınırsız olarak işlem görecek, birimi boş bırakmak profili tamamen devre dışı bırakacak",
+      "overlay ekrandayken, profiller arasında geçiş yapmak için 1-5 sayı tuşlarına bas"
+    ],
+    "statlas enable": [
+      "atlas üzerindeki map'ler hakkında çeşitli bilgiler gösteren atlas özelliği",
+      "overlay'i etkinleştirmek için atlas üzerindeki map'lerin üzerinde <omni-key>'e uzun bas",
+      "görüntü boyutunu ayarlamak için kaydır",
+      "<screen-checks> bölümünde <atlas> ekran kontrolünün doğru şekilde ayarlanması gerekir(/highlight)"
+    ],
+    "statlas maptracker": [
+      "overlay, map-tracker özelliği aracılığıyla toplanan istatistikleri gösterecek"
+    ],
+    "statlas notable": [
+      "<local knowledge> atlas notable'ı farklı biome'lar için ganimet düşüş bonusları sağlar",
+      "etkinleştirildiğinde, overlay üzerinde durdun map'in bonuslarını gösterecek"
+    ],
+    "updater check": [
+      "araç başlatıldığında ve arka planda çalışırken güncellemeleri kontrol eder",
+      "bir güncelleme mevcutsa menü widget'ı yanıp sönecek"
+    ],
+    "updater hotfix": [
+      "bir hotfix sürümü mevcut, aşağıdan indirebilirsin",
+      "aşağıda listelenen sürümler, numara özellikle işaretlenmemiş olsa bile her zaman en yeni hotfix'leri içerir"
+    ],
+    "updater versions": [
+      "aşağıdaki liste geçiş yapabileceğin veya yeniden yükleyebileceğin mevcut sürümleri gösterir",
+      "her satır bir ana sürümü temsil eder ve alt sürümü seçmek için düğmelere sahiptir",
+      "önemli değişikliklere sahip sürümler turuncu renkle vurgulanmıştır(/highlight)",
+      "özetlenmiş değişiklik kaydını görmek için bir düğmenin üzerine gel, indirmeyi hazırlamak için tıkla"
+    ],
+    "updater full changelog": [
+      "seçilen sürümün ayrıntılı değişiklik kaydının bulunduğu github sayfasını açar"
+    ],
+    "updater restart": [
+      "güncellemek ve yeniden başlatmak için tıkla\nNOT: etkin overlay'ler ve kaydedilmemiş veriler kaybolacak"
+    ],
+    "updater manual": [
+      "tam sürümü içeren bir zip dosyası indirir, sonra onu ve araç klasörünü açar",
+      "zip bir klasör içerir: çıkarmayın! bunun yerine açın",
+      "içindekileri ayrı bir pencerede açılacak araç klasörüne çıkarın"
+    ],
+    "updater github": [
+      "tarayıcını açar ve en yeni sürümü indirir",
+      "ayrıca araç klasörünü ayrı bir pencerede açar"
+    ],
+    "updater skip": [
+      "bu sürümü atlamak ve artık bildirim almamak için uzun tıkla",
+      "bildirimler bir sonraki sürümle tekrar gösterilmeye başlayacak"
+    ]
+  },
+  "alarm": {
+    "add": [
+      "tıkla: yeni zamanlayıcı ekle\nsağ tıkla: yeni kronometre ekle"
+    ],
+    "drag": [
+      "tüm widget'ı yeniden konumlandırmak için sürükle"
+    ],
+    "name": [
+      "bu zamanlayıcıyı kalıcı olarak kaldırmak için uzun sağ tıkla"
+    ],
+    "orientation": [
+      "yatay ve dikey düzen arasında geçiş yap"
+    ],
+    "set name": [
+      "opsiyonel: kalıcı, yeniden kullanılabilir bir zamanlayıcı oluşturmak için bir ad gir",
+      "adsız zamanlayıcılar araç yeniden başlatıldığında kaybolur(/highlight)"
+    ],
+    "set time": [
+      "desteklenen biçimler: ss:dd:sn, ss dd sn",
+      "zamanlayıcıyı kronometre olarak kullanmak için boş bırak"
+    ],
+    "timer": [
+      "zamanlayıcıyı döngüye almak için sol tıkla\nzamanlayıcıyı durdurmak için sağ tıkla"
+    ],
+    "timer idle": [
+      "bu zamanlayıcıyı başlatmak için tıkla"
+    ]
+  },
+  "anoints": {
+    "materials": [
+      "stash/envanterindeki malzemelerin üzerine gel ve mevcut miktarları yüklemek için <omni-key>'e bas",
+      "alternatif olarak, miktarları manuel olarak ayarlamak için aşağıdaki simgelerin üzerine gel ve mouse tekerleğini kaydır"
+    ],
+    "keywords": [
+      "bu opsiyonel arama yöntemi gruplar (ticaret sitesine benzer) ve anahtar kelimeler kullanır",
+      "anahtar kelimeler oluşum sıklığına göre sıralanır (yüksekten düşüğe):\nanahtar kelimeleri <and> grubuna eklemek için sol tıkla\nanahtar kelimeleri <count> grubuna eklemek için uzun tıkla\nanahtar kelimeleri <not> grubuna eklemek için sağ tıkla",
+      "anahtar kelimeleri vurgulamak için arama çubuğuna dizeler yaz ve <enter>'a bas"
+    ],
+    "matches": [
+      "oyun içi pasif ağaçta düğümü vurgulamak için aşağıdaki bir kutuya sol tıkla (açık olduğundan emin ol)",
+      "yalnızca yararlı olanlar kalana kadar istenmeyen düğümleri gizlemek için kutulara sağ tıkla",
+      "düğüm adlarından sonraki sayılar = gerekli yükseltme/yeniden oluşturma sayısı",
+      "sonuçları filtrelemek için arama çubuğuna bir dize yaz ve <enter>'a bas (regex destekler)"
+    ],
+    "reforging": [
+      "daha fazla tarif kullanılabilir kılmak için malzemelerin yeniden oluşturulması/yükseltilmesinin dahil edilip edilmeyeceği: yalnızca en yüksek mevcut malzemenin 2 katman üstü dikkate alınır"
+    ],
+    "rings": [
+      "muska ve yüzük tarifleri arasında geçiş yapar"
+    ],
+    "stock reset": [
+      "malzemeleri 0'a sıfırlamak için uzun tıkla"
+    ]
+  },
+  "async": {
+    "font-size": [
+      "– ve + basılı tutulabilir, ortadaki düğme boyutu sıfırlar"
+    ],"list buy": [
+      "satın almayı kaydetmek için bir eşyanın üzerinde <omni-key>'e bas",
+      "listeden kaldırmak için bir eşyaya <uzun sağ tıkla>",
+      "sıralama:\n<tıkla> fiyata göre sıralamak için currency simgelerine (artan veya azalan)\n\n<tıkla> geçen süreye göre sıralamak için zaman etiketlerine"
+    ],
+    "list clear": [
+      "tüm listeyi temizlemek ve üzerindeki her şeyi kalıcı olarak kaldırmak için uzun tıkla",
+      "(/highlight)bu, etkin filtreleri yok sayar"
+    ],
+    "list sell": [
+      "'hızlı yeniden fiyatlandırma' açmak için bir eşyanın üzerinde <omni-key>'e bas\n\ntakip etmek ve aşağıdaki listeye eklemek için bir eşyanın üzerinde <omni-key> basılı tut",
+      "oyunda vurgulamak için listedeki bir eşyaya <tıkla>\n\nsatıldı olarak işaretlemek ve gizlemek için <uzun tıkla>\n\nkalıcı olarak kaldırmak için <uzun sağ tıkla>",
+      "sıralama:\n<tıkla> fiyata göre sıralamak için currency simgelerine (artan veya azalan)\n\n<tıkla> yeniden fiyatlandırma veya listeleme için geçen süreye göre sıralamak için zaman etiketlerine"
+    ]
+  },
+  "cheatsheet": {
+    "image general": [
+      "görseller arasında geçiş yapmak için kaydır",
+      "f1: uzaklaştır, f2: yakınlaştır, f3: yakınlaştırmayı sıfırla",
+      "ok tuşları: overlay'i taşı",
+      "bölümlü görsel sayfaları:\nboşluk: seçimi temizle\n<widget-key>'e uzun bas: tüm sayfayı göster"
+    ]
+  },
+  "cheatsheets": {
+    "menu screencheck": [
+      "bu sayfayı etkinleştiren arayüz öğesinin konumunu ifade eder",
+      "statik: her zaman aynı konumda kalır, ör. stash/envanter plakası",
+      "dinamik: hafifçe hareket edebilir"
+    ],
+    "menu activation": [
+      "sayfanın etkinleştirildikten sonra ekranda ne kadar süre kalacağı",
+      "basılı tut: <omni-key> bırakılana kadar",
+      "geçiş: <esc>'ye basılana kadar",
+      "iki modifier tuşuna basarak bir sayfayı etkinleştirmek her zaman <geçiş> yapacak"
+    ],
+    "menu image-files": [
+      "görsel dosyaları her sayfa içindeki numaralı yuvalara yüklenir",
+      "sayfa etkinken, bu dosyalara erişmek için sayı tuşlarına bas",
+      "yuva 00, bölümlü sayfalar için ayrılmıştır (daha fazla bilgi için <00>'a gel)"
+    ],
+    "menu 00": [
+      "00'a bir görsel yüklemek sayfayı bölümlü hale getirir",
+      "yalnızca bilgiler bir tablo veya diyagramda sunuluyorsa çalışır",
+      "görsel 00 sayfanın başlığıdır, geri kalanı bireysel bölümlerdir (ör. sütunlar veya satırlar)"
+    ],
+    "menu header": [
+      "başlığın diğer bölümlere göre konumlandırılması"
+    ],
+    "menu paste": [
+      "bu yuvaya görsel(ler) yapıştır: dosyaları ve ham verileri destekler",
+      "aynı anda birden fazla dosya yapıştırmak, bu yuvadan başlayarak x yuvayı üzerine yazar"
+    ],
+    "menu snip0": [
+      "yuvalara görsel kırpmak için kırpma widget'ını açar"
+    ],
+    "menu snip": [
+      "yuvalara görsel kırpmak için kırpma aracını açar"
+    ],
+    "menu show": [
+      "görselin önizlemesini görmek için uzun tıkla"
+    ],
+    "menu delete": [
+      "bu yuvadaki görseli silmek için uzun tıkla"
+    ],
+    "menu hotkey": [
+      "görseli etiketlemek için bir harf yaz",
+      "bu harf, bu yuvayı etkinleştirmek için kısayol tuşu gibi kullanılabilir",
+      "sayfadaki veriler sayısal değil alfabetik ise yararlıdır"
+    ],
+    "menu preview": [
+      "sayfanın önizlemesini görmek için uzun tıkla"
+    ],
+    "menu entry-about": [
+      "her kopya kağıdının birden fazla girdisi ve her girdinin 4 adede kadar notu var",
+      "bir girdi, not kaydetmek istediğin oyundaki bir şeydir",
+      "syndicate: her üye bir girdidir\nsanctum: her oda bir girdidir"
+    ],
+    "menu entry-image": [
+      "kalibrasyon görselini görüntülemek için uzun tıkla"
+    ],
+    "menu entry-delete": [
+      "bu girdiyi silmek için uzun tıkla"
+    ],
+    "menu entry-select": [
+      "notlarına erişmek için bu girdiye tıkla"
+    ],
+    "menu entry-preview": [
+      "bu girdinin notlarının önizlemesini görmek için uzun tıkla"
+    ],
+    "menu windowtitle": [
+      "kopya kağıdı olarak kullanmak istediğin pencerenin başlığı",
+      "büyük/küçük harfe duyarlıdır ama tüm başlığı gerektirmez"
+    ],
+    "menu exe-delete": [
+      "uygulamayı başlatıcıdan kaldırmak için uzun tıkla"
+    ],
+    "menu exe-test": [
+      "uygulamanın doğru şekilde başlatılıp başlatılmadığını kontrol etmek için tıkla"
+    ]
+  },
+  "exchange": {
+    "chaos-div": [
+      "chaos cinsinden mevcut div fiyatı (ör. 210):\nbu değer, ticaret kaydı tutarken chaos'u divine'a dönüştürmek için kullanılır"
+    ],
+    "exalt-div": [
+      "exalt cinsinden mevcut div fiyatı (ör. 210):\nbu değer, ticaret kaydı tutarken exalt'ı divine'a dönüştürmek için kullanılır"
+    ],
+    "currency icons": [
+      "opsiyonel: ana currency giriş/çıkışını kaydetmek için bir currency simgesine tıkla\n(işlem <sipariş ver>'e tıkladığında kaydedilecek)"
+    ],
+    "edit fields": [
+      "bir değer gir veya mevcut değeri ayarlamak için kaydır (10'ar ayarlamak için <shift> basılı tut)",
+      "değerleri buraya kopyalamak için oyun içi alanlara tıkla veya buradan yapıştırmak için sağ tıkla",
+      "sıfırlamak için oyun içi alanların üzerinde <boşluk>'a bas"
+    ],
+    "logs": [
+      "o günkü ticareteleri görüntülemek için bir tarihe tıkla",
+      "silmek için bir tarih veya ticaret üzerinde uzun sağ tıkla"
+    ],
+    "ratio": [
+      "her iki değeri orana göre ayarlamak için kaydır (10 kat ayarlamak için shift basılı tut)",
+      "oranı kilitlemek için tıkla: değerler artık mümkün olduğunca bu orana yakın ayarlanacak"
+    ],
+    "ratio 2": [
+      "kilitlenmiş oranla karşılaştırılan gerçek oran"
+    ]
+  },
+  "geartracker": {
+    "about": [
+      "oyun içi aramalarda vurgulamak için listedeki eşyalara tıkla",
+      "listeden kaldırmak için bir eşyaya uzun sağ tıkla",
+      "listeye eklemek için eşyaların üzerinde <omni-key>'e bas"
+    ],
+    "clear highlighted": [
+      "vurgulanan her eşyayı listeden kaldırmak için uzun tıkla"
+    ],
+    "clear gems": [
+      "her gem'i listeden kaldırmak için uzun tıkla"
+    ]
+  },
+  "lab": {
+    "button": [
+      "kırmızı = düzen mevcut değil/güncel değil, sarı = yalnızca düzen, yeşil = düzen + takip",
+      "poelab.com'u açmak için tıkla: zorluk seç, düzen görseline sağ tıkla, <görseli kopyala>'ya tıkla",
+      "opsiyonel: <lab compass file>'a sağ tıkla, <bağlantı adresini kopyala>'ya tıkla, ctrl + a ve sonra ctrl + c'ye bas"
+    ]
+  },
+  "leveltracker": {
+    "skilltree-cap about": [
+      "yapıştırma veya kırpma yoluyla yuvalara görsel yükle"
+    ],
+    "skilltree-cap ascend": [
+      "yapıştırma veya kırpma yoluyla yuvalara görsel yükle",
+      "yuva 05, olası bir endgame respec veya alternatif ağaç için ayrılmıştır"
+    ],
+    "skilltree-cap index": [
+      "bu yuvaya başlık eklemek için tıkla"
+    ],
+    "skilltree-cap paste": [
+      "bu yuvaya görsel dosya veya veri yapıştır"
+    ],
+    "skilltree-cap snip": [
+      "kırpma widget'ını açar veya ekran görüntüsü alır"
+    ],
+    "skilltree-cap show": [
+      "görseli görüntülemek için uzun tıkla"
+    ],
+    "skilltree-cap delete": [
+      "görseli silmek için uzun tıkla"
+    ],
+    "skilltree-cap delete-all": [
+      "tüm görselleri silmek için uzun tıkla"
+    ],
+    "skilltree-cap caption": [
+      "bir başlık yaz ve <enter>'a bas"
+    ]
+  },
+  "leveltrackereditor": {
+    "add page": [
+      "bundan sonra yeni bir rehber sayfası ekle"
+    ],
+    "conditions": [
+      "belirli rehber sayfalarını yalnızca belirli koşullar altında göstermeyi/dahil etmeyi seçebilirsin"
+    ],
+    "discard": [
+      "kaydedilmemiş değişiklikleri iptal etmek için uzun tıkla"
+    ],
+    "export": [
+      "rehber verilerini panoya kopyala"
+    ],
+    "guide reset": [
+      "varsayılan rehberi yüklemek için uzun tıkla",
+      "(/highlight)ilerlemeniz ve özel düzenlemeleriniz silinecek"
+    ],
+    "preview": [
+      "bu rehber sayfasının önizlemesini görmek için uzun tıkla"
+    ],
+    "remove panel": [
+      "bu sayfayı rehberden kaldırmak için uzun tıkla"
+    ],
+    "save": [
+      "değişiklikleri bu rehber yuvasına kaydetmek için uzun tıkla",
+      "mevcut rehber ilerlemeniz sıfırlanacak(/highlight)"
+    ],
+    "search": [
+      "seçilen act içinde aramak için dizeler yaz",
+      "eşleşen metin içeren sayfalar sayfa seçim çubuğunda yeşil olarak vurgulanacak"
+    ]
+  },
+  "leveltrackergemcutting": {
+    "general": [
+      "overlay'i geçici olarak gizlemek için <alt> basılı tut",
+      "soldaki listeden bir yetenek seti seç",
+      "oyun içi arama başlatmak için <all x gems>'e tıkla: bu, her soket grubundaki eşleşen türün her gem'ini içerecek",
+      "bunun altında, seçilen yetenek setinden tüm soket gruplarının listesi var: yalnızca <main gem>'in başlangıçta tıkladığın kesilmemiş gem ile eşleştiği grupları içerir (skill veya spirit)",
+      "oyun içi arama başlatmak için bir soket grubuna tıkla: bu, gruptaki her gem'i içerecek"
+    ]
+  },
+  "leveltrackergems": {
+    "general": [
+      "kampanya sırasında belirli gem'leri ne zaman ve/veya alınıp alınmayacağını ayarla",
+      "belirli gem'leri almak istemiyorsan <atla>'yı seç (ör. başka bir karakterle zaten taşıyorsan)",
+      "gem'ler altı çiziliyse, en erken toplamanın a3 kütüphane görevi olduğu anlamına gelir"
+    ],
+    "save-reset": [
+      "değişiklikleri uygulamak/geri almak rehber ilerlemenizi de sıfırlayacak(/highlight)"
+    ]
+  },
+  "leveltrackerschematics": {
+    "color spec": [
+      "yeni düğümleri vurgulamak için kullanılan renk",
+      "renk paletini açmak için sol tıkla\nvarsayılana sıfırlamak için sağ tıkla"
+    ],
+    "color unspec": [
+      "kaldırılacak düğümleri vurgulamak için kullanılan renk",
+      "renk paletini açmak için sol tıkla\nvarsayılana sıfırlamak için sağ tıkla"
+    ],
+    "how-to": [
+      "bireysel yetenek ağaçları arasında geçiş yapmak için <q> veya <e>'ye bas",
+      "tüm ağacın genel görünümünü göstermek için <w> basılı tut",
+      "bireysel ascendancy ağaçlarını göstermek için <1> ile <4> sayı tuşlarını basılı tut",
+      "sol tıkla: oyun içi ağacı sürükle || sağ tıkla: overlay'i sürükle\n(her ikisi aynı anda sürüklenebilir)\norta tıkla: beyaz/sarı daireyi imlece yapıştır",
+      "overlay'i geçici olarak gizlemek için <alt> basılı tut"
+    ],
+    "opacity": [
+      "overlay'in opaklığını ayarla (varsayılan: 100)"
+    ]
+  },
+  "actdecoder": {
+    "alignment": [
+      "görsellerin hizalanmasını değiştirir: yatay veya dikey"
+    ],
+    "drag": [
+      "overlay'i taşımak için sürükle\nvarsayılan konuma sıfırlamak için sağ tıkla"
+    ],
+    "flip": [
+      "tıkla: yatay ayna\nsağ tıkla: dikey ayna",
+      "göstergeleri nasıl eşleştireceğinden emin değilsen, döndürmeden önce her zaman aynalama dene(/highlight)"
+    ],
+    "help panel": [
+      "genel:\nyakınlaştırmak için kaydır\nbilgi için orta mouse basılı tut\noverlay'i kilitlemek/(kilidini açmak) için <alt>'a bas",
+      "görseller turuncu kenarlara sahipse, olası düzenlerin kesin olmayan örnekleridir (kabaca bir fikir vermek için)(/highlight)",
+      "görseller beyaz kenarlara sahipse, tam düzenleri bulmak için miniharitadaki belirli tanımlayıcıları eşleştirmelisin:\n\neşleşme seçmek için görsellere tıkla veya sayı tuşlarına bas\n\nmevcut tanımlayıcı setini iptal etmek ve bir sonrakine geçmek için 3'e bas",
+      "tüm değişiklikleri ve seçimleri/iptalleri geri almak için <q>'ya bas",
+      "açıklama/bilgi kutularını gizlemek için ilgili sayı tuşuna bas\n\ngörselleri genel olarak gizlemek için sağ tıkla"
+    ],
+    "reset": [
+      "bu bölge için görsel değişikliklerini ve seçimleri/iptalleri sıfırlamak için tıkla"
+    ],
+    "rotate": [
+      "tıkla: 90 derece döndür\nsağ tıkla: -90 derece döndür"
+    ],
+    "rotate 2": [
+      "tıkla: 90 derece döndür\nsağ tıkla: -90 derece döndür",
+      "göstergeleri nasıl eşleştireceğinden emin değilsen, döndürmeden önce her zaman aynalama dene(/highlight)"
+    ]
+  },
+  "lootfilter": {
+    "add stack": [
+      "bir yığın boyutu gir, sonra bu temel tür için özel bir yığın kuralı eklemek için bu etikete tıkla"
+    ],
+    "apply mods": [
+      "yeni dosyayı oluşturmak ve uygulamak için uzun tıkla",
+      "(/highlight)/itemfilter oyun içi komutu kullanılacak, bu yüzden sohbet kutusunun kapalı ve erişilebilir olduğundan emin ol"
+    ],
+    "backgroundcolor": [
+      "arka plan rengini seçmek için tıkla, önceki renge sıfırlamak için sağ tıkla"
+    ],
+    "bordercolor": [
+      "kenarlık rengini seçmek için tıkla, önceki renge sıfırlamak için sağ tıkla"
+    ],
+    "textcolor": [
+      "metin rengini seçmek için tıkla, önceki renge sıfırlamak için sağ tıkla"
+    ],
+    "basefilter": [
+      "temel olarak kullanmak istediğin filtreyi seç",
+      "özelleştirmelerinle ayrı bir dosya oluşturulacak ve oyun içinde uygulanacak, temel filtre değişmeden kalacak"
+    ],
+    "global item-classes": [
+      "bu seçeneği etkinleştirmek altında ek onay kutularını gösterecek",
+      "bu geçersiz kılmayı etkinleştirmek için en az bir eşya sınıfını işaretlemelisin",
+      "bu ayrıca yüksek katman eşyalarını da gizleyecek:\ntanımlanmamış (katman x)"
+    ],
+    "global overrides": [
+      "aşağıdaki seçenekler daha büyük eşya grupları için filtrelemeyi hızlıca değiştirmek için kullanılabilir",
+      "burada yapılan değişiklikler, arama sonuçları listesi bunu yansıtmasa bile her zaman bireysel özelleştirmeleri geçersiz kılar"
+    ],
+    "gui color": [
+      "eşya etiketlerinin altındaki arka plan rengini seçmek için tıkla veya varsayılana sıfırlamak için sağ tıkla"
+    ],
+    "hide": [
+      "tüm eşya grubunu oyun içinde gizle"
+    ],
+    "highlight color": [
+      "kural değişikliklerini vurgulamak için kullanılan rengi seçmek için tıkla veya varsayılana sıfırlamak için sağ tıkla"
+    ],
+    "incompatible": [
+      "bazı değişiklikler artık yeni temel filtreye uygulanamıyor ve güncellemeler uygulandıktan sonra atılacak",
+      "bu genellikle yeni temel filtrenin daha önce açıp kapattığın belirli bir kuralın artık olmadığı anlamına gelir"
+    ],
+    "modifications": [
+      "şu anda uygulanan/bekleyen değişikliklerin listesi: tüm listeyi temizlemek için bu başlık paneline uzun tıkla",
+      "temel tür(ler)i aramak için bir eşya adına (shift-)tıkla, kaldırmak için sağ tıkla"
+    ],
+    "refresh": [
+      "klasörün içeriğini, seçilen temel filtreyi ve modifiye filtreyi yeniden yükle",
+      "(/highlight)kaydedilmemiş değişiklikler kaybolacak"
+    ],
+    "revert": [
+      "bu gruptaki her değişikliği geri al"
+    ],
+    "search": [
+      "eşya temel türlerini yaz ve mevcut kuralları aramak için <enter>'a bas: regex ve çoklu arama için virgül ayrımını destekler",
+      "temel tür(ler)i aramak için oyundaki eşyalara (shift-)omni-click da yapabilirsin"
+    ],
+    "search reset": [
+      "mevcut aramayı temizle ve global geçersiz kılma seçeneklerini göster"
+    ],
+    "style color": [
+      "stil değişikliklerini vurgulamak için kullanılan rengi seçmek için tıkla veya varsayılana sıfırlamak için sağ tıkla"
+    ]
+  },
+  "maptracker": {
+    "logviewer day-select": [
+      "tarih seçimini aç: kaydedilen map koşularının dökümünü gösterir",
+      "mevcut arama filtresi kullanılabilir tarihleri etkileyecek"
+    ],
+    "logviewer date help": [
+      "genel: o dönemdeki koşuları göstermek için bir düğmeye tıkla, bu koşuları silmek için üzerinde gelirken <del> uzun bas",
+      "yıllar: dökümünü aşağıda göstermek için bir yıla tıkla, tüm yılı yüklemek için çift tıkla"
+    ],
+    "logviewer export": [
+      "aşağıdaki koşul listesini CSV dosyası olarak dışa aktarmak için uzun tıkla, aynı tarihli mevcut dosyanın üzerine yazar",
+      "dışa aktarma klasörünü açmak için sağ tıkla"
+    ],
+    "logviewer page-entries": [
+      "her sayfada kaç girdi gösterileceği (otomatik = kayıt görüntüleyici mevcut ekran alanına göre ayarlanacak)"
+    ],
+    "logviewer search": [
+      "her sütunun regex ve özel desenleri destekleyen bir arama çubuğu var (daha fazla bilgi için üzerlerine gel):\ntüm girişlerle aynı anda arama başlatmak için <enter>'a bas veya filtresiz kayıt görüntüleyicisini geri yüklemek için kırmızı x'e tıkla"
+    ],
+    "logviewer sum avg": [
+      "bir sütundaki verileri toplam / yüzde / ortalama olarak görüntülemek için bu satırdaki vurgulanan hücrelere tıkla"
+    ],
+    "logviewer search map": [
+      "desteklenen girişler:\n\"xyz\" (ara), \"!abc\" (hariç tut), \"xyz !abc\" (xyz ara, abc hariç tut)"
+    ],
+    "logviewer header map": [
+      "bir map adını düzenemek için uzun tıkla, koşuyu silmek için uzun sağ tıkla",
+      "map adları arama için tıklanabilir:\naramaya \"<ad>\" yapıştırmak için tıkla, \"!<ad>\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer search tier": [
+      "desteklenen girişler:\n\"x\" (tam katman), \"!x\" (hariç tut), \"x-y\" (x ile y arası), \"x+\" (x veya daha yüksek)"
+    ],
+    "logviewer header tier": [
+      "koşunun katmanı (map) veya seviyesi (ör. contract)",
+      "sayılar arama için tıklanabilir:\naramaya \"<katman>\" yapıştırmak için tıkla, \"!<katman>\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer search run": [
+      "desteklenen girişler:\n\"x\" (tam süre), \"x-y\" (x ile y arası), \"x+\" (x veya daha uzun)",
+      "x/y iki nokta içermiyorsa saniye olarak, aksi takdirde (ss:)dd:sn olarak işlenir"
+    ],
+    "logviewer header run": [
+      "koşuyu tamamlamanın ne kadar sürdüğü"
+    ],
+    "logviewer header e-exp": [
+      "bir map'te kazanılan etkili exp (yani cezalardan sonra), senin ve canavarların seviyesine göre",
+      "önce ayarların <general> bölümünde karakterinin adını belirtmelisin"
+    ],
+    "logviewer search deaths": [
+      "desteklenen girişler:\n\"x\" (tam değer), \"x-y\" (x ile y arası), \"x+\" (x veya daha yüksek)"
+    ],
+    "logviewer header deaths": [
+      "bir koşudaki ölüm sayısı",
+      "başlık arama için tıklanabilir:\naramaya \"1+\" yapıştırmak için tıkla, \"0\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer search portals": [
+      "desteklenen girişler:\n\"x\" (tam değer), \"x-y\" (x ile y arası), \"x+\" (x veya daha yüksek)"
+    ],
+    "logviewer header portals": [
+      "bir koşuda kullanılan portal sayısı"
+    ],
+    "logviewer search kills": [
+      "desteklenen girişler:\n\"x\" (tam değer), \"x-y\" (x ile y arası), \"x+\" (x veya daha yüksek)"
+    ],
+    "logviewer header kills": [
+      "bir koşuda öldürülen canavarlar (opsiyonel, önce etkinleştirilmesi gerekir): oyun içi /kills komutunu kullanır",
+      "başlık arama için tıklanabilir:\naramaya \"1+\" yapıştırmak için tıkla, \"0\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer search loot": [
+      "desteklenen girişler:\n\"xyz\" (ara), \"!abc\" (hariç tut), \"xyz !abc\" (xyz ara, abc hariç tut), \"abc, xyz, ...\" (abc, ve xyz, ... ara)"
+    ],
+    "logviewer header loot": [
+      "bir map'te bulunan ganimet (opsiyonel, önce etkinleştirilmesi gerekir):\nkaydedilen ganimetin listesini görmek için bu sütundaki vurgulanan hücrelere tıkla",
+      "başlık arama için tıklanabilir:\naramaya \"yes\" yapıştırmak için tıkla, \"no\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer search mapinfo": [
+      "desteklenen girişler:\n\"xyz\" (ara), \"!abc\" (hariç tut), \"xyz !abc\" (xyz ara, abc hariç tut), \"abc, xyz, ...\" (abc, ve xyz, ... ara)",
+      "mod'ları ve genel roll'ları da arayabilirsin, ör. 100% quantity için \"100q\"\n(genel roll'lar için her zaman \"x ve üzeri\" olarak aranacak)"
+    ],
+    "logviewer search mapinfo 2": [
+      "desteklenen girişler:\n\"xyz\" (ara), \"!abc\" (hariç tut), \"xyz !abc\" (xyz ara, abc hariç tut), \"abc, xyz, ...\" (abc, ve xyz, ... ara)"
+    ],
+    "logviewer header mapinfo": [
+      "bir map'ün roll'lanan mod'ları (opsiyonel, önce etkinleştirilmesi gerekir):\nkaydedilen mod'ların listesini görmek için bu sütundaki vurgulanan hücrelere tıkla",
+      "başlık arama için tıklanabilir:\naramaya \"yes\" yapıştırmak için tıkla, \"no\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer search notes": [
+      "desteklenen girişler:\n\"xyz\" (ara), \"!abc\" (hariç tut), \"xyz !abc\" (xyz ara, abc hariç tut), \"abc, xyz, ...\" (abc, ve xyz, ... ara)"
+    ],
+    "logviewer header notes": [
+      "koşular için özel notlar (koşu sırasında/öncesinde not eklemek opsiyoneldir ve önce etkinleştirilmesi gerekir):\nkoşudan sonra not eklemek/düzenlemek için bu sütundaki hücrelere sağ tıkla, görüntülemek için vurgulanan hücrelere tıkla",
+      "başlık arama için tıklanabilir:\naramaya \"yes\" yapıştırmak için tıkla, \"no\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer search character": [
+      "desteklenen girişler:\n\"xyz\" (ara), \"!abc\" (hariç tut), \"xyz !abc\" (xyz ara, abc hariç tut), \"abc, xyz, ...\" (abc, ve xyz, ... ara)\n\"x\" (tam seviye), \"x-y\" (x ile y arası), \"x+\" (x veya daha yüksek)"
+    ],
+    "logviewer header character": [
+      "koşuda oynanan karakter (ve build) hakkında bilgi:\nbu bilgiyi görüntülemek için bu sütundaki vurgulanan hücrelere tıkla",
+      "başlık arama için tıklanabilir:\naramaya \"yes\" yapıştırmak için tıkla, \"no\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer header league": [
+      "lig hakkında bilgi (opsiyonel, önce etkinleştirilmesi gerekir):\nbu bilgiyi görüntülemek için bu sütundaki vurgulanan hücrelere tıkla",
+      "başlık arama için tıklanabilir:\naramaya \"yes\" yapıştırmak için tıkla, \"no\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ],
+    "logviewer search content": [
+      "desteklenen girişler:\n\"xyz\" (ara), \"!abc\" (hariç tut), \"xyz !abc\" (xyz ara, abc hariç tut), \"abc, xyz, ...\" (abc, ve xyz, ... ara)",
+      "kullanılabilir kısaltmalar: elder guardian'lar için \"elder\", conqueror'lar için \"sirus\""
+    ],
+    "logviewer search content 2": [
+      "desteklenen girişler:\n\"xyz\" (ara), \"!abc\" (hariç tut), \"xyz !abc\" (xyz ara, abc hariç tut), \"abc, xyz, ...\" (abc, ve xyz, ... ara)"
+    ],
+    "logviewer header content": [
+      "bir map'te karşılaştığın yan içerik (opsiyonel, önce etkinleştirilmesi gerekir)",
+      "başlık ve simgeler arama için tıklanabilir:\naramaya \"<içerik>\" yapıştırmak için tıkla, \"!<içerik>\" yapıştırmak için sağ tıkla, hemen aramak için çift (sağ) tıkla"
+    ]
+  },
+  "maptrackernotes": {
+    "help": [
+      "özel notlar yaz ve <enter>'a bas: X koşuyla sınırlamak için notun önüne \"X#\" ekle",
+      "notlara eklemek için eşyaların üzerinde <omni-key>'e bas:\nmap-device eşyaları sarı renkte vurgulanır ve 4 ile sınırlıdır",
+      "bir notu kaldırmak için uzun tıkla veya her şeyi temizlemek için başlığa uzun tıkla"
+    ]
+  },
+  "notepad": {
+    "colors": [
+      "metin rengi: renk paletini açmak için tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "colors1": [
+      "arka plan rengi: renk paletini açmak için tıkla, sıfırlamak için sağ tıkla"
+    ],
+    "widget": [
+      "sekme seçmek için tıkla, widget oluşturmak için sürükle, silmek için uzun sağ tıkla"
+    ],
+    "widget help": [
+      "widget'lar <widget-key> basılı tutulmadığı sürece etkin değildir (tıklanamaz)",
+      "widget'ları sürüklemek için sol tıkla, yok etmek için sağ tıkla",
+      "metni yalnızca tek bir kare işareti (#) içeren satırlarla ayırarak bireysel sayfalara sahip kaydırılabilir widget'lar oluşturabilirsin"
+    ],
+    "widget grouped": [
+      "her notu tek, kaydırılabilir bir widget'ta birleştirmek için sürükle"
+    ]
+  },
+  "sanctum": {
+    "calibrate paths": [
+      "kırpma aracını açmak ve yol tarayıcısını kalibre etmek için tıkla: daha hassas kırpma için sağ tıkla ve wasd kullan",
+      "önceki kalibrasyon verilerini silmek ve baştan başlamak için uzun sağ tıkla"
+    ],
+    "calibrate rooms": [
+      "kırpma aracını açmak ve oda sayısı ile konumları için tarayıcıyı kalibre etmek için tıkla",
+      "önceki kalibrasyon verilerini silmek ve baştan başlamak için uzun sağ tıkla"
+    ],
+    "general": [
+      "overlay'in otomatik gizlenmemesi için <boşluk>'a bas\nkapatmak için <esc>'ye bas",
+      "hedef oda olarak işaretlemek için bir odaya tıkla:\nyeşil vurgulama mevcut yolu gösterecek",
+      "kaçınmak istediğin bir veya daha fazla odaya sağ tıkla:\nmor vurgulama kaçınman gereken yolu gösterecek ve siyah vurgulama tamamen engellenen odaları gösterecek",
+      "mevcut oda olarak ele almak için bir odaya orta tıkla:\nartık ilgili olmayan her oda karartılacak. Ayrıca basılı tutup odalar arasında ileri geri gezinebilirsin."
+    ],
+    "scan": [
+      "haritayı taramak için tıkla, tarama sonucunu görmek için uzun sağ tıkla"
+    ]
+  },
+  "sanctumrelics": {
+    "general": [
+      "rölikleri ızgaraya yüklemek için sağ tıkla",
+      "not: imleci her zaman röliğin sol üst köşesine taşı(/highlight)",
+      "kutuları geçici olarak gizlemek için <alt> basılı tut",
+      "overlay'i kapatmak için <esc>'ye bas: oyunda <onayla>'ya tıklayınca da kapanacak"
+    ],
+    "mods": [
+      "ilgili rölikleri vurgulamak için 2 adede kadar mod'a tıkla",
+      "ilgili rölikleri oyun içi stash'te vurgulamak için mod'lara sağ tıkla"
+    ],
+    "clear": [
+      "ızgarayı ve mod listesini temizlemek için uzun tıkla"
+    ]
+  },
+  "screenchecks": {
+    "async1": [
+      "(/bold)(/underline)talimatlar:",
+      "-> tüccar pencerenizi aç: üstteki plaka (img) tamamen görünür olmalı",
+      "-> aracın kalibre etmesi için <cal>'a tıkla VEYA manuel kalibre etmek için sağ tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "async2": [
+      "(/bold)(/underline)talimatlar:",
+      "-> bir oyuncunun tüccar penceresini aç: üstteki plaka (img) tamamen görünür olmalı",
+      "-> aracın kalibre etmesi için <cal>'a tıkla VEYA manuel kalibre etmek için sağ tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "atlas": [
+      "(/bold)(/underline)talimatlar:",
+      "-> atlası aç: üstteki plaka (img) tamamen görünür olmalı",
+      "-> aracın kalibre etmesi için <cal>'a tıkla VEYA manuel kalibre etmek için sağ tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "betrayal": [
+      "(/bold)(/underline)talimatlar:",
+      "-> syndicate panosunu aç: x düğmesi (img) tamamen görünür olmalı",
+      "-> aracın kalibre etmesi için <cal>'a tıkla VEYA manuel kalibre etmek için sağ tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "exchange": [
+      "(/bold)(/underline)talimatlar:",
+      "-> currency exchange'ı aç",
+      "-> envanterin kapalı olduğundan emin ol",
+      "-> <cal>'a tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "gamescreen": [
+      "(/bold)(/underline)açıklama:",
+      "-> bu kontrol, tam ekran bir arayüzün ekranda olup olmadığını (gevek olarak) belirlemek için kullanılır",
+      "(/bold)(/underline)talimatlar:",
+      "-> tüm oyun içi menüleri kapat: atlas, envanter, vb.",
+      "-> miniharita ortada olmalı",
+      "-> bilgi paneli (img) tamamen görünür olmalı",
+      "-> <cal>'a tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "gamescreen 2": [
+      "(/bold)(/underline)açıklama:",
+      "-> bu kontrol, tam ekran bir arayüzün ekranda olup olmadığını (gevek olarak) belirlemek için kullanılır",
+      "(/bold)(/underline)talimatlar:",
+      "-> tüm oyun içi menüleri kapat: atlas, envanter, vb.",
+      "-> miniharita ortada olmalı",
+      "-> bilgi paneli (img) tamamen görünür olmalı",
+      "-> <cal> düğmesine uzun tıkla: bir 'artı işareti' ve yakınlaştırma widget'ı imleci takip edecek",
+      "-> 'artı işareti'ni bilgi panelindeki bir harfin üzerine sürükle, görselde gösterildiği gibi",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "close_button": [
+      "(/bold)(/underline)açıklama:",
+      "-> bu, tam ekran bir arayüzün ekranda olup olmadığını (gevek olarak) belirlemek için alternatif bir kontroldür",
+      "-> overlay'leri otomatik olarak gizlemek/göstermek için <clone-frames> özelliği tarafından kullanılır",
+      "(/bold)(/underline)talimatlar:",
+      "-> oyun içi pasif ağacı aç",
+      "-> <kapat düğmesi> (img) tamamen görünür olmalı",
+      "-> <cal> düğmesine uzun tıkla: bir 'artı işareti' ve yakınlaştırma widget'ı imleci takip edecek",
+      "-> 'artı işareti'ni <kapat düğmesi>'ndeki kırmızı bir pikselin üzerine sürükle, görselde gösterildiği gibi",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "inventory": [
+      "(/bold)(/underline)talimatlar:",
+      "-> envanteri aç",
+      "-> sağ üst köşe (img: sarı) tamamen görünür olmalı",
+      "-> <cal>'a tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "sanctum": [
+      "(/bold)(/underline)talimatlar:",
+      "-> kat planını aç: üstteki plaka (img) tamamen görünür olmalı",
+      "-> aracın kalibre etmesi için <cal>'a tıkla VEYA manuel kalibre etmek için sağ tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "skilltree": [
+      "(/bold)(/underline)talimatlar:",
+      "-> yetenek ağacını aç: üstteki plaka (img) tamamen görünür olmalı",
+      "-> aracın kalibre etmesi için <cal>'a tıkla VEYA manuel kalibre etmek için sağ tıkla",
+      "-> <test>'teki talimatları takip et"
+    ],
+    "stash": [
+      "(/bold)(/underline)talimatlar:",
+      "-> stash'i aç",
+      "-> aracın kalibre etmesi için <cal>'a tıkla VEYA manuel kalibre etmek için sağ tıkla",
+      "-> <test>'teki talimatları takip et"
+    ]
+  },
+  "statlas": {
+    "tier": [
+      "bu filtreyi ayarlamak için mouse tekerleğini kaydır"
+    ]
+  },
+  "radial": {
+    "leveltracker close": [
+      "rehber overlay'ini kapat:\n overlay tekrar açılana kadar kapalı kalacak"
+    ],
+    "leveltracker geartracker": [
+      "geartracker:\nseviye atlamalarından sonra ekipman veya gem gereksinimlerini karşıladığında bildirir"
+    ],
+    "leveltracker leveltracker": [
+      "rehber overlay'ini aç/kapat:\noverlay seviye atlama veya bölge geçişine kadar kapalı kalacak"
+    ],
+    "maptracker pause": [
+      "map takibini duraklat"
+    ],
+    "maptracker resume": [
+      "map takibini devam ettir"
+    ],
+    "notepad close": [
+      "tüm metin widget'larını kapat"
+    ],
+    "notepad quick-note": [
+      "hızlı not:\ntek kullanımlık widget oluştur"
+    ],
+    "settings close": [
+      "exile ui'yı kapat"
+    ],
+    "settings restart": [
+      "exile ui'yı yeniden başlat"
+    ],
+    "settings sub-menu": [
+      "bu özellik için ayarları aç"
+    ]
+  },
+  "recombination": {
+    "color 1": [
+      "tıkla: özelleştir   |   sağ tıkla: varsayılana sıfırla",
+      "eşleşen özellikleri vurgulamak için kullanılır"
+    ],
+    "color 2": [
+      "tıkla: özelleştir   |   sağ tıkla: varsayılana sıfırla",
+      "simülasyonu önleyen uyumsuzlukları vurgulamak için kullanılır"
+    ],
+    "color 3": [
+      "tıkla: özelleştir   |   sağ tıkla: varsayılana sıfırla",
+      "sonucu etkileyen dikkat gerektiren şeyleri vurgulamak için kullanılır"
+    ],
+    "basics": [
+      "bir eşya rastgele son temel olarak seçilecek ve influence'larını, etiketlerini (ör. corrupted, split), kalitesini, implicit'lerini, enchant'larını, anoint'larını koruyacak",
+      "mod'ları crafting/düzenleme yaparak oranları değiştirebilirsin",
+      "influence mod'ları gerekli influence'a sahip olmayan temellere taşınamaz,\nfractured mod'lar orijinal temelden taşınamaz ve yalnızca oradaki genel affix havuzuna eklenir",
+      "(/highlight)not: mod ağırlıklandırması henüz çözülmedi, bu yüzden her affix grubunda daha fazla özel olmayan mod bulundukça sonuçlar daha az doğru olur (ör. hedef crafting yerine rastgele ganimet birleştirirken)"
+    ],
+    "exclusive": [
+      "bir mod'un \"exclusive\" olup olmadığı (yani belirli bir grubun parçası ve dolayısıyla kısıtlamalardan etkilenip etkilenmediği)",
+      "son eşyaya yalnızca tek bir exclusive mod recombine edilebilir",
+      "örnekler: breach, incursion, essence, bestiary, betrayal & veiled, delve, adlı bench-craft'lar (tora's, chosen, of the order, vb.) & metamod'lar, elevated mod'lar"
+    ],
+    "lock": [
+      "eşya yuvasını kilitler böylece eşya yüklerken veya paneli kapatırken otomatik olarak üzerine yazılmaz veya temizlenmez"
+    ],
+    "nnn": [
+      "bir mod'un \"non-native, natural\" olup olmadığı (yani belirli temellere kısıtlı olup olmadığı)",
+      "bu mod'lar yalnızca son temel belirli gereksinimleri karşılıyorsa recombine edilebilir",
+      "örnekler: influenced, attribute/defense'a özel ve fractured mod'lar",
+      "(/highlight)panele yeni eşya yüklemek mod'ların nnn olup olmadığını otomatik olarak sıfırlayacak/yeniden kontrol edecek"
+    ]
+  },
+  "searchstrings": {
+    "config entry-about": [
+      "bu kullanım durumu için girdiler ekleyerek özel bir dize listesi oluştur:\ngirdi için açıklayıcı bir ad yaz ve <enter>'a bas",
+      "harvest crafting için örnek liste:\n- sacrifice corrupted map\n- sacrifice div card\n- change resistance"
+    ],
+    "config entry-list": [
+      "dizelerini düzenlemek için bir girdiye tıkla, kaldırmak için <del>'e uzun tıkla",
+      "dizeleri sağdaki düzenleme alanına yapıştır:\nayrı satırlara yapıştırarak girdi başına birden fazla dize ekleyebilirsin",
+      "birden fazla dizesi olan bir girdiyi etkinleştirirken, bunları sırayla oyuna yapıştırmak için mouse tekerleğini kaydırabilirsin"
+    ]
+  },
+  "seed-explorer": {
+    "import": [
+      "panodan bir jewel içe aktarır (ör. ticaretten kopyalanan)"
+    ],
+    "trade": [
+      "bu seed için bir arama ile ticaret sitesini açar"
+    ],
+    "download": [
+      "gerekli veritabanları henüz indirilmedi",
+      "indirmeyi başlatmak için bu düğmeye tıkla"
+    ],
+    "legion notables": [
+      "aşağıdaki liste mevcut jewel türünün tüm legion notable'ını gösterir",
+      "etkilerini görmek için notable'ların üzerine gel, istenen olarak işaretlemek için sağ tıkla"
+    ],
+    "legion notables socket": [
+      "aşağıdaki liste bu jewel'i seçilen jewel yuvasına taktıktan sonraki değişiklikleri gösterir",
+      "etkilerini görmek için notable'ların üzerine gel,\noyun içi yetenek ağacında konumunu vurgulamak için tıkla,\nistenen olarak işaretlemek için sağ tıkla"
+    ],
+    "socket": [
+      "aşağıdaki liste seçilen jewel yuvasının etrafındaki normal notable'ları gösterir",
+      "oyun içi yetenek ağacında vurgulamak için bir notable'a tıkla, tahsis edilmiş olarak işaretlemek için sağ tıkla",
+      "tahsis edilen notable'lar yeşil olarak, mevcut seed onu istenen bir legion notable'a dönüştürüyorsa sarı olarak vurgulanır"
+    ],
+    "tree": [
+      "yukarıdaki keşif aracına yüklemek için bir jewel yuvasına tıkla veya seçimi kaldırmak için tekrar tıkla",
+      "seed istenen legion notable'lar sonucu veriyorsa her yuva sayılarla etiketlenebilir:\n- turkuaz etiketler yuva etrafındaki istenen legion notable sayısını gösterir\n- sarı etiketler istenen legion notable'lara dönüşecek tahsis edilen notable sayısını gösterir"
+    ],
+    "update": [
+      "veritabanı güncellemelerini kontrol etmek için bu düğmeye tıkla"
+    ]
+  },
+  "snip": {
+    "about": [
+      "ekran görüntüsü almak istediğin alanın üzerine bu widget'ı yeniden boyutlandır ve yerleştir",
+      "widget'ı 1 piksel taşımak/yeniden boyutlandırmak için ok tuşlarını kullan",
+      "taşımak yerine yeniden boyutlandırmak için <alt> basılı tut,\n10 piksel taşımak/yeniden boyutlandırmak için <ctrl> basılı tut",
+      "görseli belirli bir yuvaya kaydetmek için <kırp>'a tıkla"
+    ]
+  }
+}

@@ -1,0 +1,1418 @@
+[
+  [
+    [
+      "hillock'u öldür",
+      "gir areaid1_1_town ;; lioneye's watch"
+    ],
+    [
+      "(img:quest) tarkleigh: <enemy_at_the_gate>",
+      "gir areaid1_1_2 ;; the coast"
+    ],
+    [
+      "ligbaşlangıcı: (img:waypoint) aktive et",
+      "gir areaid1_1_3 ;; the mud flats"
+    ],
+    [
+      "(img:quest) (quest:3_glyphs) için akıntıları takip et",
+      "gir (img:quest) areaid1_1_4_1 ;; the submerged passage"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) areaid1_1_2 ;; the coast",
+        "gir areaid1_1_2a ;; the tidal island"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "duvarın (img:6) tarafını takip et",
+        "(hint)__ çıkıntı mı var? (img:2) tarafı takip et",
+        "(quest:chest) için hailrake'i öldür (lvl:4)",
+        "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) tarkleigh: <breaking_some_eggs1>, <breaking_some_eggs2>",
+        "(img:quest) nessa: <mercy_mission>",
+        "(img:waypoint) areaid1_1_4_1 ;; the submerged passage"
+      ]
+    },
+    [
+      "twinkrun: (color:ff00ff)buy_gems (img:hideout) (color:fec076)your_hideout || lilly: <mercy_mission>, <breaking_some_eggs1>, <breaking_some_eggs2> ;; only shows with imported pob",
+      "köprü veya (img:arena) depths bul, (img:portal) koy",
+      "köprüyü geç, gir areaid1_1_5 ;; the ledge"
+    ],
+    [
+      "duvarı takip et areaid1_1_6 ;; the climb",
+      "(hint)__ güvenli rota: uçurumu takip et"
+    ],
+    [
+      "kenarı takip et areaid1_1_7_1 ;; the lower prison"
+    ],
+    [
+      "(img:waypoint) areaid1_1_town (img:town) ;; lioneye's watch",
+      "gir (img:portal) areaid1_1_4_1 ;; the submerged passage"
+    ],
+    [
+      "bul ve gir areaid1_1_4_0 ;; the flooded depths",
+      "(hint)__ köprüden önce (img:6) veya (img:1), nadiren (img:3)"
+    ],
+    [
+      "dweller'ı bul ve öldür (essence)",
+      "(hint)__ (img:arena) başlangıç ve arena:dweller : karşı köşelerde",
+      "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+    ],
+    [
+      "(img:quest) tarkleigh: (quest:book)",
+      "(img:quest) nessa: <the_caged_brute1>",
+      "(img:waypoint) areaid1_1_7_1 ;; the lower prison"
+    ],
+    [
+      "ligbaşlangıcı: (img:lab) trial tamamla",
+      "(hint)__ genellikle bölgede (img:1)",
+      "gir areaid1_1_7_2 ;; the upper prison"
+    ],
+    [
+      "opsiyonel: chemist's strongbox bul",
+      "(hint)__ quicksilver flask düşürebilir",
+      "brutus'u öldür (lvl:8-10)",
+      "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+    ],
+    [
+      "(img:quest) tarkleigh: <the_caged_brute2>",
+      "ligbaşlangıcı: opsiyonel: fazla quicksilver? (color:cc99ff)vendor:",
+      "(hint)__ qs-flask + aug + (ms) boots",
+      "(img:waypoint) areaid1_1_8 ;; prisoner's gate"
+    ],
+    [
+      "yolun yanındaki çıkıntı geçide götürür",
+      "duvarı takip et areaid1_1_9 ;; the ship graveyard"
+    ],
+    [
+      "duvarı takip et, (color:ff00ff)find_2 (img:arena) çıkış:",
+      "(hint)_ - önce (img:arena) cavern_of_wrath ise: (img:in-out2) (color:ffffff)(img:waypoint) için",
+      "(hint)_ - değilse: (img:portal) koy || (img:arena) cavern'a gir, (img:waypoint) (img:town)",
+      "(gir (img:portal) ,) gir areaid1_1_9a ;; ship graveyard caveduvarı takip et, (img:arena) (color:99ccff)cavern ve (img:arena) cave bul :"
+    ],
+    [
+      "(quest:allflame) için (img:quest) (quest:slave_girl) bul",
+      "(hint)__ (img:arena) başlangıç ve (quest:girl) : karşı köşelerde",
+      "gir areaid1_1_9 ;; the ship graveyard"
+    ],
+    [
+      "fairgraves'i öldür",
+      "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+    ],
+    [
+      "(img:quest) bestel: (quest:book)",
+      "(img:quest) nessa: <the_siren's_cadence>",
+      "(img:waypoint) areaid1_1_11_1 ;; the cavern of wrath"
+    ],
+    [
+      "bul ve gir areaid1_1_11_2 ;; the cavern of anger",
+      "(hint)__ su akışı ona işaret eder"
+    ],
+    [
+      "gir (img:arena) lair (lvl:11-13), merveil'i öldür",
+      "(hint)__ su akışı ona işaret eder",
+      "gir areaid1_2_1 ;; the southern forest"
+    ]
+  ],
+  [
+    [
+      "duvar areaid1_2_town'a götürür ;; the forest encampment"
+    ],
+    [
+      "(img:1) yönüne git areaid1_2_2 ;; the old fields"
+    ],
+    [
+      "ligbaşlangıcı: opsiyonel: (img:quest) (color:8787fe)flask / <belt> : (img:arena) den'i bul, (img:portal) koy ;; the den",
+      "(hint)__ genellikle yolun yakınında bulunur",
+      "yolu takip et: areaid1_2_3 ;; the crossroads"
+    ],
+    [
+      "yolu takip et, (img:waypoint) al",
+      "ligbaşlangıcı: opsiyonel: (img:quest) (color:8787fe)flask / <belt> : (img:waypoint) (img:town)",
+      "(hint)_ - gir (img:portal) || gir areaid1_2_2a",
+      "(hint)_ - beast'i öldür || (color:cc99ff)relog: (img:quest) yeena",
+      "(img:7) yönüne git: areaid1_2_6_1 ;; the chamber of sins level 1"
+    ],
+    [
+      "gir areaid1_2_6_2 ;; the chamber of sins level 2",
+      "(hint)__ ortadaki (img:waypoint) çıkışı gösterir"
+    ],
+    [
+      "ligbaşlangıcı: (img:lab) trial tamamla",
+      "fidelitas'ı öldür (lvl:14-15) || (img:quest) (quest:gem) al",
+      "(hint)__ (img:arena) başlangıç ve (color:cc99ff)arena: karşı köşelerde",
+      "(color:cc99ff)relog: areaid1_2_town ;; the forest encampment"
+    ],
+    [
+      "(img:quest) greust: <intruders_in_black>",
+      "(img:waypoint) areaid1_2_3 ;; the crossroads"
+    ],
+    [
+      "(img:3) yönüne git areaid1_2_15 ;; the fellshrine ruins",
+      "yolu takip et: areaid1_2_5_1 ;; the crypt level 1"
+    ],
+    [
+      "ligbaşlangıcı: (img:lab) trial tamamla",
+      "bul ve gir areaid1_2_5_2 ;; the crypt level 2",
+      "(hint)__ (img:arena) başlangıç ve (img:arena) çıkış: karşı köşelerde"
+    ],
+    [
+      "(quest:golden_hand) için (img:quest) (quest:altar) bul",
+      "(hint)__ (img:arena) başlangıç ve (quest:altar): karşı köşelerde",
+      "(color:cc99ff)relog: areaid1_2_town ;; the forest encampment"
+    ],
+    [
+      "(img:quest) yeena: (quest:book)",
+      "(img:5) yönüne git areaid1_2_7 ;; the riverways"
+    ],
+    [
+      "yolu takip et, (img:waypoint) al",
+      "yolu takip et: areaid1_2_9 ;; the western forest"
+    ],
+    [
+      "yolu takip et, (img:waypoint) al",
+      "gir areaid1_2_10 ;; the weaver's chambers",
+      "(hint)__ (img:waypoint) olmayan tarafta ara"
+    ],
+    [
+      "(quest:spike) için weaver'ı öldür (lvl:16)",
+      "(hint)__ (img:6) kenarını takip et. olmuyorsa",
+      "(hint)__ daha (img:6) veya (img:4) git, (img:1) yönüne git",
+      "(color:cc99ff)relog: areaid1_2_town ;; the forest encampment"
+    ],
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:quest) silk: <sharp_and_cruel>",
+        "(img:waypoint) areaid1_2_3 ;; the crossroads"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:1) yönüne git areaid1_2_4 ;; the broken bridge"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "yolu takip et",
+        "ligbaşlangıcı: opsiyonel: jewellery + 3 rogue exiles",
+        "(hint)__ (img:waypoint) yakınındaki (color:cc99ff)harabeleri ara",
+        "(color:red)arena:kraityn'i öldür (quest:amulet) için",
+        "(color:cc99ff)relog: areaid1_2_town ;; the forest encampment"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:quest) silk: <sharp_and_cruel>",
+        "(img:waypoint) areaid1_2_7 ;; the riverways"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) areaid1_2_7 ;; the riverways"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "2 sütun arasındaki patikayı takip et",
+        "gir areaid1_2_12 ;; the wetlands"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(color:red)arena:oak'u öldür (quest:amulet) için",
+        "(img:waypoint) bul: areaid1_2_9 ;; the western forest",
+        "(hint)__ genellikle (img:7) veya (img:1), nadiren (img:5)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) areaid1_2_9 ;; the western forest"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "kraityn",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "yoldaki meşaleye (img:4) yönüne git || takip et:",
+        "(hint)_ 1) yan yol: (color:red)arena:alira'yı öldür (quest:amulet) için",
+        "(hint)_ 2) ana yol: (quest:emblem) için arteri'yi öldür",
+        "(img:quest) (quest:seal) || (color:cc99ff)relog: areaid1_2_town ;; the forest encampment"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "alira"
+        ]
+      ],
+      "lines": [
+        "yoldaki meşaleye (img:4) yönüne git || takip et:",
+        "(hint)_ 1) yan yol: (quest:apex) için arena:alira'ya (quest:help)",
+        "(hint)_ 2) ana yol: (quest:emblem) için arteri'yi öldür",
+        "(img:quest) (quest:seal) || (color:cc99ff)relog: areaid1_2_town ;; the forest encampment"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none"
+        ]
+      ],
+      "lines": [
+        "(img:quest) eramir: (quest:the_apex)",
+        "(img:waypoint) areaid1_1_town (img:town) ;; lioneye's watch"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "alira",
+          "kraityn",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) areaid1_1_town (img:town) ;; lioneye's watch"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:quest) bestel: (quest:book)",
+        "(img:waypoint) areaid1_2_3 ;; the crossroads"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:1) yönüne git areaid1_2_4 ;; the broken bridge"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "yolu takip et",
+        "ligbaşlangıcı: opsiyonel: jewellery + 3 rogue exiles",
+        "(hint)__ (img:waypoint) yakınındaki (color:cc99ff)harabeleri ara",
+        "(quest:apex) için (color:ff8111)kraityn'e (quest:help)",
+        "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:quest) bestel: <the_way_forward>",
+        "(img:waypoint) areaid1_2_7 ;; the riverways"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "2 sütun arasındaki patikayı takip et",
+        "gir areaid1_2_12 ;; the wetlands"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "bul ve (quest:apex) için arena:oak'a (quest:help)",
+        "(img:quest) (quest:roots) temizle, gir areaid1_2_11 ;; the vaal ruins",
+        "(hint)__ genellikle (img:7) veya (img:1), nadiren (img:5)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira"
+        ]
+      ],
+      "lines": [
+        "(img:quest) bestel: (quest:book)",
+        "(img:waypoint) areaid1_2_12 ;; the wetlands"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) areaid1_2_12 ;; the wetlands"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:quest) (quest:roots) temizle, gir areaid1_2_11 ;; the vaal ruins"
+      ]
+    },
+    [
+      "bul ve gir areaid1_2_8 ;; the northern forest",
+      "(hint)_ - bölge genellikle s veya v şeklindedir",
+      "(hint)_ - nadir: bölge dışa doğru spiraldir"
+    ],
+    [
+      "(img:7) kenarı areaid1_2_14_2'ye götürür ;; the caverns"
+    ],
+    [
+      "bul ve gir areaid1_2_14_3 ;; the ancient pyramid",
+      "twinkrun: (hint)__ (img:waypoint) sonrası (img:7) / (img:0) / (img:1) köşesinde",
+      "ligbaşlangıcı: (hint)_ - (img:waypoint) sonrası (img:7) / (img:0) / (img:1) köşesinde",
+      "ligbaşlangıcı: (hint)_ - (img:craft): farklı köşe (gizli kapı)"
+    ],
+    [
+      "(img:arena) apex'i bul, oversoul'u öldür (lvl:20-22)",
+      "(hint)__ 1. (img:arena) (color:ffffff)rastgele, sonra karşı köşeler",
+      "(color:cc99ff)relog || (img:waypoint) areaid1_3_1 ;; the city of sarn"
+    ]
+  ],
+  [
+    [
+      "ligbaşlangıcı: (img:craft) için (img:3) yönüne git",
+      "(img:quest) clarissa'yı kurtarmak için (img:7) yönüne git",
+      "(img:5) yönüne git areaid1_3_town ;; the sarn encampment"
+    ],
+    [
+      "gir areaid1_3_2 ;; the slums",
+      "bul ve gir areaid1_3_3_1 ;; the crematorium",
+      "(hint)__ (img:arena) başlangıç ve (img:arena) çıkış: karşı köşelerde"
+    ],
+    [
+      "ligbaşlangıcı: (img:lab) trial tamamla",
+      "piety'yi öldür || (img:quest) (quest:bracelet) al",
+      "(color:cc99ff)relog: areaid1_3_town ;; the sarn encampment"
+    ],
+    [
+      "(img:quest) maramoa: <lost_in_love>",
+      "(img:quest) clarissa: (quest:sewer_keys)",
+      "gir areaid1_3_2 ;; the slums"
+    ],
+    [
+      "(img:quest) (quest:grating) aç areaid1_3_10_1 ;; the sewers ;; the sewers"
+    ],
+    [
+      "(img:quest) (quest:bust) için (img:7) yönüne git || (img:waypoint) al",
+      "(img:quest) (quest:bust) bul, odayı kontrol et:",
+      "(hint)_ - büyük oda? (img:quest) (quest:3rd_bust) (img:7) yönünde",
+      "(hint)_ - küçük oda? (img:quest) (quest:3rd_bust) (img:2) yönünde",
+      "(img:0) yönüne git areaid1_3_5 ;; the marketplace"
+    ],
+    [
+      "(img:waypoint) için (img:0) kenarını takip et",
+      "twinkrun: gir areaid1_3_7 ;; the battlefront",
+      "(hint)__ köşelerde ara",
+      "ligbaşlangıcı: (img:0) yönüne git areaid1_3_6 ;; the catacombs"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) trial tamamla",
+        "(hint)__ (img:arena) başlangıç ve (img:lab): bitişik köşeler1",
+        "(color:cc99ff)relog: areaid1_3_town ;; the sarn encampment"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) hargan: (quest:book)",
+        "(hint)__ lvl 23+ ise: (color:cc99ff)4-link kontrol et",
+        "(img:waypoint) areaid1_3_5 ;; the marketplace"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "gir areaid1_3_7 ;; the battlefront",
+        "(hint)__ köşelerde ara"
+      ]
+    },
+    [
+      "(color:cc99ff)lvl_23'ün_altındaysan,_yetişmeye_çalış",
+      "(img:waypoint) için (img:7) yönüne git _|| (img:quest) (quest:spool) için (img:5) yönüne git",
+      "(img:7) yönüne git areaid1_3_9 (lvl:24) ;; the docks"
+    ],
+    [
+      "(img:quest) (quest:sulphite) için kenarı takip et",
+      "(color:cc99ff)relog: areaid1_3_town ;; the sarn encampment"
+    ],
+    [
+      "twinkrun: (img:quest) hargan: (quest:book)",
+      "(img:waypoint) areaid1_3_7 ;; the battlefront"
+    ],
+    [
+      "gir areaid1_3_8_1 ;; solaris temple level 1",
+      "(hint)__ kanalı yukarı doğru takip et",
+      "gir areaid1_3_8_2 ;; the solaris temple level 2"
+    ],
+    [
+      "(img:quest) dialla'yı bul: <amulet>,  (quest:talc)",
+      "ligbaşlangıcı: (hint)__ (img:craft) yanındaki (img:arena) odada",
+      "(img:waypoint) areaid1_3_10_1 ;; the sewers"
+    ],
+    [
+      "(img:quest) (quest:undying_blockage) yak",
+      "gir areaid1_3_13 ;; the ebony barracks"
+    ],
+    [
+      "(img:waypoint) al || arena:gravicius için (img:7) yönüne git",
+      "(img:7) yönüne git areaid1_3_14_1 ;; the lunaris temple level 1"
+    ],
+    [
+      "gir areaid1_3_14_2 ;; the lunaris temple level 2",
+      "(hint)_ - başlangıç (color:cc99ff)koridorları (img:7) veya (img:1) gösterir",
+      "(hint)_ - halıları + o yönü takip et"
+    ],
+    [
+      "(quest:key) için piety'yi bul ve öldür (lvl:27)",
+      "(hint)_ - (color:cc99ff)3_merdiven_yukarı + tek vagon takip et",
+      "twinkrun: (hint)_ - (color:cc99ff)2_büyük_kapı arenaya götürür",
+      "ligbaşlangıcı: (hint)_ - (color:cc99ff)2_büyük_kapı arenaya götürür: (img:craft)",
+      "(color:cc99ff)relog: areaid1_3_town ;; the sarn encampment"
+    ],
+    [
+      "(img:quest) maramoa: <sever_the_right_hand>",
+      "(img:quest) grigor: (quest:book)",
+      "twinkrun: (color:ff00ff)buy_gems (img:hideout) (color:fec076)your_hideout || lilly: <a_fixture_of_fate>  ;; only shows with imported pob",
+      "(img:waypoint) areaid1_3_13 ;; the ebony barracks"
+    ],
+    [
+      "(img:1) yönüne git areaid1_3_15 ;; the imperial gardens"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "yolu takip et, (img:waypoint) al",
+        "(img:lab) trial için (img:1) ve (img:0) yönüne git",
+        "(color:cc99ff)relog: areaid1_3_town ;; the sarn encampment"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) areaid1_3_15 ;; the imperial gardens"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:7) yolu takip et areaid1_3_17_1 ;; the library",
+        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) bul + (color:cc99ff)gevşek_mum",
+        "gir areaid1_3_17_2 ;; the archives",
+        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "4x (img:quest) (quest:golden_page) bul",
+        "(hint)__ (img:craft): dar bir koridorda mum",
+        "(color:cc99ff)relog: areaid1_3_town ;; the sarn encampment",
+        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "biraz currency topla",
+        "(img:waypoint) areaid1_3_17_1 ;; the library",
+        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) siosa: <a_fixture_of_fate>",
+        "(img:waypoint) areaid1_3_15 ;; the imperial gardens",
+        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+      ]
+    },
+    [
+      "twinkrun: yolu takip et, (img:waypoint) al",
+      "erken seçenek: (img:lab) normal_lab",
+      "twinkrun: (hint)__ alan-seviyesi 33 || 2. seçenek daha sonra",
+      "ligbaşlangıcı: (hint)_ - alan-seviyesi 33 || 2. seçenek daha sonra",
+      "ligbaşlangıcı: (hint)_ - (img:waypoint) (img:town), gir areaidlabyrinth_airlock ;; aspirants' plaza",
+      "vagonlar areaid1_3_18_1'e götürür ;; the sceptre of god"
+    ],
+    [
+      "gir areaid1_3_18_2 ;; the upper sceptre of god",
+      "(hint)__ (img:arena) merdivenler her 90\u00b0'de oluşabilir"
+    ],
+    [
+      "(img:arena) çatıyı bul (lvl:28), dominus'u öldür",
+      "(hint)__ aynı düzen, scion kafesinden sonra (img:1) yönüne git",
+      "gir areaid1_4_1 ;; the aqueduct"
+    ]
+  ],
+  [
+    [
+      "gir areaid1_4_town ;; highgate",
+      "(img:5) yönüne git areaid1_4_2 ;; the dried lake"
+    ],
+    [
+      "(quest:banner) için voll'u öldür (lvl:30)",
+      "(hint)__ (img:help) -ikonu ara",
+      "(color:cc99ff)relog: areaid1_4_town ;; highgate"
+    ],
+    [
+      "gir areaid1_4_3_1 ;; the mines level 1"
+    ],
+    [
+      "ligbaşlangıcı: (img:craft) bul",
+      "gir areaid1_4_3_2 ;; the mines level 2"
+    ],
+    [
+      "(img:quest) (quest:deshret) bul",
+      "(hint)__ ana yolda ya da",
+      "(hint)__ yan odalarda/geçitlerde",
+      "gir areaid1_4_3_3 ;; the crystal veins"
+    ],
+    [
+      "(img:waypoint) bul: areaid1_4_town (img:town) ;; highgate"
+    ],
+    [
+      "(img:quest) tasuni: (quest:book)",
+      "(img:quest) oyun: <breaking_the_seal>",
+      "normal seçenek: (img:lab) normal_lab",
+      "ligbaşlangıcı: (hint)_ - (img:waypoint) areaid1_3_town (img:town) ;; sarn encampment",
+      "ligbaşlangıcı: (hint)_ - gir areaidlabyrinth_airlock ;; aspirants' plaza",
+      "(img:waypoint) areaid1_4_3_3 ;; the crystal veins"
+    ],
+    [
+      "gir areaid1_4_5_1 ;; daresso's dream"
+    ],
+    [
+      "bul ve gir areaid1_4_5_2 ;; the grand arena",
+      "(hint)_ - (img:arena) başlangıç ve (img:arena) çıkış: karşı köşelerde",
+      "(hint)_ - mümkünse (img:1) ve/veya düz git"
+    ],
+    [
+      "(quest:eye) için daresso'yu öldür",
+      "(hint)__ mümkün olduğunca (img:7) yönüne git",
+      "(img:portal) areaid1_4_town"
+    ],
+    [
+      "(img:waypoint) areaid1_4_3_3 ;; crystal veins",
+      "gir areaid1_4_4_1 ;; kaom's dream"
+    ],
+    [
+      "gir areaid1_4_4_3 ;; kaom's stronghold",
+      "(hint)__ (img:1) yönüne git, sonra köprüleri/merdivenleri takip et"
+    ],
+    [
+      "(quest:eye) için kaom'u öldür || (img:portal) areaid1_4_town ;; highgate",
+      "(hint)__ sağda viraj varsa, (img:7) yönüne git. yoksa (img:1)"
+    ],
+    [
+      "(img:waypoint) areaid1_4_3_3 ;; the crystal veins",
+      "(img:quest) lady dialla ile konuş",
+      "gir areaid1_4_6_1 ;; the belly of the beast level 1"
+    ],
+    [
+      "gir areaid1_4_6_2 ;; the belly of the beast level 2",
+      "(hint)__ mümkün olduğunca (img:6) yönüne git"
+    ],
+    [
+      "piety'yi öldür || gir areaid1_4_6_3 ;; the harvest",
+      "(hint)_ - genellikle, (img:arena) çıkış (img:arena) başlangıcın (img:6) yönünde",
+      "(hint)_ - mümkün olduğunca düz git"
+    ],
+    [
+      "doedre,_maligaro,_shav'ı öldür",
+      "(img:quest) piety || malachai'yi öldür (lvl:34)",
+      "(img:portal) areaid1_4_town ;; highgate"
+    ],
+    [
+      "(img:quest) dialla: <the_eternal_nightmare>",
+      "gir areaid1_4_7 ;; the ascent"
+    ],
+    [
+      "(img:0) yönüne git, (img:7) araba izlerini takip et",
+      "(img:quest) (quest:lever) bul, gir areaid1_5_1 ;; the slave pens"
+    ]
+  ],
+  [
+    [
+      "(img:5) kenarını takip et, overseer'ı öldür",
+      "(hint)_ - darağacı olan koridoru bul",
+      "(hint)_ - (img:arena) çıkışa ulaşmak için saat yönünde dön",
+      "gir areaid1_5_town (img:town) ;; overseer's tower"
+    ],
+    [
+      "(img:quest) lani: <ring>",
+      "gir areaid1_5_2 ;; the control blocks"
+    ],
+    [
+      "(img:7) yönüne git, (img:quest) (quest:miasmeter) bul",
+      "(quest:eyes) için (img:1) yönüne git, casticus'u öldür",
+      "(img:0) yönüne git, gir areaid1_5_3 ;; oriath square"
+    ],
+    [
+      "(img:1) yönüne git (img:quest) areaid1_5_4 ;; the templar courts"
+    ],
+    [
+      "gir  areaid1_5_5 (lvl:37) ;; the chamber of innocence",
+      "(hint)__ (img:arena) başlangıç ve (img:arena) çıkış: bitişik köşeler2"
+    ],
+    [
+      "(img:0) kenarını takip et, avarius'u öldür",
+      "ligbaşlangıcı: (hint)__ (img:craft): (img:4) kenarı boyunca koridor",
+      "(hint)__ yüksek exp bölgesi, farm leveli: 40-42",
+      "(img:3) yönüne git, gir areaid1_5_4b ;; torched courts",
+      "ligbaşlangıcı: (hint)__ (img:town)'da olması için (img:quest) bannon ile konuş"
+    ],
+    [
+      "gir areaid1_5_3b ;; the ruined square",
+      "(hint)__ (img:arena) başlangıç ve (img:arena) çıkış: bitişik köşeler2"
+    ],
+    [
+      "(img:waypoint) için (img:5) sokağı takip et",
+      "gir areaid1_5_6 ;; the ossuary"
+    ],
+    [
+      "(img:quest) (quest:sign_of_purity) bul",
+      "(hint)__ bölge: (ters-)saat yönünde spiral",
+      "(color:cc99ff)kolu kullan, gir areaid1_5_3b ;; ruined square"
+    ],
+    [
+      "çeşmeye (img:5) yönüne git, (img:portal) koy",
+      "(img:4) yönüne git areaid1_5_7 ;; the reliquary"
+    ],
+    [
+      "köşelerin yakınında 3x (img:quest) (quest:torment) bul",
+      "ligbaşlangıcı: (hint)__ (img:craft) (img:quest) (quest:torments)'lardan birinin yakınında",
+      "(img:waypoint) areaid1_5_town (img:town) ;; overseer's tower"
+    ],
+    [
+      "(img:quest) lani: (color:8787fe)util._flask || <jewel> || (quest:book)",
+      "(img:quest) vilenta: (quest:book)",
+      "gir (img:portal) areaid1_5_3b ;; the ruined square"
+    ],
+    [
+      "(img:7) yönüne git areaid1_5_8 ;; the cathedral rooftop"
+    ],
+    [
+      "(img:7) yönüne git, kitava'yı öldür",
+      "(img:quest) lilly: areaid2_6_town ;; lioneye's watch"
+    ]
+  ],
+  [
+    [
+      "ligbaşlangıcı: (img:quest) lilly ile konuş",
+      "twinkrun: (color:ff00ff)buy_gems (img:hideout) (color:fec076)your_hideout || lilly: <fallen_from_grace>  ;; only shows with imported pob",
+      "gir areaid2_6_2 ;; the coast"
+    ],
+    [
+      "ligbaşlangıcı: opsiyonel: (img:quest) <belt/amu>: (img:waypoint) al",
+      "gir areaid2_6_4 ;; mud flats"
+    ],
+    [
+      "(quest:eye) için (img:2) yönüne git, queen'i öldür",
+      "(hint)__ (color:cc99ff)bölge-kenarına ulaştıysan, takip et",
+      "(img:7) yönüne git, gir areaid2_6_5 ;; the karui fortress",
+      "(hint)__ (color:cc99ff)kenar sahilse, yerine (img:5) yönüne git"
+    ],
+    [
+      "(img:arena) (color:ffffff)_|| için (img:1) yönüne git || tukohama'yı öldür",
+      "(img:1) yönüne git areaid2_6_6 ;; the ridge"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) aktive et",
+        "opsiyonel: (img:quest) <belt/amu>: (img:waypoint) areaid2_6_2 ;; the coast",
+        "(hint)__ (img:arena) areaid2_6_3 ;; tidal island'da (img:quest) (quest:script) bul",
+        "(img:portal) areaid2_6_town ;; lioneye's watch"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "gir areaid2_6_1 ;; twilight strand"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "hepsini öldür",
+        "(color:cc99ff)relog: areaid2_6_town ;; lioneye's watch"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) lilly: <fallen_from_grace>",
+        "opsiyonel: (img:quest) bestel: (quest:script) için <belt/amu>",
+        "(img:quest) tarkleigh: (quest:book) ;; tukohama",
+        "(img:waypoint) areaid2_6_6 ;; the ridge"
+      ]
+    },
+    [
+      "(img:arena)'ya göre (img:waypoint) konumunu kontrol et",
+      "(hint)_ - üstte ise: uzak (img:1) yönüne git, sonra (img:7)",
+      "(hint)_ - solda ise: uzak (img:5) yönüne git, sonra (img:7)",
+      "gir areaid2_6_7_1 ;; the lower prison"
+    ],
+    [
+      "ligbaşlangıcı: (img:lab) trial tamamla",
+      "gir areaid2_6_7_2 ;; shavronne's tower"
+    ],
+    [
+      "shavronne_&_brutus'u öldür",
+      "gir areaid2_6_8 ;; prisoner's gate"
+    ],
+    [
+      "yolu takip et areaid2_6_9 ;; the western forest"
+    ],
+    [
+      "yolu takip et areaid2_6_10 ;; the riverways",
+      "ligbaşlangıcı: (hint)__ (img:craft): yoldaki meşaleyle işaretli",
+      "ligbaşlangıcı: (hint)__ yan yolu takip et"
+    ],
+    [
+      "yolu takip et, (img:waypoint) al",
+      "2 sütun arasındaki patikayı takip et",
+      "gir areaid2_6_11 ;; the wetlands"
+    ],
+    [
+      "(img:6) kenarını takip et, ryslatha'yı öldür",
+      "(hint)__ nadir: (img:arena) arena yerine (img:1) yönünde olabilir",
+      "(img:portal) areaid2_6_town ;; lioneye's watch"
+    ],
+    [
+      "(img:waypoint) areaid2_6_8 ;; prisoner's gate"
+    ],
+    [
+      "yolun yanındaki çıkıntı geçide götürür",
+      "geçidi takip et, abberath'ı öldür",
+      "(color:cc99ff)relog: areaid2_6_town ;; lioneye's watch"
+    ],
+    [
+      "(img:quest) bestel: (quest:book) ;; abberath",
+      "ligbaşlangıcı: (img:quest) tarkleigh: <helmet> || (quest:book) ;; shav || ryslatha",
+      "twinkrun: (img:quest) tarkleigh: (quest:book) || <helmet> || (quest:book) ;; tukohama || shav || ryslatha",
+      "(img:waypoint) areaid2_6_10 ;; the riverways"
+    ],
+    [
+      "yolun sonuna kadar takip et",
+      "(img:3) yönüne git areaid2_6_12 ;; the southern forest"
+    ],
+    [
+      "(img:2) yönüne git, sonra duvarı (img:3) yönünde takip et",
+      "gir areaid2_6_13 ;; the cavern of anger"
+    ],
+    [
+      "(img:quest) (quest:flag) al || gir areaid2_6_14 ;; the beacon"
+    ],
+    [
+      "(img:quest) (quest:fuel_carts) için (img:1) yönüne git",
+      "ligbaşlangıcı: (hint)__ (img:craft): arabaya çıkan merdivenler",
+      "(img:quest) (quest:beacon) yak, (img:quest) (quest:flag) yak",
+      "(img:quest) weylam: areaid2_6_15 ;; the brine king's reef"
+    ],
+    [
+      "tsoagoth'u öldür: (img:waypoint)'tan (img:5) yönüne git",
+      "(hint)_ - engelliyse: uzak (img:3) yönüne git. (img:2) kenarını takip et",
+      "(hint)_ - açıksa: (img:5) yönüne git ve üst kenarı takip et",
+      "(img:portal) areaid2_6_town ;; lioneye's watch"
+    ],
+    [
+      "pantheon seç",
+      "(img:waypoint) areaid2_7_town (img:town) ;; bridge encampment"
+    ]
+  ],
+  [
+    [
+      "gir areaid2_7_1 ;; the broken bridge"
+    ],
+    [
+      "ligbaşlangıcı: (img:quest) (color:8787fe)utility_flask",
+      "(hint)_ - kırık (img:waypoint)'a kadar yolu takip et",
+      "(hint)_ - yakınlardaki harabelerde (img:quest) (quest:locket) bul",
+      "yolu takip et: areaid2_7_2 ;; the crossroads"
+    ],
+    [
+      "yolu takip et, (img:waypoint) al",
+      "(img:3) yönüne git areaid2_7_3 ;; the fellshrine ruins"
+    ],
+    [
+      "yolu takip et areaid2_7_4 ;; the crypt"
+    ],
+    [
+      "ligbaşlangıcı: (img:lab) trial tamamla",
+      "(img:arena) sarcophagus + (img:quest) (quest:map) bul",
+      "(img:portal) areaid2_7_town ;; the bridge encampment"
+    ],
+    [
+      "ligbaşlangıcı: opsiyonel: (quest:locket)? (img:quest) weylam: (color:8787fe)util._flask",
+      "(img:waypoint) areaid2_7_2 ;; the crossroads"
+    ],
+    [
+      "(img:7) yönüne git areaid2_7_5_1 ;; the chamber of sins level 1"
+    ],
+    [
+      "merkez odada (img:waypoint) al",
+      "(img:quest) (quest:map_device)'da (quest:map) kullan",
+      "gir areaid2_7_5_map ;; maligaro's sanctum"
+    ],
+    [
+      "(quest:venom) için maligaro'yu öldür",
+      "(hint)__ köprüleri bulmak için kenarı takip et",
+      "(img:portal) areaid2_7_5_1 ;; chamber of sins level 1"
+    ],
+    [
+      "(img:quest) silk: (quest:obsidian_key)",
+      "gir areaid2_7_5_2 ;; the chamber of sins level 2",
+      "(hint)__ (img:waypoint) çıkışı gösterir"
+    ],
+    [
+      "ligbaşlangıcı: (img:lab) trial tamamla",
+      "(hint)__ mümkünse (img:3) yönüne git, yoksa (img:6)",
+      "twinkrun: yön için (img:lab) bul:",
+      "(hint)__ mümkünse (img:3) yönüne git, yoksa (img:6)",
+      "(img:quest) (color:cc99ff)geçidi aç areaid2_7_6 ;; the den",
+      "(hint)__ (img:lab)'ın uzak (img:5) yönünü dene, yoksa uzak (img:1)"
+    ],
+    [
+      "gir areaid2_7_7 ;; the ashen fields"
+    ],
+    [
+      "erken seçenek: (img:lab) cruel_lab",
+      "(hint)__ alan-seviyesi 55 || 2. seçenek daha sonra",
+      "(img:5) yolu takip et, greust'u öldür",
+      "gir areaid2_7_8 ;; the northern forest"
+    ],
+    [
+      "(img:5) yönüne git, sonra (img:7) kenar boyunca",
+      "(hint)__ (img:arena) dread_thicket bulursan (img:portal) koy",
+      "gir areaid2_7_10 ;; the causeway"
+    ],
+    [
+      "mümkün olduğunca (img:0) / (img:6) yönüne git",
+      "(img:quest) (quest:star) al, gir areaid2_7_11 ;; the vaal city"
+    ],
+    [
+      "(img:7) yönüne git, (img:waypoint) areaid2_7_town (img:town) ;; bridge encampment",
+      "(hint)_ - (color:cc99ff)uçurum? takip et. duvarın etrafından (img:1) yönüne git",
+      "(hint)_ - yoksa: uzun köşeleri bul, (img:6) etrafından git"
+    ],
+    [
+      "(img:quest) weylam: (quest:book) ;; star",
+      "(img:quest) eramir: (quest:book) ;; greust",
+      "ligbaşlangıcı: (img:quest) helena: <boots> ;;maligaro",
+      "(img:waypoint) / (img:portal) areaid2_7_8 ;; the northern forest"
+    ],
+    [
+      "bul ve gir areaid2_7_9 ;; the dread thicket",
+      "(hint)__ genellikle (img:waypoint)'ın (img:5) yönünde, veya (img:6) kenarı boyunca"
+    ],
+    [
+      "(img:arena) den bul, gruthkul'u öldür",
+      "ligbaşlangıcı: (hint)_ - (img:arena) başlangıcın (img:4) veya (img:3) yönünde",
+      "ligbaşlangıcı: (hint)_ - (img:craft) diğer yönde",
+      "twinkrun: (hint)__ (img:arena) başlangıcın (img:4) veya (img:3) yönünde",
+      "7x (img:quest) (quest:firefly) bul",
+      "(img:portal) areaid2_7_town ;; the bridge encampment"
+    ],
+    [
+      "(img:quest) eramir: (quest:book) ;; gruthkul",
+      "normal seçenek: (img:lab) cruel_lab",
+      "(img:waypoint) areaid2_7_11 ;; the vaal city"
+    ],
+    [
+      "(img:quest) yeena ile konuş",
+      "gir areaid2_7_12_1 ;; the temple of decay level 1"
+    ],
+    [
+      "gir areaid2_7_12_2 ;; the temple of decay level 2",
+      "(hint)_ - kat 1: çapraz ilerle",
+      "(hint)_ - kat 2: (döndürülmüş) z-deseni"
+    ],
+    [
+      "arakaali'yi bul ve öldür",
+      "(hint)_ - kat 1+2: (dönd.) z-deseni",
+      "ligbaşlangıcı: (hint)_ - (img:craft) kat 2'nin ortasında",
+      "(hint)_ - kat 3: (img:0) kenarını takip et",
+      "gir areaid2_8_1 ;; the sarn ramparts"
+    ]
+  ],
+  [
+    [
+      "(img:2) yönüne git, sonra duvarı takip et",
+      "gir areaid2_8_town ;; the sarn encampment"
+    ],
+    [
+      "(img:6) yönüne git areaid2_8_2_1 ;; the toxic conduits"
+    ],
+    [
+      "gir areaid2_8_2_2 ;; doedre's cesspool",
+      "(hint)_ - başlangıç alanı: 1 çıkışlı döngü",
+      "(hint)_ - sonra: mümkün olduğunca (img:1) yönüne git"
+    ],
+    [
+      "doedre'yi bul ve öldür",
+      "(hint)__ dene: uzak (img:5), uzak (img:3), veya uzak (img:1)",
+      "(img:waypoint) sonrası, (img:2) yönüne git areaid2_8_8 ;; the quay",
+      "ligbaşlangıcı: (hint)__ (img:craft) waypoint'un yakınında"
+    ],
+    [
+      "su kenarını takip et: (img:quest) (quest:ankh)",
+      "(img:arena) res._site için uzak (img:4) yönünde ara",
+      "(hint)__ (img:quest) clarissa || tolman'ı öldür",
+      "uzak (img:2) yönüne git areaid2_8_9 ;; the grain gate"
+    ],
+    [
+      "sonraki (color:cc99ff)bölüme (color:aqua)dead_guard'ı takip et",
+      "gizli grate'i bul/aç: (color:red)girme",
+      "gemling_legion'ı öldür ((img:help) -ikonunun yakınında)",
+      "(hint)__ aynı veya sonraki (color:aqua)dead_guard (color:cc99ff)bölümünde",
+      "gir (img:arena) (color:aqua)grate areaid2_8_14 ;; hidden underbelly"
+    ],
+    [
+      "(color:cc99ff)3-yol_ayrımına (img:6) duvarı takip et",
+      "(img:portal) koy, duvarı takip etmeye devam et",
+      "gir areaid2_8_11 ;; solaris concourse"
+    ],
+    [
+      "gir areaid2_8_12_1 ;; solaris temple level 1",
+      "(hint)__ uzak (img:0) kenarında ara, veya",
+      "(hint)__ kanalı yukarı doğru takip et"
+    ],
+    [
+      "(img:0) kenarını takip et, (img:waypoint) al",
+      "(img:waypoint) areaid2_8_town (img:town) ;; sarn encampment"
+    ],
+    [
+      "gir (img:portal) areaid2_8_14 ;; hidden underbelly",
+      "3. yolu takip et: areaid2_8_5 ;; bath house"
+    ],
+    [
+      "odanın önüne (img:portal) koy",
+      "(img:2) yönüne git areaid2_8_6 ;; lunaris concourse"
+    ],
+    [
+      "(img:1) yönüne git, (img:waypoint) aktive et",
+      "(img:waypoint) areaid2_8_town (img:town) ;; sarn encampment"
+    ],
+    [
+      "gir (img:portal) areaid2_8_5 ;; bath house"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) trial al || gir areaid2_8_4 ;; high gardens",
+        "(hint)_ - (img:6) / (img:7) / (img:0) bölge köşelerini kontrol et",
+        "(hint)_ - not: kullandığın (img:arena) çıkış (img:2) köşesidir"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "bul ve gir areaid2_8_4 ;; high gardens",
+        "(hint)_ - (img:6) / (img:7) / (img:0) bölge köşelerini kontrol et",
+        "(hint)_ - not: kullandığın (img:arena) çıkış (img:2) köşesidir"
+      ]
+    },
+    [
+      "(img:arena) arena bul, yugul'u öldür",
+      "(color:cc99ff)relog: areaid2_8_town ;; sarn encampment"
+    ],
+    [
+      "(img:quest) maramoa: (quest:book) ;; gemling legion",
+      "(img:quest) hargan: <ring> || (quest:book) ;; doedre, yugul",
+      "(img:quest) clarissa: (quest:book) ;; tolman",
+      "(img:waypoint) areaid2_8_12_1 ;; solaris temple level 1"
+    ],
+    [
+      "(img:7) yönüne git areaid2_8_12_2 ;; solaris temple level 2"
+    ],
+    [
+      "(quest:sun_orb) için dawn'ı öldür",
+      "ligbaşlangıcı: (hint)__ arenaya üst kenarı takip et: (img:craft)",
+      "twinkrun: (hint)__ arenaya üst kenarı takip et",
+      "(img:portal) areaid2_8_town ;; sarn encampment"
+    ],
+    [
+      "(img:waypoint) areaid2_8_6 ;; lunaris concourse",
+      "(img:7) yönüne git areaid2_8_7_1_ ;; lunaris temple level 1"
+    ],
+    [
+      "gir areaid2_8_7_2 ;; lunaris temple level 2",
+      "(hint)_ - başlangıç (color:cc99ff)koridorları (img:7) veya (img:1) gösterir",
+      "(hint)_ - halıları + o yönü takip et"
+    ],
+    [
+      "(quest:moon_orb) için dusk'ı öldür",
+      "(hint)_ - (color:cc99ff)3_merdiven_yukarı + tek saksı takip et",
+      "ligbaşlangıcı: (hint)_ - (color:cc99ff)2_büyük_kapı arenaya götürür: (img:craft)",
+      "twinkrun: (hint)_ - (color:cc99ff)2_büyük_kapı arenaya götürür",
+      "(img:portal) areaid2_8_town ;; sarn encampment"
+    ],
+    [
+      "(img:waypoint) areaid2_8_6 ;; lunaris concourse",
+      "(img:3) yönüne git areaid2_8_13 ;; harbour bridge"
+    ],
+    [
+      "(img:arena) shrine'a (img:1) yönüne git (lvl:54+)",
+      "solaris_&_lunaris'i öldür",
+      "gir areaid2_9_1 ;; the blood aqueduct"
+    ]
+  ],
+  [
+    [
+      "farm leveli: 58-62",
+      "gir areaid2_9_town (img:town) ;; highgate",
+      "gir areaid2_9_2 ;; the descent"
+    ],
+    [
+      "bul ve gir areaid2_9_3 ;; the vastiri desert",
+      "(hint)__ bölüm 1: (img:1) yönüne git || geri kalanı: düz"
+    ],
+    [
+      "(img:2) yönüne git, (img:waypoint) al || (img:quest) (quest:chest) bul",
+      "(hint)__ genellikle (img:waypoint) civarında veya uzak (img:5) yönünde",
+      "(img:0) yönüne git areaid2_9_5 ;; the foothills"
+    ],
+    [
+      "(img:1) yönüne git, (img:waypoint) aktive et",
+      "gir areaid2_9_6 ;; the boiling lake"
+    ],
+    [
+      "(quest:acid) için (img:1) yönüne git, basilisk'i öldür",
+      "(color:cc99ff)relog: areaid2_9_town ;; highgate"
+    ],
+    [
+      "(img:quest) petarus: <weapon/offhand>",
+      "(img:quest) sin ile konuş",
+      "(img:quest) petarus: (quest:bottled_storm)",
+      "(img:waypoint) areaid2_9_3 ;; the vastiri desert"
+    ],
+    [
+      "(img:1) yönüne git areaid2_9_4 ;; the oasis"
+    ],
+    [
+      "(img:arena) sand_pit bul, shakari'yi öldür",
+      "(hint)__ (img:2) kenarı boyunca ara",
+      "(color:cc99ff)relog: areaid2_9_town ;; highgate"
+    ],
+    [
+      "(img:quest) irasha: (quest:book)",
+      "(img:waypoint) areaid2_9_5 ;; the foothills"
+    ],
+    [
+      "opsiyonel: (img:quest) <respec_points>",
+      "(hint)__ boulderback'i öldür (color:lime)(calendar)",
+      "(img:7) yönüne git areaid2_9_7 ;; the tunnel"
+    ],
+    [
+      "ligbaşlangıcı: (img:lab) trial tamamla",
+      "(hint)__ (img:help) -ikonlu yan yolda",
+      "gir areaid2_9_8 ;; the quarry"
+    ],
+    [
+      "(img:waypoint) için (img:7) yönüne git _|| (img:arena) çıkış için (img:1) yönünde ara",
+      "(color:cc99ff)shrine ise: (img:in-out2) (color:ffffff)arena:garukhan'ı öldür (color:lime)(feather)",
+      "(hint)__ sonra kenarı (img:6) takip et (img:arena) the_refinery'ye",
+      "yoksa: gir areaid2_9_9 ;; the refinery"
+    ],
+    [
+      "(img:7) yönüne git, sonra (img:quest) -ikonuna (img:1)",
+      "ligbaşlangıcı: (hint)__ (img:craft) rayların grate'de bittiği yerde",
+      "adus'u öldür, (img:quest) (quest:powder) al",
+      "(color:cc99ff)relog: areaid2_9_town ;; highgate"
+    ],
+    [
+      "(quest:feather)? (img:quest) irasha: (quest:book)",
+      "opsiyonel: (quest:calendar)? (img:quest) petarus: <respecs>",
+      "(img:waypoint) areaid2_9_8 ;; the quarry"
+    ],
+    [
+      "(img:quest) sin ile konuş",
+      "(quest:feather) bulamadıysan:",
+      "(hint)_ - (img:arena) shrine için (img:6) / (img:5) yönünde ara",
+      "(hint)_ - garukhan'ı öldür || (color:cc99ff)relog: (img:quest) irasha",
+      "gir areaid2_9_10_1 ;; the belly of the beast"
+    ],
+    [
+      "(img:4) yönüne git, doğu engeli kontrol et:",
+      "(hint)_ - engelliyse: (img:6) yönüne git, sonra (img:1)",
+      "(hint)_ - değilse: mümkün olduğunca (img:6) yönüne git",
+      "gir areaid2_9_10_2 ;; the rotting core"
+    ],
+    [
+      "2. yolu al (img:0) (img:arena) black_core'a",
+      "(img:quest) sin || (color:cc99ff)3_alt-bölgeyi temizle || (img:quest) sin",
+      "trinity'yi öldür || (img:quest) lilly: areaid2_10_town ;; oriath docks"
+    ]
+  ],
+  [
+    [
+      "gir areaid2_10_1 ;; the cathedral rooftop"
+    ],
+    [
+      "plaguewing'i öldürmek için (img:0) yönüne git",
+      "(img:3) yönüne git areaid2_10_2 ;; the ravaged square"
+    ],
+    [
+      "çeşmeye (img:3) yönüne git, (img:portal) koy",
+      "(img:2) yönüne git, sokağı takip et, (img:waypoint) al",
+      "(img:3) yönüne git areaid2_10_3 ;; torched courts"
+    ],
+    [
+      "gir areaid2_10_4 ;; desecrated chambers",
+      "(hint)__ (img:arena) başlangıç ve (img:arena) çıkış: bitişik köşeler2"
+    ],
+    [
+      "(img:0) kenarını takip et, avarius'u öldür",
+      "ligbaşlangıcı: (hint)__ (img:craft): (img:4) kenarı boyunca koridor",
+      "(img:3) yönüne git, (img:waypoint) areaid2_10_town ;; oriath docks"
+    ],
+    [
+      "(img:quest) bannon ile konuş",
+      "gir (img:portal) areaid2_10_2 ;; ravaged square"
+    ],
+    [
+      "(img:5) yönüne git areaid2_10_7 ;; control blocks"
+    ],
+    [
+      "uzak (img:6) yönüne git, vilenta'yı öldür",
+      "(img:portal) areaid2_10_town ;; oriath docks"
+    ],
+    [
+      "(img:quest) lani: (color:8787fe)flask || <armor> || (quest:book) ;; plaguewing || avarius || vilenta",
+      "twinkrun: (img:lab) merciless_lab tamamla",
+      "(img:waypoint) areaid2_10_2 ;; ravaged square"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "gir areaid2_10_9 ;; the ossuary"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "kenarı takip et, (img:lab) trial tamamla",
+        "(hint)__ (img:craft) + (img:lab) (img:quest) (quest:elixir) yakınında (opt: <2_respecs>)",
+        "(color:cc99ff)relog: areaid2_10_town ;; oriath docks"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(quest:elixir)? (img:quest) weylam: <respecs>",
+        "(img:lab) merciless_lab tamamla",
+        "(img:waypoint) areaid2_10_2 ;; ravaged square"
+      ]
+    },
+    [
+      "(img:quest) innocence ile konuş",
+      "gir areaid2_10_5 ;; the canals"
+    ],
+    [
+      "bölgeyi (img:7) yönünde takip et",
+      "gir areaid2_10_6 ;; feeding trough"
+    ],
+    [
+      "(img:7) yönüne git || (img:quest) sin || kitava'yı öldür",
+      "(img:quest) sin || gir areaid2_10_town ;; oriath docks"
+    ],
+    [
+      "(img:quest) lani: (quest:book)",
+      "(img:quest) lilly: areaid2_11_endgame_town ;; karui shores"
+    ],
+    [
+      "ligbaşlangıcı: (img:craft) al || (img:quest) kirac ile konuş",
+      "<type_\"/passives\"_in_chat>",
+      "<the_act-tracker_guide_ends_here>"
+    ]
+  ]
+]
