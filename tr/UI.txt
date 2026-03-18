@@ -862,7 +862,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "act-decoder" section of the settings menu
-		m_actdecoder_enable		=	"act-çözücü arayüzünü etkinleştir"
+		m_actdecoder_enable		=	"act-çözücü özelliğini etkinleştir"
 		m_actdecoder_opacity	=	"kilitliyken opaklık:"
 		m_actdecoder_zoom		=	"kilitliyken yakınlaştırma:"
 		m_actdecoder_simple		=	"sadece genel layout'ları göster"
@@ -884,7 +884,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "betrayal-info" section of the settings menu
-		m_betrayal_enable		=	"betrayal-bilgi arayüzünü etkinleştir"
+		m_betrayal_enable		=	"betrayal bilgisi özelliğini etkinleştir"
 		m_betrayal_ruthless		=	"ruthless ödülleri & vurgulama"	;## it's a toggle to switch between regular and ruthless rewards
 		m_betrayal_recognition	=	"görsel-tanıma:"
 		m_betrayal_colors		=	"ödül-renkleri:"
@@ -897,7 +897,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "cheat-sheets" section of the settings menu
-		m_cheat_enable			=	"yardımcı not araç takımını etkinleştir"
+		m_cheat_enable			=	"yardımcı notları etkinleştir"
 		m_cheat_hotkeys		=	"kısayol ayarları:"
 		m_cheat_modifier		=	"omni-key tuşu:"			;## as in modifier-key (ALT, CTRL, etc.)
 		m_cheat_advance		=	"gelişmiş yardımcı notlar"
@@ -980,7 +980,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "item-info" section of the settings menu
-		m_iteminfo_enable		=	"item-info özelliğini etkinleştir"
+		m_iteminfo_enable		=	"item-bilgi özelliğini etkinleştir"
 		m_iteminfo_profiles		=	"profil ayarları:"
 		m_iteminfo_profiles		=	"profil seçimi:"
 		m_iteminfo_profiles		=	"profilin şunlarını sıfırla:"				;## you can choose between two options: a profile's desired, or undesired mods
@@ -1088,7 +1088,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "map-info" section of the settings menu
-		m_mapinfo_enable			=	"map-bilgi panelini etkinleştir"
+		m_mapinfo_enable			=	"map-bilgi özelliğini etkinleştir"
 		m_mapinfo_tab				=	"bileşen tuşuna basılı tutarken paneli göster"
 		m_mapinfo_textcolors		=	"metin-renkleri:"
 		m_mapinfo_header			=	"başlık"								;## as in line at the top of a section/paragraph
