@@ -2,7 +2,7 @@
 
 ![PoE Version](https://img.shields.io/badge/PoE-3.28+-blue) ![Project Status](https://img.shields.io/badge/Durum-Aktif/Beta-green) ![License](https://img.shields.io/badge/Lisans-MIT-orange)
 
-**Exile-UI Türkçe**, Path of Exile oyuncularının (özellikle Act aşamasında zorlanan ve dil bariyerine takılan yeni oyuncuların) aracı en verimli şekilde kullanabilmesi için geliştirilmiş bir yerelleştirme eklentisidir.
+**Exile-UI Türkçe**, Path of Exile oyuncularının (özellikle Act aşamasında zorlanan ve dil bariyerine takılan yeni oyuncuların) aracı en verimli şekilde kullanabilmesi için geliştirilmiş, Exile-UI uygulamasına ek bir yerelleştirme eklentisidir.
 
 * **Topluluk Destekli:** Türk oyuncular tarafından, Türk oyuncular için hazırlandı. Katkıda bulunmak için [🤝 Katkıda Bulunun](#-katkıda-bulunun) bölümüne gidebilirsiniz.
 
