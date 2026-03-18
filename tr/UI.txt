@@ -1,0 +1,1258 @@
+;#####################################################
+;## general information/instructions
+;#####################################################
+
+;## purpose of this file
+	;## this file contains all the strings that are displayed in the tool's UIs
+
+
+;## file structure
+	;## the tool ignores TABs, empty lines, as well as lines/sections marked as comments (;##)
+	;## each non-comment line in this file is a key/value pair, divided into two parts:
+		;##	key			=	"value"
+		;## the value has to be enclosed in quotation marks
+
+
+;## how to translate/localize the data in this file
+	;## NEVER edit the key of a line, i.e. whatever is left of the equal sign
+	;## if a value contains an abbreviation or text-string that's not immediately clear, look for comments or at the key-name for more context (e.g. global_calibrate = "cal")
+	;## unlike the client.txt file, this file contains strings that can be freely translated however you see fit
+
+
+;## some notation remarks
+	;## in order to add line-breaks to a string, include ";" in the value, e.g. "line 1;line2"
+	;## I often use <> as a replacement for quotation marks because they look better when using Fontin Smallcaps
+
+
+;## case-sensitivity
+	;## I personally prefer to display these strings all lower-case because I think it looks better with Fontin Smallcaps
+
+
+
+;#####################################################
+;## system-settings
+;#####################################################
+
+;## these are some global system-settings that are dependent on the target language
+		system_font			=	"Fontin SmallCaps"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
+											;## this key is also present in the client.txt file, where it takes precedence (i.e. the value there will override this one)
+
+
+;#####################################################
+;## credits: translators
+;#####################################################
+
+;## these names will be shown in a tooltip when hovering over the "credits" label	;## the tooltip is segmented into smaller boxes
+		translator			=	"faadw"			;## you can add additional <contributor> lines, and each value will have its own box
+
+
+
+;#####################################################
+;## settings menu: sections
+;#####################################################
+
+;## these are the individual sections of the settings menu, and most refer to a feature
+;## these don't necessarily have to be translated, it's up to the translator(s)
+;## the feature-names are used here and there, so make sure to be consistent across each mention
+		ms_general			=	"genel"
+		ms_actdecoder			=	"act-çözücü"
+		ms_anoints			=	"enchant bulucu"
+		ms_betrayal-info		=	"betrayal bilgisi"
+		ms_cheat-sheets		=	"yardımcı notlar"
+		ms_clone-frames		=	"pencere klonlama"
+		ms_donations			=	"bağışlar"
+		ms_filterspoon			=	"filterspoon"		;## sarcastically derived from FilterBlade
+		ms_hotkeys			=	"kısayollar"
+		ms_item-info			=	"item-bilgi"
+		ms_leveling tracker		=	"act-takibi"
+		ms_macros				=	"sohbet makroları"
+		ms_mapping tracker		=	"map-takibi"
+		ms_map-info			=	"map-bilgi"
+		ms_minor qol tools		=	"faydalı araçlar"
+		ms_news				=	"duyurular"
+		ms_sanctum			=	"sanctum planlayıcı"
+		ms_sanctum			=	"sekhema planlayıcı"
+		ms_screen-checks		=	"ekran-kontrolleri"
+		ms_search-strings		=	"arama-terimleri"
+		ms_stash-ninja			=	"stash-ninja"
+		ms_statlas			=	"statlas"		;## blend of "stats" and "atlas"
+		ms_stream-clients		=	"yayıncı-istemcileri"
+		ms_tldr-tooltips		=	"tldr-ipuçları"
+		ms_exchange			=	"vaal borsası"		;## reference to Wall Street
+		ms_updater			=	"güncelleyici"
+
+
+
+;#####################################################
+;## global: recurring/common strings
+;#####################################################
+
+;## these strings are commonly used throughout the tool
+		global_screencap		=	"ekran-yakalama"
+		global_error			=	"hata"
+		global_success			=	"başarılı"
+		global_fail			=	"başarısız"
+		global_abort			=	"iptal edildi"
+		global_delete			=	"sil"
+		global_delete			=	"sil"
+		global_scan			=	"taranıyor..."
+		global_scan			=	"tara"
+		global_match			=	"eşleşme yok"
+		global_match			=	"yeterince spesifik değil"
+		global_window			=	"ayarlar menüsü"
+		global_general			=	"genel ayarlar:"
+		global_ui				=	"arayüz ayarları:"
+		global_font			=	"metin boyutu:"
+		global_button			=	"buton boyutu:"
+		global_enable			=	"etkinleştir"
+		global_reset			=	"sıfırla"
+		global_color			=	"renk"
+		global_color			=	"renkler:"
+		global_opacity			=	"opaklık:"
+		global_tier			=	"tier"
+		global_ilvl			=	"ilvl"
+		global_name			=	"isim:"
+		global_type			=	"tür:"
+		global_add			=	"ekle"
+		global_calibrate		=	"kalibre et"
+		global_calibrate		=	"kalibrasyon gerekli"
+		global_import			=	"içe aktar"
+		global_test			=	"test"
+		global_edit			=	"düzenle"
+		global_info			=	"bilgi"
+		global_negative		=	"negatif"
+		global_positive		=	"pozitif"
+		global_paste			=	"yapıştır"
+		global_snip			=	"kırp"
+		global_show			=	"göster"
+		global_preview			=	"önizle"
+		global_image			=	"görsel"
+		global_save			=	"kaydet"
+		global_discard			=	"vazgeç"
+		global_restart			=	"onayla & yeniden başlat"
+		global_imgfolder		=	"görsel klasörünü aç"
+		global_newentry		=	"girdi ekle:"
+		global_savedentry		=	"kayıtlı girdiler:"
+		global_errorname		=	"girdi boş bırakılamaz"
+		global_errorname		=	"geçersiz girdi"
+		global_errorname		=	"sadece harf, boşluk;ve sayı kullanılabilir"
+		global_errorname		=	"bu isim zaten kullanımda"
+		global_errorname		=	"isim şunları içermemeli:;"
+		global_inventory		=	"envanter"
+		global_skilltree		=	"yetenek ağacı"
+		global_ascendancy		=	"ascendancy-ağacı"
+		global_atlas			=	"atlas"
+		global_stash			=	"stash"
+		global_nothing			=	"görüntülenecek;bir şey yok"
+		global_imageinvalid		=	"panoda görsel verisi;bulunamadı"
+		global_releasekey		=	"tuşu bırak:"
+		global_configwindow		=	"önce yapılandırma;penceresini kapatın"
+		global_ultrawide		=	"Mevcut en-boy oranı oyun tarafından resmi olarak desteklenenden daha geniş."
+		global_ultrawide		=	"Mod kullanmadığınız sürece, istemci kenarlarda siyah çubuklar gösterecektir."
+		global_ultrawide		=	"Oyunun yan taraflarında siyah çubuklar var mı?"
+		global_credits			=	"katkıda bulunanlar"
+		global_none			=	"yok"
+		global_axis			=	"x-ekseni"
+		global_axis			=	"y-ekseni"
+		global_width			=	"genişlik"
+		global_height			=	"yükseklik"
+		global_gap			=	"boşluk"
+		global_pattern			=	"desen"			;## as in color pattern
+		global_regular			=	"varsayılan"			;## as in default
+		global_setup			=	"kurulum"
+		global_variance		=	"değişkenlik (0-255)"
+		global_hotkey			=	"kısayol:"
+		global_hotkey			=	"alt. kısayol:"		;## alternative hotkey
+		global_panelsize		=	"panel-boyutu:"
+		global_uisize			=	"arayüz-boyutu:"
+		global_auto			=	"otomatik"
+		global_price			=	"fiyat"
+		global_all			=	"tümü"
+		global_confirm			=	"onayla"
+		global_mouse			=	"sol#orta#sağ"			;## left, middle, right mouse-button
+		global_coordinates		=	"koordinatlar"
+		global_time			=	"zaman:"
+		global_refresh			=	"yenile"
+		global_settings		=	"ayarlar"
+		global_regex			=	"regex kopyala"
+		global_clipboard		=	"panoya kopyalandı"
+		global_start			=	"başlat"
+		global_cancel			=	"iptal"
+		global_downloading		=	"indiriliyor..."
+		global_search			=	"ara:"
+		global_toggle			=	"aç/kapat"			;## pressing a hotkey opens a feature
+		global_hold			=	"basılı tut"			;## feature stays open while holding a hotkey, then closes on release
+		global_hide			=	"gizle"
+		global_unhide			=	"göster"
+		global_revert			=	"geri al"
+		global_apply			=	"uygula"
+		global_apply			=	"değişiklikleri uygula"
+		global_global			=	"global"
+		global_controller		=	"kontrolcü"		;## gamepad
+		global_keyboard		=	"klavye"
+		global_multithreading	=	"çoklu-çekirdek"	;## i.e. using multiple CPU cores/threads
+		global_multithreading	=	"tek-çekirdek"
+		global_ignore			=	"yoksay"
+		global_custom			=	"özel"			;## as in "user-defined"
+		global_condition		=	"koşul:"		;## as in "if x condition is met"
+		global_yes			=	"evet"
+		global_no				=	"hayır"
+		global_activation		=	"aktivasyon:"
+		global_maps			=	"mapler"
+		global_league			=	"lig"
+		global_league_sc		=	"sc"				;## softcore league
+		global_league_hc		=	"hc"				;## hardcore league
+		global_league_standard	=	"standard"
+		global_league_keepers	=	"keepers"
+		global_league_phrecia	=	"phrecia"
+		global_league_vaal		=	"vaal"
+		global_league_mirage	=	"mirage"
+		global_league_ssf		=	"ssf"
+		global_league_trade		=	"trade"
+		global_league_ruthless	=	"ruthless"
+		global_league_normal	=	"normal"			;## unofficial term, used as an opposite for ruthless
+		global_copy			=	"kopyala"
+		global_icon			=	"ikon"
+		global_off			=	"kapalı"
+		global_keywords		=	"keywords"		;## related to search-results: words that come up often
+		global_matches			=	"eşleşmeler"			;## matches of a search-result
+		global_colon			=	":"
+		global_ok				=	"tamam"
+		global_cost			=	"maliyet"
+		global_ascending		=	"artan"
+		global_descending		=	"azalan"
+		global_calculate		=	"hesapla"
+		global_databaseinfo		=	"veritabanı bilgisi"
+		global_current			=	"güncel"
+		global_updatewait		=	"daha sonra tekrar deneyin"
+		global_duration		=	"süre (sn)"
+		global_position		=	"pozisyon"
+		global_exchange		=	"eşya takası"
+		global_timeunits		=	"dakika#dakika#saat#saat#gün#gün#hafta#hafta"
+		global_day			=	"gün"
+		global_day			=	"gün"
+		global_week			=	"hafta"
+		global_trade			=	"takas"
+		global_trade			=	"takaslar"
+		global_last			=	"son"
+		global_gem			=	"gem"
+		global_gem			=	"gemler"
+		global_act			=	"act"
+		global_ctrl			=	"ctrl"			;## modifier-keys
+		global_alt			=	"alt"
+		global_shift			=	"shift"
+		global_shiftclick		=	"shift-tık"
+		global_pause			=	"duraklat"
+		global_resume			=	"devam et"
+		global_filter			=	"filtre"
+		global_clear			=	"temizle"			;## remove everything, as in "clear a list"
+
+		mechanic_bestiary		=	"bestiary"
+		mechanic_betrayal		=	"betrayal"
+		mechanic_blight		=	"blight"
+		mechanic_delirium		=	"delirium"
+		mechanic_delve			=	"delve"
+		mechanic_expedition		=	"expedition"
+		mechanic_harvest		=	"harvest"
+		mechanic_incursion		=	"incursion"
+		mechanic_legion		=	"legion"
+		mechanic_ritual		=	"ritual"
+		mechanic_vaal area		=	"vaal area"
+		mechanic_abyssal depths	=	"abyssal depths"
+		mechanic_lab trial		=	"lab trial"
+		mechanic_starfall crater	=	"starfall crater"
+		mechanic_ultimatum		=	"ultimatum"
+		mechanic_maven			=	"maven"
+		mechanic_baran			=	"baran"
+		mechanic_drox			=	"drox"
+		mechanic_al-hezmin		=	"al-hezmin"
+		mechanic_veritania		=	"veritania"
+		mechanic_constrictor	=	"constrictor"
+		mechanic_enslaver		=	"enslaver"
+		mechanic_eradicator		=	"eradicator"
+		mechanic_purifier		=	"purifier"
+		mechanic_seer			=	"nameless seer"
+		mechanic_mist			=	"reflecting mist"
+		mechanic_infamous		=	"infamous mercenary"
+		mechanic_graftblood		=	"high graftblood"
+
+
+
+;#####################################################
+;## anoints/enchant finder
+;#####################################################
+
+;## these strings are displayed/required in the enchant finder overlay
+		anoints_reforging		=	"yükseltiltme"
+		anoints_reforging		=	"yeniden işleme"
+		anoints_materials		=	"materyaller"		;## as in crafting materials
+		anoints_statgroups		=	"ve"			;## same as on the trade site
+		anoints_statgroups		=	"sayı"
+		anoints_statgroups		=	"değil"
+		anoints_rings			=	"yüzükler"
+
+
+
+;#####################################################
+;## betrayal-info
+;#####################################################
+
+;## in order to use the betrayal-info feature with a different language, the tool will access the file "data\Betrayal_XYZ.json"
+;## make a copy of "data\Betrayal.json" and rename that accordingly, then translate the contained strings with reward-texts
+;## the file is structured as follows:
+;## object "aisling":
+;##	object "rewards":
+;##		array "transportation":
+;##			string 1: "this is the regular reward"
+;##			string 2: "this is the ruthless reward"
+;## ONLY TRANSLATE THE STRINGS, NOT THE OBJECT/ARRAY NAMES
+
+
+;## these strings are displayed/required in the betrayal overlays, using only the short version in order to make the overlay more compact
+;## it's not likely any name other than "it" needs to be translated, but I have still included the whole list just in case
+		betrayal_aisling		=	"aisling"
+		betrayal_cameria		=	"cameria"
+		betrayal_elreon		=	"elreon"
+		betrayal_gravicius		=	"gravicius"
+		betrayal_guff			=	"guff"
+		betrayal_haku			=	"haku"
+		betrayal_hillock		=	"hillock"
+		betrayal_it			=	"it"
+		betrayal_janus			=	"janus"
+		betrayal_jorgin		=	"jorgin"
+		betrayal_korell		=	"korell"
+		betrayal_leo			=	"leo"
+		betrayal_riker			=	"riker"
+		betrayal_rin			=	"rin"
+		betrayal_tora			=	"tora"
+		betrayal_vagan			=	"vagan"
+		betrayal_vorici		=	"vorici"
+
+
+;## these division strings are displayed at the top of the overlay, using abbreviations (where applicable) in order to make it more compact
+		betrayal_transportation	=	"trans"
+		betrayal_fortification	=	"fort"
+		betrayal_unassigned		=	"atanmamış"	;## refers to a member not being assigned to any division
+		betrayal_research		=	"research"
+		betrayal_intervention	=	"inter"
+
+
+;## these division strings are displayed in the calibration setup-window (not abbreviated)
+		betrayal_transportation	=	"transportation"
+		betrayal_fortification	=	"fortification"
+		betrayal_research		=	"research"
+		betrayal_intervention	=	"intervention"
+		betrayal_abort			=	"iptal etmek için oyuna dönün"
+
+
+
+;#####################################################
+;## cheat-sheet toolkit
+;#####################################################
+
+;## these strings are displayed/required when using the cheat-sheet toolkit feature
+		cheat_header			=	"yardımcı not yapılandırması"
+		cheat_check			=	"ekran-kontrolü:"
+		cheat_static			=	"statik"
+		cheat_dynamic			=	"dinamik"
+		cheat_manage			=	"görsel dosyalarını yönet:"
+		cheat_title			=	"pencere başlığı:"
+		cheat_launch			=	"pencere bulunamazsa,;bunun yerine bu uygulamayı başlat:"
+		cheat_exe				=	".exe/kısayol seç"
+		cheat_notes			=	"seçilen girdi için not girin::"
+		cheat_calibrate		=	"bu ekran kontrolünün hangi girdiyle bağlantılı olduğunu belirtin"
+		cheat_entrynotext		=	"girdi <#>;metin içermiyor"
+		cheat_nowindowtitle		=	"yardımcı notun;pencere başlığı yok"
+		cheat_nowindow			=	"pencere bulunamadı:;"#""
+		cheat_nofiles			=	"yardımcı notta içe aktarılmış;hiçbir dosya yok"
+		cheat_shorttitle		=	"başlık çok kısa"
+		cheat_noexe			=	"önce bir dosya seçin"
+		cheat_multifiles		=	"birden fazla dosyayı;index 00'a yapıştıramazsınız"
+		cheat_filemissing		=	"dosya mevcut değil"
+		cheat_loaderror		=	"dosya yüklenemiyor:"
+		cheat_duplicate		=	"Aynı isimde bir yardımcı not zaten mevcut ve üzerine yazılacak.;Devam etmek istiyor musunuz?"
+		cheat_flip			=	"görseller arasında geçiş yapılamıyor"			;## this string + one of the following two form a sentence
+		cheat_flip			=	"bölümlenmiş yardımcı notlarda"
+		cheat_flip			=	"harf tuşlarını kullandıktan sonra"
+
+
+
+;#####################################################
+;## vaal street
+;#####################################################
+
+;## these strings are displayed/required when using the vaal street feature
+		exchange_chaos_div		=	"dönüştürme;oranı gerekli!"
+		exchange_7days			=	"son 7 gün"
+		async_listheader		=	"güncel listelemeler:"
+		async_listheader		=	"kayıtlı satın alımlar:"
+		async_nolist			=	"henüz takip edilen;bir şey yok"
+		async_nolist			=	"hiçbir kayıt bulunamadı"
+		async_listing			=	"listeleme eklendi"
+		async_listing			=	"zaten takip ediliyor"
+		async_history			=	"fiyat geçmişi:"
+		async_adjust			=	"fiyatı ayarla:"
+		async_pricefailed		=	"poe.ninja şu an ulaşılamaz durumda"
+		async_pricefailed		=	"(fiyat sıralaması yapılamıyor)"
+		async_pricefailed		=	"(fiyat dönüşümü yapılamıyor)"
+
+
+
+;#####################################################
+;## item-info
+;#####################################################
+
+;## these strings are displayed/required when using the item-info feature
+		iteminfo_unsupported	=	"item desteklenmiyor"
+		iteminfo_dps			=	"dps"				;## damage per second
+		iteminfo_base			=	"base"				;## as in item-base / crafting-base
+		iteminfo_qual_scaling	=	"scaling"
+		iteminfo_ruleblock		=	"global kural tarafından engellendi"
+		iteminfo_clearfirst		=	"önce sınıfa özel;vurgulamayı temizleyin"
+		iteminfo_drop_tier		=	"drop"				;## refers to dropped items, e.g. "boss drop", "uber drop", "T0 drop"
+		iteminfo_drop_league	=	"league"				;## unique is limited to a specific...
+		iteminfo_drop_boss		=	"boss"
+		iteminfo_drop_limited	=	"limitli"				;## either limited to div-cards or special events (e.g. oni-goroshi)
+		iteminfo_drop_uber		=	"uber"
+		iteminfo_drop_recipe	=	"recipe"				;## vendor-recipes
+		iteminfo_drop_pinnacle	=	"pinnacle"
+		iteminfo_drop_vaal		=	"vaal"				;## exclusive to corruption
+		iteminfo_drop_retired	=	"retired"				;## item is currently not obtainable
+		iteminfo_drop_unknown	=	"bilinmiyor"				;## no database-entry for this unique (e.g. new league)
+		iteminfo_drop_global	=	"global"
+
+
+
+;#####################################################
+;## leveling tracker / act-tracker
+;#####################################################
+
+;## these strings are displayed/required when using the leveling tracker / act-tracker
+		lvltracker_header			=	"skilltree yapılandırması"
+		lvltracker_deleteall		=	"tümünü sil"
+
+
+		lvltracker_gemnotes			=	"PoB'da yer almıyor"
+		lvltracker_gemfail			=	"PoB'da gem bulunamadı"
+		lvltracker_gemregex			=	"regex kopyalandı"
+		lvltracker_gemregex			=	"regex başarısız"
+
+		lvltracker_gearlist			=	"char (lvl):"					;## PoE1 only (whole block), displayed at the top of the geartracker: "char (lvl): Lailloken (69)"
+		lvltracker_gearadd			=	"item eklendi"
+		lvltracker_gearadd			=	"item zaten ekli"
+		lvltracker_gearadd			=	"item zaten;giyilebilir"
+		lvltracker_gearadd			=	"item herhangi bir;gereksinim içermiyor"
+		lvltracker_gear5levels		=	"sadece sonraki 5 seviyeyi göster"
+		lvltracker_gearready		=	"item hzr"					;## needs to be as short as possible
+		lvltracker_clearequip		=	"temizle: giyilebilir"				;## button to clear a list of gear that is equippable (lvl-requirements are met)
+		lvltracker_cleargems		=	"temizle: gemler"
+
+
+		lvltracker_endreached		=	"daha ileri gidilemez"
+		lvltracker_fastforwarderror	=	"mevcut konum kalan;adımların hiçbirinde yok"
+		lvltracker_guidemissing		=	"rehber henüz;yüklenmedi"
+		lvltracker_importerror		=	""sadece gem" rehberleri;desteklenmiyor"								;## PoE1 only, exile-leveling has a "gems only" option
+		lvltracker_importerror		=	"geçersiz içe aktarma verisi"
+		lvltracker_multipaste		=	"bazı dosyalar;desteklenmiyor"
+		lvltracker_multipaste		=	"ascendancy-treeler için;çoklu yapıştırma desteklenmiyor"
+		lvltracker_multipaste		=	"# girdiden # tanesinin üzerine yazılabilir.;Devam edilsin mi?"	;## the placeholders will be replaced by numbers
+		lvltracker_noimages			=	"görsel dosyaları;bulunamadı"
+		lvltracker_timererror		=	"devam edilemiyor: koşu tamamlandı"										;## campaign timer can't be resumed because the run has finished
+		lvltracker_timererror		=	"sıfırlamak için ilk bölgeye veya şehre girin"								;## timer can only be reset in specific areas
+		lvltracker_timererror		=	"önce zamanlayıcıyı duraklatın"
+		lvltracker_timererror		=	"hideout-duraklatma ayarı tarafından engellendi"									;## there's a setting "pause timer in hideouts" which blocks manual resuming
+		lvltracker_timermessage		=	"run başladı"
+		lvltracker_timermessage		=	"zamanlayıcı devam ediyor"
+		lvltracker_timermessage		=	"zamanlayıcı duraklatıldı"
+		lvltracker_treeerror		=	"skill-tree sürümü;uyumsuz"
+		lvltracker_treenone			=	"içe aktarılan pob'da;kullanılabilir tree yok"
+		lvltracker_treeascendancy	=	"slot boş"
+		lvltracker_exp				=	"lvl-farkı:"													;## stands for level-difference, i.e. character-level - area-level = X
+		lvltracker_recommended		=	"önerilen level:"											;## PoE1 only, used to filter out lvl-recommendations in the guide
+		lvltracker_recommended		=	"farm leveli:"													;## PoE1 only, used to filter out lvl-recommendations in the guide
+
+
+		lvltracker_format_kill		=	"öldür"						;## the string that follows this word will automatically be highlighted as a unique boss
+		lvltracker_format_act		=	"a"							;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter a1 | clearfell encampment")
+		lvltracker_format_interlude	=	"int "						;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter int 1 | the refuge")
+		lvltracker_format_epilogue	=	"epilog"
+		lvltracker_format_optional	=	"opsiyonel:"					;## in guides, lines with optional tasks/steps can be toggled dynamically if tagged with this string
+		lvltracker_format_league		=	"lig-başlangıcı:"					;## same as above but related to league-start tasks/steps
+		lvltracker_format_twink		=	"twinkrun:"					;## same as above but related to non-league-start tasks/steps
+
+
+		lvltracker_editor			=	"rehber düzenleyici"					;## PoE2 only (whole block)
+		lvltracker_editor_slot		=	"slot"						;## the act-tracker has multiple slots to save guides into
+		lvltracker_editor_acts		=	"act'ler:"
+		lvltracker_editor_save		=	"kaydedilmemiş değişiklikler:"
+		lvltracker_editor_export		=	"rehberi dışa aktar"
+		lvltracker_editor_areas		=	"bölge isimleri (yapıştırmak için tıkla):"
+		lvltracker_editor_icons		=	"ikonlar (yapıştırmak için tıkla):"
+		lvltracker_editor_highlight	=	"seçili metni vurgula:"
+		lvltracker_editor_load		=	"varsayılan rehberi yükle"
+		lvltracker_editor_blocked	=	"(engellendi)"					;## there are two different "Halani Gates" areas: the first time you visit, they're blocked off
+		lvltracker_editor_hint		=	"ipucu / daha fazla bilgi"
+		lvltracker_editor_quest-name	=	"görev-adı"
+		lvltracker_editor_quest-item	=	"görev-eşyası"
+		lvltracker_editor_color		=	"özel renk uygula"
+		lvltracker_editor_remove		=	"sayfayı kaldır"
+		lvltracker_editor_condition	=	"koşul yok"
+
+		lvltracker_itembuy			=	"eşya satın al"
+		lvltracker_gempickups		=	"gem toplama"					;## a manager to adjust when gems should be picked up
+		lvltracker_gemreward		=	"al:"						;## when handing in quests, the guide will prompt you to take specific rewards
+		lvltracker_gembuy			=	"gem satın al"					;## the guide will tell you to buy gems that you unlocked via questing
+		lvltracker_gembuy			=	"(omni-key'e basılı tut)"
+
+
+;#####################################################
+;## lootfilter / filterspoon
+;#####################################################
+
+;## these strings are displayed/required when using the lootfilter / filterspoon feature
+		lootfilter_basefilter		=	"filtre:"
+		lootfilter_modifications		=	"mevcut değişiklikler:"
+		lootfilter_unsaved			=	"vazgeçmek için basılı tutun"
+		lootfilter_update			=	"temel filtre güncellemelerini uygula"
+		lootfilter_addstack			=	"yığın ekle:"
+		lootfilter_selection		=	"mevcut seçim:"
+
+
+
+;#####################################################
+;## map-info
+;#####################################################
+
+;## these strings are displayed/required when using the map-info feature
+		mapinfo_rip				=	"rips"		;## as in "rest in peace", used here to replace "revives available: x" with "x rips"
+
+
+
+;#####################################################
+;## map-tracker
+;#####################################################
+
+;## these strings are displayed/required when using the map-tracker feature
+		maptracker_idle		=	"takip edilmiyor"
+		maptracker_kills		=	"kill-takibini başlatmak için;omni-key'e basın"
+		maptracker_kills		=	"kill-sayısı güncellendi"
+		maptracker_check		=	"map içeriğini;tekrar kontrol edin!"
+		maptracker_save		=	"map kaydedildi"
+		maptracker_save		=	"map içindeyken kaydedilemez"
+		maptracker_loot		=	"item kaydedildi"
+		maptracker_loot		=	"item silindi"
+		maptracker_loot		=	"hata"
+		maptracker_export		=	"dışa aktar"
+		maptracker_logs		=	"kayıtlar:"
+		maptracker_logs		=	"herhangi bir map-kaydı bulunamadı"
+		maptracker_page		=	"sayfa:"
+		maptracker_page		=	"sayfa-başı-girdi:"		;## i.e. how many entries to show on each page
+		maptracker_header		=	"map-kayıt defteri"
+		maptracker_dialogue		=	"oyun içi <ui> ayarlarından; <output dialogue to chat> etkinleştirilmelidir"
+
+;## these strings are displayed/required at the top of the map-log viewer, using the shortest length possible in order to be more compact
+		maptracker_time		=	"zaman"			;## time of day (e.g. 14:20)
+		maptracker_time		=	"tarih, saat"
+		maptracker_map			=	"map"
+		maptracker_tier		=	"t/l"			;## (map) tier / (area) level
+		maptracker_tier		=	"tier/level"		;## as in map-tier / area-level
+		maptracker_tier		=	"t"
+		maptracker_run			=	"run"			;## refers to run-time (how long it took to finish the map)
+		maptracker_e-exp		=	"e-exp"			;## effective exp (after penalties)
+		maptracker_deaths		=	"ölümler"
+		maptracker_portals		=	"portallar"
+		maptracker_kills1		=	"kills"
+		maptracker_loot1		=	"loot"
+		maptracker_mapinfo		=	"modlar"			;## as in map mods
+		maptracker_notes		=	"notlar"
+		maptracker_character	=	"karakter"
+		maptracker_content		=	"içerik"			;## refers to map-content (league-mechanics, side-areas, etc.)
+
+;## these strings are displayed in the sum/average tooltips (while long-clicking colored cells in the Σ row)
+		maptracker_sum			=	"toplam"
+		maptracker_average		=	"ort"
+
+;## these strings are displayed in the date selection
+		maptracker_all			=	"tümünü seç"
+		maptracker_periods		=	"yıl:"
+		maptracker_periods		=	"lig:"
+		maptracker_periods		=	"ay:"
+		maptracker_periods		=	"gün:"
+
+
+
+;#####################################################
+;## minor QoL tools
+;#####################################################
+
+;## these strings are displayed/required when using minor QoL tools
+		notepad_addgems		=	"gem eklendi"
+		notepad_addgems		=	"gem zaten ekli"
+		lab_outdated			=	"layout güncel değil!"
+		lab_outdated			=	"yüklenen:"
+		lab_outdated			=	"en güncel:"
+		lab_mismatch			=	"layout uyuşmuyor!"
+		lab_mismatch			=	"güncel:"
+		lab_movemarker			=	"işaretçiyi taşımak için uzun tıklayın"
+
+
+
+;#####################################################
+;## OCR / screen-reading
+;#####################################################
+
+;## these strings are displayed/required when using OCR features
+		ocr_notext			=	"herhangi bir metin bulunamadı"
+		ocr_nousecase			=	"kullanım durumu belirsiz"		;## scanned text doesn't fit any use-case
+		ocr_nocoords			=	"koordinatlar alınamadı"
+		ocr_erroraltar			=	"modlar güvenilir şekilde okunamadı,;tekrar deneyin"
+		ocr_vaalarea			=	"bölge"
+		ocr_vaalboss			=	"boss"
+		ocr_vaalmonsters		=	"canavarlar"
+		ocr_vaalplayer			=	"oyuncu"
+		ocr_vaalvessel			=	"vessel"
+		ocr_vaalunclear		=	"belirsiz"
+
+
+
+;#####################################################
+;## omni-key
+;#####################################################
+
+;## these strings are displayed/required when using the omni-key to access features
+		omnikey_language		=	"omni-key desteklenmeyen oyun içi;diller için kullanılamaz"
+		omnikey_copyfail		=	"panoya kopyalama başarısız"
+		omnikey_escape			=	"(çıkmak için esc)"
+		omnikey_scroll			=	"kaydırılıyor..."						;## as in scroll-wheel
+		omnikey_chromes		=	"<total sockets> alanına;tıklayın ve space tuşuna basın"	;## refers to "total sockets" on the chromatic-calc website
+		omnikey_clustersearch	=	"seçili jewel türünü vurgulamak için;ctrl-f tuşlarına basın"
+		omnikey_labimport		=	"lab zorluğunu seçin"
+		omnikey_labimport		=	"layout görseline sağ tıklayın"
+		omnikey_labimport		=	"<copy image> tıklayın;isteğe bağlı:"				;## "copy image" when right-clicking a picture in your browser
+		omnikey_labimport		=	"sağ tık <lab compass file>"			;## there's a link underneath each lab-layout image on poelab.com
+		omnikey_labimport		=	"<copy link address> tıklayın"				;## when right-clicking a link in your browser
+		omnikey_labimport		=	"ctrl + a, ctrl + c tuşlarına basın"
+		omnikey_poedb			=	"modifierlar"						;## it's the name of this section on poeDB, displayed at the top: https://poedb.tw/us/Modifiers
+
+
+
+;#####################################################
+;## recombination
+;#####################################################
+
+;## these strings are displayed/required when using the recombination feature
+		recomb_prefixes		=	"istenen prefixler:"
+		recomb_suffixes		=	"istenen suffixler:"
+		recomb_simulation		=	"simülasyon:"
+		recomb_desired			=	"çok fazla istenen affix"
+		recomb_rerun			=	"tekrar çalıştır"
+		recomb_refresh			=	"yenilemek için tıklayın"
+
+
+
+;#####################################################
+;## sanctum planner
+;#####################################################
+
+;## these strings are displayed/required when using the sanctum planner
+		sanctum_calibrate		=	"yolları;kalibre et"
+		sanctum_calibrate		=	"odaları;kalibre et"
+
+		sanctum_floors			=	"sanctum archives"
+		sanctum_floors			=	"sanctum vaults"
+		sanctum_floors			=	"sanctum cathedral"
+		sanctum_floors			=	"sanctum necropolis"
+
+		sanctum_rooms_1		=	"mini-boss"
+		sanctum_rooms_2		=	"find exit"
+		sanctum_rooms_3		=	"clear room"
+		sanctum_rooms_4		=	"exit traps"
+		sanctum_rooms_5		=	"battle arena"
+
+		sanctum_rooms_1_1		=	"scriptorium"
+		sanctum_rooms_1_2		=	"reliquary"
+		sanctum_rooms_1_3		=	"sanctum bellum"
+		sanctum_rooms_1_4		=	"mausoleum"
+
+		sanctum_rooms_2_1		=	"abandoned library"
+		sanctum_rooms_2_2		=	"decrepit cellar"
+		sanctum_rooms_2_3		=	"halls of worship"
+		sanctum_rooms_2_4		=	"undercroft"
+
+		sanctum_rooms_3_1		=	"chambers of inscription"
+		sanctum_rooms_3_2		=	"derelict caverns"
+		sanctum_rooms_3_3		=	"unholy lair"
+		sanctum_rooms_3_4		=	"lost catacombs"
+
+		sanctum_rooms_4_1		=	"holy trials"
+		sanctum_rooms_4_2		=	"gauntlet"
+		sanctum_rooms_4_3		=	"crucible"
+		sanctum_rooms_4_4		=	"entombment"
+
+		sanctum_rooms_5_1		=	"templar annals"
+		sanctum_rooms_5_2		=	"battlegrounds"
+		sanctum_rooms_5_3		=	"infernum"
+		sanctum_rooms_5_4		=	"desecrated crypt"
+
+		sanctum_info			=	"ben. fountain (150c):;+1 boon;;"	;## semicolons at the end to make it four lines
+		sanctum_info			=	"rad. fountain (5c):;+1 boon, -1 affl, +200 insp;bir affliction silindiyse;afflicted odaları reroll'lar"
+
+
+
+
+;#####################################################
+;## screen-checks
+;#####################################################
+
+;## these strings are displayed/required when using the screen-checks feature
+		screen_snipinstructions	=	"sol-tık sürükle: normal kırpma"
+		screen_snipinstructions	=	"sağ-tık sürükle: ayarlanabilir kırpma"
+		screen_snipinstructions	=	"wasd: kırpmayı taşı"
+		screen_snipinstructions	=	"shift + wasd: kırpmayı yeniden boyutlandır"
+		screen_snipinstructions	=	"space: kırpmayı onayla"
+		screen_snipinstructions	=	"esc: çıkış"
+
+;#####################################################
+;## search-strings
+;#####################################################
+
+;## these strings are displayed/required when using the search-strings feature
+		search_header			=	"arama terimleri yapılandırması:"
+
+
+
+;#####################################################
+;## seed-explorer / vilsol's calculator
+;#####################################################
+
+;## these strings are displayed/required when using the seed-explorer feature
+		seed_profile			=	"profil:"
+		seed_jewel			=	"jewel:"
+		seed_seed				=	"seed:"					;## the number that rolls on Timeless Jewels
+		seed_conqueror			=	"conqueror:"				;## the name that rolls
+		seed_trade			=	"trade-kontrolü"				;## button that opens the trade-site
+		seed_keystones			=	"keystonelar:"
+		seed_notables			=	"sonuçlanan notable'lar:"		;## "resulting" as in after being modified by the jewel
+		seed_notables			=	"socket etrafındaki notable'lar:"	;## in range around a jewel socket on the passive tree
+		seed_notables			=	"legion notable'ları:"
+		seed_download			=	"veritabanlarını indir"
+		seed_update			=	"veritabanlarını güncelle"
+		seed_uptodate			=	"veritabanları güncel"
+
+
+
+;#####################################################
+;## stash-ninja
+;#####################################################
+
+;## these strings are displayed/required when using the stash-ninja feature
+		stash_update			=	"poe.ninja fiyatları;güncelleniyor..."
+		stash_updateerror		=	"güncelleme başarısız oldu ve önceki başarılı denemelerden geri dönüş verisi yok.;bu kendiliğinden düzelen bir bağlantı sorunu olabilir, daha sonra tekrar deneyin."
+		stash_updateerror		=	"güncelleme başarısız"
+		stash_value			=	"piyasa değeri"
+		stash_reminder			=	"önce <note> kısmına geçin"
+		stash_limits			=	"hız limitleri:"			;## GGG's APIs have tiered rate limits that control how often you can access them
+		stash_open			=	"açık"				;## in the context of "X open trade listings"
+		stash_nolistings		=	"çevrimiçi;listeleme yok"		;## i.e. no-one is selling that item right now
+		stash_bulk			=	"bulk:"
+		stash_stock			=	"stok"				;## as in available stock
+		stash_pricetags		=	"fiyat etiketleri:"
+		stash_solo			=	"tekli"				;## as in a single person/thing/reason
+		stash_sell			=	"sat"
+		stash_sell			=	"karşılığında"				;## these two belong together, i.e. "sell X for Y"
+		stash_bookmark			=	"profil-yer imi"
+
+
+;#####################################################
+;## statlas
+;#####################################################
+
+;## these strings are displayed/required when using the statlas feature
+		statlas_legacy			=	"legacy"
+		statlas_kills			=	"kpm"				;## stands for kills per minute
+		statlas_filters		=	"filtreler"
+
+
+
+;#####################################################
+;## minor QoL features
+;#####################################################
+
+;## these strings are displayed/required when using the minor QoL features
+		notepad_add			=	"yeni tab ekle:"
+		notepad_howto			=	"widget kullanımı"
+
+
+
+
+;#####################################################
+;## settings menu: general
+;#####################################################
+
+;## these strings are displayed/required in the "general" section of the settings menu
+		m_general_settings		=	"araç ayarları:"
+		m_general_kill			=	"oyunu kapattıktan x dakika sonra çıkış yap:"
+		m_general_browser		=	"tarayıcı özellikleri"
+		m_general_capslock		=	"capslock-geçişi"						;## by default, AHK will toggle capslock back and forth whenever it sends key-strokes
+		m_general_charleague	=	"karakter & lig:"
+		m_general_character		=	"char"
+		m_general_level		=	"lvl"
+		m_general_client		=	"game-client ayarları:"
+		m_general_client		=	"game-client bilgisi:"
+		m_general_logfile		=	"log-dosyası sağlığı:"
+		m_general_language		=	"dil:"
+		m_general_language		=	"algılanan dil:"
+		m_general_language		=	"desteklenmiyor"
+		m_general_language		=	"(bazı özellikler kullanılamayabilir)"
+		m_general_display		=	"algılanan pencere:"						;## refers to the client-window
+		m_general_display		=	"pencereli tam ekran"
+		m_general_display		=	"pencereli"
+		m_general_display		=	"çerçevesiz pencereli"
+		m_general_resolution	=	"özel çözünürlük:"
+		m_general_filler		=	"istemci etrafındaki ekran alanını karart"
+		m_general_position		=	"pencere-konumu:"
+		m_general_posleft		=	"sol"
+		m_general_poscenter		=	"orta"
+		m_general_posright		=	"sağ"
+		m_general_postop		=	"üst"
+		m_general_posbottom		=	"alt"
+		m_general_borderless	=	"çerçevesiz-pencere modunu uygula"
+		m_general_blackbars		=	"istemcinin yanlarında siyah çubuklar var"	;## black bars as in letterboxes
+		m_general_permissions	=	"yazma-izinleri testi:"
+		m_general_start		=	"testi başlat"
+		m_general_admin		=	"admin olarak yeniden başlat"
+		m_general_menuwidget	=	"menü-bileşeni boyutu:"
+		m_general_animations	=	"arayüz animasyonlarını devre dışı bırak"
+		m_general_input		=	"giriş yöntemi:"
+
+
+
+;#####################################################
+;## settings menu: general (write-permissions test)
+;#####################################################
+
+;## these strings are displayed/required in the "test results" window after running the test
+		m_permission_header		=	"test sonuçları"
+		m_permission_yes		=	"evet"
+		m_permission_no		=	"hayır"
+		m_permission_unknown	=	"bilinmiyor"
+		m_permission_admin		=	"araç admin haklarıyla başlatıldı:"
+		m_permission_folder		=	"klasör oluşturabiliyor:"
+		m_permission_folder		=	"klasör silebiliyor:"
+		m_permission_ini		=	"ini-dosyaları oluşturabiliyor:"
+		m_permission_ini		=	"ini-dosyalarına yazabiliyor:"
+		m_permission_ini		=	"ini-dosyalarını silebiliyor:"
+		m_permission_image		=	"görsel dosyaları oluşturabiliyor:"
+		m_permission_image		=	"görsel dosyalarını silebiliyor:"
+		m_permission_error		=	"Önceki bir testten kalan bazı dosyalar var ve araç bunları silemiyor."
+		m_permission_error		=	"Lütfen bu mesajı kapattıktan sonra açılacak olan klasördeki 'write-test' klasörünü silin."	;## NOTE: don't translate the name of folders (as they're hard-coded and not localized)
+
+;## these strings are displayed/required in an error-message related to write-permissions
+		m_permission_error1		=	"Araç bir dosya/klasör oluşturamadı:"
+		m_permission_error1		=	"Araç bir dosya/klasör silemedi:"
+		m_permission_error1		=	"Mevcut klasör konumunda yazma izni sorunları var gibi görünüyor."
+		m_permission_error1		=	"Aracı başka bir konuma taşımayı veya yönetici olarak çalıştırmayı deneyin."
+		m_permission_error1		=	"Bu sorunu gidermek için ayarlar menüsünde kullanabileceğiniz bir yazma izinleri testi bulunmaktadır."
+		m_permission_error1		=	"Birçok özellik aksi takdirde düzgün çalışmayacağı için bu sorunu düzeltmeniz şiddetle önerilir."
+
+
+
+;#####################################################
+;## settings menu: act-decoder
+;#####################################################
+
+;## these strings are displayed/required in the "act-decoder" section of the settings menu
+		m_actdecoder_enable		=	"act-çözücü arayüzünü etkinleştir"
+		m_actdecoder_opacity	=	"kilitliyken opaklık:"
+		m_actdecoder_zoom		=	"kilitliyken yakınlaştırma:"
+		m_actdecoder_simple		=	"sadece genel layout'ları göster"
+		m_actdecoder_missing	=	"act-çözücü:;layout bulunamadı"
+
+
+
+;#####################################################
+;## settings menu: act-decoder
+;#####################################################
+
+;## these strings are displayed/required in the "act-decoder" section of the settings menu
+		m_anoints_enable		=	"enchant bulucu özelliğini etkinleştir"
+
+
+
+;#####################################################
+;## settings menu: betrayal-info
+;#####################################################
+
+;## these strings are displayed/required in the "betrayal-info" section of the settings menu
+		m_betrayal_enable		=	"betrayal-bilgi arayüzünü etkinleştir"
+		m_betrayal_ruthless		=	"ruthless ödülleri & vurgulama"	;## it's a toggle to switch between regular and ruthless rewards
+		m_betrayal_recognition	=	"görsel-tanıma:"
+		m_betrayal_colors		=	"ödül-renkleri:"
+		m_betrayal_rewards		=	"ödül özelleştirme:"
+
+
+
+;#####################################################
+;## settings menu: cheat-sheets
+;#####################################################
+
+;## these strings are displayed/required in the "cheat-sheets" section of the settings menu
+		m_cheat_enable			=	"yardımcı not araç takımını etkinleştir"
+		m_cheat_hotkeys		=	"kısayol ayarları:"
+		m_cheat_modifier		=	"omni-key tuşu:"			;## as in modifier-key (ALT, CTRL, etc.)
+		m_cheat_advance		=	"gelişmiş yardımcı notlar"
+		m_cheat_create			=	"yeni yardımcı not oluştur:"
+		m_cheat_images			=	"görseller"
+		m_cheat_app			=	"uygulama"
+		m_cheat_advanced		=	"gelişmiş"
+		m_cheat_list			=	"kullanılabilir yardımcı not listesi:"
+
+
+
+;#####################################################
+;## settings menu: clone-frames
+;#####################################################
+
+;## these strings are displayed/required in the "clone-frames" section of the settings menu
+		m_clone_toggle			=	"oto-geçiş:"
+		m_clone_performance		=	"performans (fps) ayarları:"		;## frames per second
+		m_clone_performance		=	"ölçülen fps:"
+		m_clone_performance		=	"düşük"
+		m_clone_performance		=	"orta"
+		m_clone_performance		=	"yüksek"
+		m_clone_performance		=	"maks"
+		m_clone_list			=	"klon-pencereler:"
+		m_clone_new			=	"yeni ekle"
+		m_clone_editing		=	"klon-pencere düzenleme:"
+		m_clone_sourcexy		=	"kaynak x/y:"
+		m_clone_widthheight		=	"g/y:"
+		m_clone_targetxy		=	"hedef x/y:"
+		m_clone_scale			=	"ölçek:"
+		m_clone_exitedit		=	"önce düzenleme modundan çıkın"
+		m_clone_errorborders	=	"geçersiz pencere kenarlıkları"
+		m_clone_closebutton		=	"otomatik geçiş için <close button> kullan (beta)"
+		m_clone_town			=	"klon-pencereler, bu ayar açık olmadığı sürece hideout ve townda gizlenir"
+
+
+
+;#####################################################
+;## settings menu: vaal street
+;#####################################################
+
+;## these strings are displayed/required in the "vaal street" section of the settings menu
+		m_exchange_enable		=	"currency exchange özelliğini etkinleştir"
+		m_exchange_graphs		=	"denge grafiklerini göster"
+		m_async_enable			=	"asenkron takas özelliklerini etkinleştir"
+		m_async_name			=	"tam eşya isimlerini göster"
+		m_async_minchange		=	"min. fiyat değişimi:"				;## used for 'quick reprice' feature: new price needs to be at least x% lower than the current price
+
+
+
+;#####################################################
+;## settings menu: hotkeys
+;#####################################################
+
+;## these strings are displayed/required in the "hotkeys" section of the settings menu
+		m_hotkeys_settings		=	"oyun içi kısayol ayarları:"
+		m_hotkeys_settings		=	"araç kısayol ayarları:"
+		m_hotkeys_descriptions	=	"<gelişmiş eşya açıklamalarını göster>;alt-tuşuna atanmamış"		;## in-game setting, usually on ALT
+		m_hotkeys_descriptions	=	"bunun yerine şuna atanmış:"
+		m_hotkeys_ckey			=	"c-tuşu <character screen> dışında;başka bir şey için kullanılıyor"		;## in-game setting, on C by default
+		m_hotkeys_movekey		=	"hareket-tuşu:"												;## i.e. the key used to move the character, default l-mouse
+		m_hotkeys_omnikey_new	=	"omni-key:"
+		m_hotkeys_omnikey_new	=	"omni-key (genel):"
+		m_hotkeys_omnikey_new	=	"omni-key 2 (eşyalar için):"
+		m_hotkeys_keyblock		=	"tuş vuruşunu engelle"										;## option that blocks what a key normally does, e.g. CapsLock-key toggles capslock-state, windows-key opens start-menu
+		m_hotkeys_keyblock		=	"tuş vuruşu engellendi"										;## same as above, but as a note instead of option
+		m_hotkeys_widget		=	"araç-tuşu:"
+		m_hotkeys_emergency		=	"zorla-yeniden-başlat:"											;## hotkey to force-restart the tool in case of crash/hang
+		m_hotkeys_winkey		=	"win-tuşu"													;## Windows-key
+		m_hotkeys_menuwidget	=	"menü-bileşeni (alt. tuş):"
+		m_hotkeys_error		=	"geçersiz kısayol"
+		m_hotkeys_error		=	"çakışan kısayollar algılandı"
+		m_hotkeys_error		=	"alt-tuşu yeniden atanmış, ancak;alternatif tuş ayarlanmamış"				;## if certain tickboxes are ticked, the user has to provide an alternative hotkey
+		m_hotkeys_error		=	"c-tuşu yeniden atanmış, ancak;omni-key 2 ayarlanmamış"					;## and these messages will appear if they have not provided that
+
+
+
+;#####################################################
+;## settings menu: item-info
+;#####################################################
+
+;## these strings are displayed/required in the "item-info" section of the settings menu
+		m_iteminfo_enable		=	"item-info özelliğini etkinleştir"
+		m_iteminfo_profiles		=	"profil ayarları:"
+		m_iteminfo_profiles		=	"profil seçimi:"
+		m_iteminfo_profiles		=	"profilin şunlarını sıfırla:"				;## you can choose between two options: a profile's desired, or undesired mods
+		m_iteminfo_desired		=	"istenen"
+		m_iteminfo_undesired	=	"istenmeyen"
+		m_iteminfo_undesired	=	"(un)desired:"
+		m_iteminfo_modbars		=	"roll-range:"
+		m_iteminfo_hiderange	=	"affix roll-range'i gizle"
+		m_iteminfo_league		=	"lig-başlangıcı modunu etkinleştir"
+		m_iteminfo_base		=	"eşyanın base-statlarını göster & karşılaştır"		;## base-stats as in armor, evasion, ES, attack-speed, phys/ele dmg
+		m_iteminfo_class		=	"item-class"
+		m_iteminfo_ilvl		=	"item-lvl gereksinimlerini göster"
+		m_iteminfo_highlight	=	"vurgulama özelleştirme:"
+		m_iteminfo_fractured	=	"fr"								;## this abbreviation for "fractured" should always have a length of 2 (max 3 if really necessary)
+		m_iteminfo_override		=	"<istenmeyen> ayarı tier/ilvl rengini geçersiz kılar"
+		m_iteminfo_rules		=	"global kurallar/geçersiz kılmalar:"
+		m_iteminfo_rules		=	"weapon res"						;## as in ele-resistance mods on weapons (which are generally undesired)
+		m_iteminfo_rules		=	"attack dmg"
+		m_iteminfo_rules		=	"spell dmg"
+		m_iteminfo_rules		=	"resists"
+		m_iteminfo_rules		=	"life/mana gain on hit/kill"
+		m_iteminfo_rules		=	"crit"
+		m_iteminfo_quality		=	"show quality & iron rune scaling"
+		m_iteminfo_affixinfo	=	"affix-info:"
+		m_iteminfo_maxtier		=	"max tier"
+
+
+
+;#####################################################
+;## settings menu: filterspoon
+;#####################################################
+
+;## these strings are displayed/required in the "filterspoon" section of the settings menu
+		m_lootfilter_enable		=	"filterspoon özelliğini etkinleştir (deneysel)"
+
+
+
+;#####################################################
+;## settings menu: leveling tracker / act-tracker
+;#####################################################
+
+;## these strings are displayed/required in the "act-tracker" section of the settings menu
+		m_lvltracker_enable			=	"act-takibi özelliğini etkinleştir"
+		m_lvltracker_timer			=	"zamanlayıcıyı etkinleştir"
+		m_lvltracker_pause			=	"hideoutlarda zamanlayıcıyı duraklat"
+		m_lvltracker_fade			=	"x saniye sonra karart:"
+		m_lvltracker_fade			=	"fareyle üzerine gelindiğinde aydınlat"
+		m_lvltracker_gear			=	"eşya takibi"
+		m_lvltracker_recommend		=	"level önerileri"
+		m_lvltracker_hotkeys		=	"sayfa kısayollarını etkinleştir"
+		m_lvltracker_poboverlays		=	"pob arayüz ayarları:"
+		m_lvltracker_pobgems		=	"gemler: basılı tutmak yerine aç/kapat kullan"
+		m_lvltracker_pobmanual		=	"tree: şematikler yerine ekran görüntülerini kullan"
+		m_lvltracker_pob			=	"pob: orta tık ekran görüntüsü menüsünü açar"
+		m_lvltracker_screencap		=	"ekran görüntüsü menüsü"
+		m_lvltracker_guide			=	"rehberler:"
+		m_lvltracker_incompatible	=	"uyumsuz rehber verisi,;güncelleme gerekli"
+		m_lvltracker_treeclear		=	"veriyi sil"
+		m_lvltracker_leaguestart		=	"lig-başllangıcı"
+		m_lvltracker_optionals		=	"opsiyonel"			;## refers to optional loot, quests, etc.
+		m_lvltracker_bandit			=	"bandit"
+		m_lvltracker_bandits		=	"alira"
+		m_lvltracker_bandits		=	"kraityn"
+		m_lvltracker_bandits		=	"oak"
+		m_lvltracker_treehotkey		=	"treeleri kapatma kısayolu:"	;## optional setting for users who don't close the in-game tree with ESC
+		m_lvltracker_gemquests		=	"gem-görevleri"			;## quests that unlock skill-gems
+
+
+
+;#####################################################
+;## settings menu: chat macros
+;#####################################################
+
+;## these strings are displayed/required in the "chat macros" section of the settings menu
+		m_macros_fasttravel			=	"hızlı seyahat makroları:"
+		m_macros_custom			=	"özel makrolar:"
+
+
+
+;#####################################################
+;## settings menu: map-tracker
+;#####################################################
+
+;## these strings are displayed/required in the "map-tracker" section of the settings menu
+		m_maptracker_enable			=	"map-takibi özelliğini etkinleştir"
+		m_maptracker_hide			=	"takip duraklatıldığında paneli gizle"
+		m_maptracker_loot			=	"loot"
+		m_maptracker_kills			=	"kills"
+		m_maptracker_mapinfo		=	"map-bilgi verisi"						;## option to include data from the map-info feature
+		m_maptracker_notes			=	"notlar"								;## option to add notes to map runs
+		m_maptracker_sidearea		=	"yan bölgeler"
+		m_maptracker_rename			=	"boss maplerini etiketle & adlandır"					;## adds a "boss:"-tag to logged map-runs
+		m_maptracker_character		=	"karakter/build bilgisi"
+		m_maptracker_league			=	"lig bilgisi"
+		m_maptracker_content		=	"atlas mekaniklerini takip et"
+		m_maptracker_dialogue		=	"–> diyalog takibi:"					;## tracking is done via in-game dialogue in the chat-box
+		m_maptracker_screen			=	"–> ekran takibi:"					;## tracking is done via screen-reading
+		m_maptracker_portal			=	"portal scroll kullanıldığında hatırlatıcı"		;## shows a reminder-tooltip when activating a portal scroll
+		m_maptracker_portal			=	"portal scroll kısayolu:"
+
+
+
+;#####################################################
+;## settings menu: map-info
+;#####################################################
+
+;## these strings are displayed/required in the "map-info" section of the settings menu
+		m_mapinfo_enable			=	"map-bilgi panelini etkinleştir"
+		m_mapinfo_tab				=	"bileşen tuşuna basılı tutarken paneli göster"
+		m_mapinfo_textcolors		=	"metin-renkleri:"
+		m_mapinfo_header			=	"başlık"								;## as in line at the top of a section/paragraph
+		m_mapinfo_logbook			=	"logbook-renkleri:"
+		m_mapinfo_modsettings		=	"map-mod ayarları:"
+		m_mapinfo_pinned			=	"sabitlenen modlar:"
+		m_mapinfo_modsearch			=	"mod araması:"
+		m_mapinfo_roll_highlight		=	"map rollarını vurgula"
+		m_mapinfo_reset			=	"tierları sıfırla"
+
+
+
+;#####################################################
+;## settings menu: news / announcements
+;#####################################################
+
+
+;## these strings are displayed/required in the "announcements" section of the settings menu
+		m_news_recent			=	"son duyurular:"
+
+;#####################################################
+;## settings menu: minor qol tools
+;#####################################################
+
+;## these strings are displayed/required in the "minor qol tools" section of the settings menu
+		m_qol_alarm			=	"alarm/zamanlayıcı bileşeni:"
+		m_qol_map_events		=	"map-olayı bildirimleri:"
+		m_qol_notepad			=	"not defteri:"
+		m_qol_widget			=	"araç opaklığı:"
+		m_qol_widgetcolor		=	"varsayılan araç renkleri:"
+		m_qol_lab				=	"lab arayüzü:"
+
+
+
+;#####################################################
+;## settings menu: sanctum planner
+;#####################################################
+
+;## these strings are displayed/required in the "sanctum planner" section of the settings menu
+		m_sanctum_enable		=	"sanctum planlayıcı arayüzünü etkinleştir"
+		m_sanctum_enable		=	"sekhema planlayıcı arayüzünü etkinleştir"
+		m_sanctum_cheatsheets	=	"yardımcı notları göster"
+		m_sanctum_relics		=	"relic-yönetimi arayüzünü etkinleştir"
+
+
+
+;#####################################################
+;## settings menu: screen-checks
+;#####################################################
+
+;## these strings are displayed/required in the "screen-checks" section of the settings menu
+		m_screen_pixel			=	"gerekli piksel-kontrolleri listesi:"
+		m_screen_image			=	"gerekli görsel-kontrolleri listesi:"
+		m_screen_inactive		=	"şu an etkin olan özellikler daha fazla kurulum gerektirmiyor"
+		m_screen_gamescreen		=	"bilgi-paneli"									;## refers to the small panel in the top-right corner that shows area-name, server, league, etc.
+		m_screen_close_button	=	"kapat butonu"
+		m_screen_instructions	=	"<info> butonundaki;talimatları okuyun!"
+		m_screen_sanctum		=	"sanctum floor map"
+		m_screen_sanctum		=	"sekhema floor map"
+		m_screen_async1		=	"async trade (sat)"
+		m_screen_async2		=	"async trade (al)"
+
+
+;#####################################################
+;## settings menu: search-strings
+;#####################################################
+
+;## these strings are displayed/required in the "search-strings" section of the settings menu
+		m_search_usecases		=	"şu an ayarlanmış kullanım durumları:"
+		m_search_hideout lilly	=	"hideout lilly"					;## as in the Lilly who is in your hideout (she has a different vendor window)
+		m_search_add			=	"kullanım durumu ekle:"
+
+
+
+;#####################################################
+;## settings menu: stash-ninja
+;#####################################################
+
+;## these strings are displayed/required in the "stash-ninja" section of the settings menu
+		m_stash_enable			=	"stash-ninja özelliğini etkinleştir"
+		m_stash_blight			=	"blight"
+		m_stash_breach			=	"breach"
+		m_stash_currency1		=	"currency"
+		m_stash_currency2		=	"currency ii"
+		m_stash_currency3		=	"currency iii"
+		m_stash_delirium		=	"delirium"
+		m_stash_delve			=	"delve"
+		m_stash_essences		=	"essence"
+		m_stash_fragments		=	"fragment"
+		m_stash_betrayal		=	"betrayal"
+		m_stash_scarabs		=	"scarab"
+		m_stash_ultimatum		=	"ultimatum"
+		m_stash_ritual			=	"ritual"
+		m_stash_socketables		=	"socketables"
+		m_stash_leagues		=	"lig:"
+		m_stash_tabs			=	"stash sekmesi yapılandırması:"
+		m_stash_limits			=	"fiyat-aralığı profilleri:"
+		m_stash_profiles		=	"1-4 profillere trade değerlerini uygula"
+		m_stash_history		=	"fiyat geçmişini göster"
+		m_stash_exalt			=	"exalt oranlarını göster"
+		m_stash_mintrade		=	"minimum trade değeri (chaos):"
+		m_stash_folder			=	"bu tab, stash klasöründe"
+		m_stash_bulk			=	"toplu-satış kontrolünü etkinleştir"
+		m_stash_margins		=	"marj (%):"
+		m_stash_active			=	"aktif tab:"
+		m_stash_bookmarking		=	"işaretlemeyi etkinleştir"
+		m_stash_grid			=	"grid hizalamasına ince ayar yapın:"
+
+
+
+;#####################################################
+;## settings menu: statlas
+;#####################################################
+
+;## these strings are displayed/required in the "statlas" section of the settings menu
+		m_statlas_enable		=	"statlas özelliğini etkinleştir"
+		m_statlas_maptracker	=	"map-takibi verisini göster"
+		m_statlas_localknowledge	=	"<local knowledge> notable efektini göster"
+
+
+
+;#####################################################
+;## settings menu: tldr-tooltips
+;#####################################################
+
+;## these strings are displayed/required in the "tldr-tooltips" section of the settings menu
+		m_ocr_enable			=	" tldr-ipuçları özelliğini etkinleştir (deneysel)"
+		m_ocr_compatibility		=	"uygunluğu test et"
+		m_ocr_compatibility		=	"yukarıdaki görselden en az 8 farklı kelimeyi yazıya dökün (çıkış için esc):"
+		m_ocr_error			=	"test en az 8 farklı kelime gerektiriyor."
+		m_ocr_error			=	"ekran görüntüsü çok büyük"
+		m_ocr_finish			=	"kurulumu bitirmek için esc basın"
+		m_ocr_hotkey			=	"<toggle highlighting> (oyun içi):"
+		m_ocr_debug			=	"hata ayıklama özelliklerini etkinleştir"
+		m_ocr_unsupported		=	"720p ve daha düşük çözünürlükler desteklenmiyor çünkü düşük çözünürlüklerde ekran okuma işleminin başarısızlık oranı çok yüksek, bu da bu özelliği neredeyse kullanılamaz hale getiriyor."
+
+
+
+;#####################################################
+;## settings menu: updater
+;#####################################################
+
+;## these strings are displayed/required in the "updater" section of the settings menu
+		m_updater_autocheck		=	"güncellemeleri otomatik kontrol et"
+		m_updater_version		=	"sürüm bilgisi:"
+		m_updater_version		=	"güncel:"
+		m_updater_version		=	"son:"
+		m_updater_versions		=	"mevcut indirmeler:"
+		m_updater_recent		=	"son değişiklikler:"
+		m_updater_github		=	"github linkleri:"
+		m_updater_github		=	"ana menü"
+		m_updater_github		=	"releases"
+		m_updater_changelog		=	"tam değişiklik günlüğü"
+		m_updater_skip			=	"geç"
+		m_updater_failed		=	"güncelleme başarısız:"
+		m_updater_error1		=	"Son güncelleme denemesi yazma izni hataları nedeniyle başarısız oldu. Lütfen ayarların <general> bölümünü açın ve alttaki testi çalıştırın."
+		m_updater_error1		=	"bu sorunların giderilmesi sadece güncelleme aracı için değil, diğer birçok özellik için de kritik önem taşıyor.."
+
+		m_updater_error2		=	"son güncelleme denemesi, aracın en son sürüm listesini indirememesi nedeniyle başarısız oldu."
+		m_updater_error2		=	"bu, bir sonraki denemede kendiliğinden düzelecek rastgele bir hata olabilir.."
+		m_updater_error2		=	"sorun kendiliğinden düzelmezse, manuel olarak güncellemeniz gerekecek."
+
+		m_updater_error3		=	"son güncelleme denemesi, aracın mevcut sürüm listesini doğrulayamaması nedeniyle başarısız oldu. Bu, hasarlı bir kurulumu gösterir ve en kısa sürede manuel olarak düzeltilmesi gerekir."
+		m_updater_error4		=	"son güncelleme denemesi, bazı dosyaların indirilememesi nedeniyle başarısız oldu."
+		m_updater_manual		=	"manuel olarak güncelle"
+		m_updater_manual		=	"github'dan indir"
+		m_updater_download		=	"indirme başarısız oldu; github düğmesini kullanın"
