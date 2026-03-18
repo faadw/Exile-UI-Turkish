@@ -6,10 +6,29 @@
 
 **Exile-UI Türkçe**, Path of Exile oyuncularının (özellikle Act aşamasında zorlanan ve dil bariyerine takılan yeni oyuncuların) aracı en verimli şekilde kullanabilmesi için geliştirilmiş, Exile-UI uygulamasına ek bir yerelleştirme eklentisidir.
 
-* **Topluluk Destekli:** Türk oyuncular tarafından, Türk oyuncular için hazırlandı. Katkıda bulunmak için [🤝 Katkıda Bulunun](#-katkıda-bulunun) bölümüne gidebilirsiniz.
-
 > [!IMPORTANT]
 > **Yasal Uyarı:** Bu proje bağımsız bir topluluk çalışmasıdır. Grinding Gear Games (GGG) ile resmi bir bağımız bulunmamaktadır. Tamamen ücretsizdir.
+
+
+* **Topluluk Destekli:** Türk oyuncular tarafından, Türk oyuncular için hazırlandı. Katkıda bulunmak için [🤝 Katkıda Bulunun](#-katkıda-bulunun) bölümüne gidebilirsiniz.
+
+---
+
+## 🛠 Kurulum ve Kullanım
+
+### 📽 Videolu Kurulum Rehberi
+Kurulumda zorlanıyorsanız, adım adım videomuzu izleyebilirsiniz:
+
+[![Exile-UI Kurulum Videosu](https://img.youtube.com/vi/TODO_VİDEO_ID_EKLEYECEĞİM/0.jpg)](https://www.youtube.com/watch?v=TODO_VİDEO_ID_EKLEYECEĞİM)
+*(Not: Video henüz eklenmediyse aşağıdaki manuel adımları takip edin.)*
+
+### 📝 Manuel Kurulum Adımları
+
+1. **İndir:** Bu repodaki `data/tr` klasörünü bilgisayarınıza indirin.
+2. **Dizine Git:** Exile-UI'ın kurulu olduğu ana klasörü açın ve içindeki `data` klasörüne girin.
+3. **Kopyala:** İndirdiğiniz `tr` klasörünü buraya yapıştırın. Yol şu şekilde görünmelidir: `.../Exile-UI/data/tr/`
+4. **Aktif Et:** Exile-UI'ı başlatın. **General** sekmesinden dil olarak **tr** seçin.
+5. **Yeniden Başlat:** Değişikliklerin tam uygulanması için aracı kapatıp tekrar açın.
 
 ---
 
@@ -61,23 +80,6 @@ PoE evreninde global ticaret ve bilgi paylaşımı çok kritiktir. Bu yüzden **
 
 *Not: GGG Path of Exile 2 için çevirmen aradığını resmi olarak duyurdu, resmi Türkçe dil desteği sunulduğu an, terimlerin karşılıklarını resmi çeviriye uygun şekilde güncelleyeceğiz.*
 
----
-
-## 🛠 Kurulum ve Kullanım
-
-### 📽 Videolu Kurulum Rehberi
-Kurulumda zorlanıyorsanız, adım adım videomuzu izleyebilirsiniz:
-
-[![Exile-UI Kurulum Videosu](https://img.youtube.com/vi/TODO_VİDEO_ID_EKLEYECEĞİM/0.jpg)](https://www.youtube.com/watch?v=TODO_VİDEO_ID_EKLEYECEĞİM)
-*(Not: Video henüz eklenmediyse aşağıdaki manuel adımları takip edin.)*
-
-### 📝 Manuel Kurulum Adımları
-
-1. **İndir:** Bu repodaki `data/tr` klasörünü bilgisayarınıza indirin.
-2. **Dizine Git:** Exile-UI'ın kurulu olduğu ana klasörü açın ve içindeki `data` klasörüne girin.
-3. **Kopyala:** İndirdiğiniz `tr` klasörünü buraya yapıştırın. Yol şu şekilde görünmelidir: `.../Exile-UI/data/tr/`
-4. **Aktif Et:** Exile-UI'ı başlatın. **Settings (Ayarlar)** menüsüne girin ve **General** sekmesinden dil olarak **Turkish** seçin.
-5. **Yeniden Başlat:** Değişikliklerin tam uygulanması için aracı kapatıp tekrar açın.
 
 ---
 
