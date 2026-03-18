@@ -33,7 +33,7 @@ PoE evreninde global ticaret ve bilgi paylaşımı çok kritiktir. Bu yüzden **
 ### 📽 Videolu Kurulum Rehberi
 Kurulumda zorlanıyorsanız, adım adım videomuzu izleyebilirsiniz:
 
-[![Exile-UI Kurulum Videosu](https://img.youtube.com/vi/VIDEO_ID_BURAYA/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_BURAYA)
+[![Exile-UI Kurulum Videosu](https://img.youtube.com/vi/TODO_VİDEO_ID_EKLEYECEĞİM/0.jpg)](https://www.youtube.com/watch?v=TODO_VİDEO_ID_EKLEYECEĞİM)
 *(Not: Video henüz eklenmediyse aşağıdaki manuel adımları takip edin.)*
 
 ### 📝 Manuel Kurulum Adımları
