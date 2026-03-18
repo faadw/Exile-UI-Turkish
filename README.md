@@ -11,6 +11,39 @@
 
 ---
 
+## 📊 Çeviri İlerleme Durumu
+
+Projedeki çeviri sürecini şeffaf bir şekilde takip edebilmeniz için güncel durum aşağıdadır. İsminde "2" bulunan dosyalar, Path of Exile 2 için. *(Bu alan çeviriler yapıldıkça güncellenecektir.)*
+
+### 🖥️ Temel Arayüz & İpuçları
+- [x] `UI.txt` - **Tamamlandı**
+- [ ] `client.txt`
+- [ ] `help tooltips.json` - **Tamamlandı, son kontrol sağlanmalı.**
+- [ ] `TLDR-tooltips.json`
+
+### 📈 Act Takibi (leveltracker)
+- [ ] `[leveltracker] areas.json`
+- [ ] `[leveltracker] areas 2.json`
+- [x] `[leveltracker] default guide.json` - **Tamamlandı**
+- [ ] `[leveltracker] default guide 2.json`
+- [ ] `[leveltracker] gems.json`
+- [ ] `[leveltracker] gems 2.json`
+
+### 🗺️ Harita ve Oyun Mekanikleri (Terim içerdikleri için çeviriye gerek yok fakat kontrol edilecekler.)
+- [ ] `maps.json`
+- [ ] `maps 2.json`
+- [ ] `map-info.txt`
+- [ ] `map-info 2.txt`
+- [ ] `anoints.json`
+- [ ] `anoints 2.json`
+- [ ] `Betrayal.json`
+- [ ] `essences.json`
+- [ ] `mercenaries.json`
+- [ ] `[sanctum] relics.json`
+- [ ] `[sanctum] relics 2.json`
+- [ ] `timeless jewels.json`
+---
+
 ## 🌐 Neden Her Şey Türkçe Değil?
 
 PoE evreninde global ticaret ve bilgi paylaşımı çok kritiktir. Bu yüzden **Hibrit** bir model izliyoruz:
