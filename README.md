@@ -22,9 +22,11 @@ Kurulumda zorlanıyorsanız, adım adım videomuzu izleyebilirsiniz:
 [![Exile-UI Kurulum Videosu](https://img.youtube.com/vi/TODO_VİDEO_ID_EKLEYECEĞİM/0.jpg)](https://www.youtube.com/watch?v=TODO_VİDEO_ID_EKLEYECEĞİM)
 *(Not: Video henüz eklenmediyse aşağıdaki manuel adımları takip edin.)*
 
+### [Exile-UI uygulamasını indirmek için tıklayın!](https://github.com/Lailloken/Exile-UI)
+
 ### 📝 Manuel Kurulum Adımları
 
-1. **İndir:** Bu repodaki `data/tr` klasörünü bilgisayarınıza indirin.
+1. **İndir:** Öncelikle AutoHotkey v1.1, Exile-UI, ve bu repodaki `data/tr` klasörünü bilgisayarınıza indirin.
 2. **Dizine Git:** Exile-UI'ın kurulu olduğu ana klasörü açın ve içindeki `data` klasörüne girin.
 3. **Kopyala:** İndirdiğiniz `tr` klasörünü buraya yapıştırın. Yol şu şekilde görünmelidir: `.../Exile-UI/data/tr/`
 4. **Aktif Et:** Exile-UI'ı başlatın. **General** sekmesinden dil olarak **tr** seçin.
