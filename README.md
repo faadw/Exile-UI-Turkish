@@ -48,10 +48,10 @@ Kurulumda zorlanıyorsanız, adım adım videomuzu izleyebilirsiniz:
 
 ## ❓ Sıkça Sorulan Sorular (SSS)
 
-**S: Ban riski var mı?**
+**S: Ban riski var mı?** <br>
 C: Hayır. Bu sadece bir arayüz çeviri paketidir, oyun dosyalarına müdahale etmez. Sadece eklentinin kendi yazılarını değiştirir.
 
-**S: Oyun güncellenince çeviri bozulur mu?**
+**S: Oyun güncellenince çeviri bozulur mu?** <br>
 C: Exile-UI ana uygulaması güncellendiğinde yeni İngilizce satırlar eklenebilir. Bu durumda çeviriyi en kısa sürede güncelliyoruz. Repoyu takipte (Watch) kalarak güncellemelerden haberdar olabilirsiniz.
 
 ---
@@ -65,8 +65,14 @@ Proje henüz gelişme aşamasındadır. Siz de destek olabilirsiniz:
 
 ---
 
+## 💬 İletişim
+
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/244173139167281154)
+[![Steam](https://img.shields.io/badge/Steam-%231b2838.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/realfaadw)
+---
+
 ## 💎 Teşekkürler
-* Ana aracın geliştiricisine (**Lailloken**) bu esnek yerelleştirme altyapısını sağladığı için teşekkürler.
+* Ana aracın geliştiricisine (**[Lailloken](https://github.com/Lailloken)**) bu esnek yerelleştirme altyapısını sağladığı için teşekkürler.
 
 ---
 
