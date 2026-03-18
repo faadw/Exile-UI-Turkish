@@ -820,7 +820,7 @@
 		m_general_blackbars		=	"istemcinin yanlarında siyah çubuklar var"	;## black bars as in letterboxes
 		m_general_permissions	=	"yazma-izinleri testi:"
 		m_general_start		=	"testi başlat"
-		m_general_admin		=	"admin olarak yeniden başlat"
+		m_general_admin		=	"yönetici olarak yeniden başlat"
 		m_general_menuwidget	=	"menü-bileşeni boyutu:"
 		m_general_animations	=	"arayüz animasyonlarını devre dışı bırak"
 		m_general_input		=	"giriş yöntemi:"

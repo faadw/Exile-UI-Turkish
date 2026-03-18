@@ -9,7 +9,7 @@
       "örnekler:\\n- clone-frames fps seçenekleri"
     ],
     "multi-threading off": [
-      "ikincil thread çökmesiyle ilgili ara sıra hata alıyorsan bu kutuyu işaretle",
+      "multi-thread çökmesiyle ilgili ara sıra hata alıyorsan bu kutuyu işaretle",
       "bu kutuyu işaretlemek aracı yeniden başlatacak(/highlight)"
     ],
     "kill timer": [
