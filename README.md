@@ -17,10 +17,10 @@ PoE evreninde global ticaret ve bilgi paylaşımı çok kritiktir. Bu yüzden **
 
 | Kategori | Durum | Örnek |
 | :--- | :--- | :--- |
-| **Arayüz (UI)** | ✅ Türkçe | Ayarlar, Butonlar, Rehber |
-| **Bölgeler** | ❌ İngilizce | *Mud Flats, Lioneye's Watch* |
-| **Eşya İsimleri** | ❌ İngilizce | *Tabula Rasa, Mageblood* |
-| **Mekanik İsimleri** | ❌ İngilizce | *Fusing, Chaos Orb, Lightning Arrow* |
+| **Arayüz (UI)** |  Türkçe | Ayarlar, Butonlar, Rehber |
+| **Bölgeler** |  İngilizce | *Mud Flats, Lioneye's Watch* |
+| **Eşya İsimleri** |  İngilizce | *Tabula Rasa, Mageblood* |
+| **Mekanik İsimleri** |  İngilizce | *Fusing, Chaos Orb, Lightning Arrow* |
 
 **Neden?** Eğer "Mud Flats" haritasının ismini rehberde "Çamur Düzlükleri" olarak çevirirsek, rehberi takip ettiğiniz sırada, internette bir rehbere baktığınızda veya ticaret sitelerinde arama yaptığınızda karşılık bulamazsınız. Bu yöntemle hem aracı anlıyor hem de global terminolojiye sadık kalıyorsunuz. 
 
