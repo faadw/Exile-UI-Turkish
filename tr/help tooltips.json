@@ -122,8 +122,8 @@
       "test sonuçları hata gösteriyorsa, araç klasörünü farklı bir konuma taşı veya aracı yönetici olarak yeniden başlat, sonra testi tekrar çalıştır"
     ],
     "actdecoder enable": [
-      "kampanya alanları için interaktif bölge düzeni overlay'i sağlar",
-      "desteklenen bir kampanya alanındayken overlay'i etkinleştirmek için <widget-key> tuşunu basılı tut",
+      "campaign alanları için interaktif bölge düzeni overlay'i sağlar",
+      "desteklenen bir campaign alanındayken overlay'i etkinleştirmek için <widget-key> tuşunu basılı tut",
       "doğruluk yamadan yamaya değişebilir, bu yüzden mini-harita yerine kaba kılavuz olarak kullan(/highlight)"
     ],
     "actdecoder hotkey": [
@@ -419,7 +419,7 @@
       "mevcut dil için bir dil paketi yüklendikten sonra kullanılabilir olacak"
     ],
     "leveltracker enable": [
-      "otomatik kampanya rehberi overlay'i ve çeşitli yaşam kalitesi özellikleri sağlar",
+      "otomatik campaign rehberi overlay'i ve çeşitli yaşam kalitesi özellikleri sağlar",
       "rehber overlay'ini açıp kapatmak için menü widget'ına bir düğme ekler"
     ],
     "leveltracker timer": [
@@ -513,7 +513,7 @@
       "katkılar:\n- varsayılan rehber, orijinal olarak heartofphos'un exile-leveling'inden türetilmiştir\n- cyclondefinitiv'in rehberine dayanan birkaç act optimizasyonu içerir"
     ],
     "leveltracker gems": [
-      "gem toplama yapılandırmasını açmak için sağ tıkla:\nkampanya sırasında belirli gem'leri ne zaman ve/veya alınıp alınmayacağını ayarla",
+      "gem toplama yapılandırmasını açmak için sağ tıkla:\ncampaign sırasında belirli gem'leri ne zaman ve/veya alınıp alınmayacağını ayarla",
       "gem görevlerinin rehbere dahil edilip edilmeyeceğini açıp kapatmak için tıkla (geri dönüşü ve npc etkileşimlerini azaltır)",
       "açık: gem'leri görev yoluyla toplarsın\nkapalı: gem'leri ayrı satın alırsın (lilly/ticaret)",
       "<league-start> açıksa bu geçiş açık olmaya zorlanır (/highlight)"
@@ -1360,7 +1360,7 @@
   },
   "leveltrackergems": {
     "general": [
-      "kampanya sırasında belirli gem'leri ne zaman ve/veya alınıp alınmayacağını ayarla",
+      "campaign sırasında belirli gem'leri ne zaman ve/veya alınıp alınmayacağını ayarla",
       "belirli gem'leri almak istemiyorsan <atla>'yı seç (ör. başka bir karakterle zaten taşıyorsan)",
       "gem'ler altı çiziliyse, en erken toplamanın a3 kütüphane görevi olduğu anlamına gelir"
     ],
