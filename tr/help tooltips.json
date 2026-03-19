@@ -2,11 +2,11 @@
   "settings": {
     "multi-threading 0": [
       "gelişmiş özellikler ve performans seçenekleri kullanılamıyor",
-      "örnekler:\\n- clone-frames fps seçenekleri"
+      "örnekler:\n- clone-frames fps seçenekleri"
     ],
     "multi-threading 1": [
       "gelişmiş özellikler ve performans seçenekleri kullanılabilir",
-      "örnekler:\\n- clone-frames fps seçenekleri"
+      "örnekler:\n- clone-frames fps seçenekleri"
     ],
     "multi-threading off": [
       "multi-thread çökmesiyle ilgili ara sıra hata alıyorsan bu kutuyu işaretle",
@@ -18,7 +18,7 @@
     ],
     "browser features": [
       "araç üzerinden 3. parti web sitelerine erişirken ek özellikler etkinleştirir",
-      "örnekler:\\n-> chrome calculator: istatistikleri otomatik yapıştır\\n-> poe.db cluster jewels: türü otomatik vurgula\\n-> poelab.com: düzeni içe aktar"
+      "örnekler:\n-> chrome calculator: istatistikleri otomatik yapıştır\n-> poe.db cluster jewels: türü otomatik vurgula\n-> poelab.com: düzeni içe aktar"
     ],
     "capslock toggling": [
       "bu aracın dışında bir şey capslock'a bağlıysa bu kutuyu işaretleme",
@@ -52,7 +52,7 @@
     ],
     "input method 2": [
       "opsiyonel mod, (çok) sınırlı uyumluluk: bazı özellikler kumanda modunda işlevsel kalmak için değiştirilmiş davranışa sahip",
-      "örnekler:\\nitem-info, omni-key bağlam menüsü",
+      "örnekler:\nitem-info, omni-key bağlam menüsü",
       "kumanda desteği düşük önceliklidir ve bireysel taleplere dayanır(/highlight)"
     ],
     "active character": [
@@ -210,7 +210,7 @@
     ],
     "cloneframes toggle-info": [
       "oyun içi içeriği engellememek için clone-frame'ler otomatik olarak açılıp/kapatılabilir",
-      "global: ayarlar her clone-frame'e uygulanacak\\ncustom: her frame'in kendi ayarları olabilir",
+      "global: ayarlar her clone-frame'e uygulanacak\ncustom: her frame'in kendi ayarları olabilir",
       "aşağıda, belirli oyun içi arayüzler ekrandayken clone-frame'lerin nasıl davranacağını seçebilirsin",
       "<screen-checks> bölümünde ek kurulum gerektirir(/highlight)"
     ],
@@ -281,7 +281,7 @@
       "önerilen fiyatlandırma seçenekleri mevcut fiyatın %x altından başlayacak (veya mümkün olduğunca yakınından)"
     ],
     "hotkeys ingame-keybinds": [
-      "özel oyun içi tuş bağlamaları ile aracın kısayol tuşları arasındaki çakışmaları önlemek için:\\n- sana uyan her şeyi işaretle\\n- istendiğinde alternatif tuşlar belirt"
+      "özel oyun içi tuş bağlamaları ile aracın kısayol tuşları arasındaki çakışmaları önlemek için:\n- sana uyan her şeyi işaretle\n- istendiğinde alternatif tuşlar belirt"
     ],
     "hotkeys formatting": [
       "özel tuşlar için, doğru adları ve biçimlendirmeyi bulmak üzere yukarıdaki bağlantıları kontrol et",
@@ -296,7 +296,7 @@
       "örnek: karakteri hareket ettirirken üzerine gelme overlay'lerini etkinleştirmemek"
     ],
     "hotkeys omnikey-info": [
-      "özelliklerin çoğunu etkinleştiren bağlama duyarlı kısayol tuşu\\n(varsayılan: capslock)",
+      "özelliklerin çoğunu etkinleştiren bağlama duyarlı kısayol tuşu\n(varsayılan: capslock)",
       "her özellik için kısayol tuşu belirtmek yerine, bu kısayol tuşunun basıldığında hangi özelliğin etkinleştirilmesi gerektiğini yorumlamasına yardımcı olmak için ekran kontrollerini kalibre edersin"
     ],
     "hotkeys omnikey2": [
@@ -339,19 +339,19 @@
     ],
     "iteminfo modrolls": [
       "explicit mod'lardaki min/maks aralığını gizle",
-      "+89 to maximum life\\nvs.\\n+89(80-89) to maximum Life"
+      "+89 to maximum life\nvs.\n+89(80-89) to maximum Life"
     ],
     "iteminfo modbars tier": [
       "mod metinlerindeki ve çubuklardaki roll aralıkları, mevcut katmandaki roll'u temsil edecek, yani divine orb aralığı",
-      "örnek, t2 movement speed:\\n30% inc. movement speed"
+      "örnek, t2 movement speed:\n30% inc. movement speed"
     ],
     "iteminfo modbars global": [
       "mod metinlerindeki ve çubuklardaki roll aralıkları, global ölçekte roll'u temsil edecek, yani en kötüden en iyi mümkün roll'a kadar",
-      "örnek, t2 movement speed:\\n30%(10-35) inc. movement speed"
+      "örnek, t2 movement speed:\n30%(10-35) inc. movement speed"
     ],
     "iteminfo modbars ilevel": [
       "mod metinlerindeki ve çubuklardaki roll aralıkları, ilvl ölçeğinde roll'u temsil edecek, yani verilen ilvl'deki en kötüden en iyi mümkün roll'a",
-      "örnek, ilvl 74 botlarda t2 movement speed:\\n30%(10-30) inc. movement speed"
+      "örnek, ilvl 74 botlarda t2 movement speed:\n30%(10-30) inc. movement speed"
     ],
     "iteminfo quality scaling": [
       "altta quality ve greater iron rune uygulandıktan sonra savunma/hasar değerlerini gösteren ek bir satır gösterir",
