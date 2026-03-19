@@ -19,7 +19,7 @@
 ### 📽 Videolu Kurulum Rehberi
 Kurulumda zorlanıyorsanız, adım adım videomuzu izleyebilirsiniz:
 
-[![Exile-UI Kurulum Videosu](https://img.youtube.com/vi/TODO_VİDEO_ID_EKLEYECEĞİM/0.jpg)](https://www.youtube.com/watch?v=TODO_VİDEO_ID_EKLEYECEĞİM)
+[![Exile-UI Kurulum Videosu](https://img.youtube.com/vi/QYq4nQ-m2rU/0.jpg)](https://www.youtube.com/watch?v=QYq4nQ-m2rU)
 *(Not: Video henüz eklenmediyse aşağıdaki manuel adımları takip edin.)*
 
 ### [Exile-UI uygulamasını indirmek için tıklayın!](https://github.com/Lailloken/Exile-UI)
